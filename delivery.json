@@ -1,0 +1,19 @@
+{
+  "version": "fix2-cn1",
+  "baseline": "fix2 (before dual-chip mutual exclusion)",
+  "apk": "SIMHub-23.1-phone-slot-fix2-cn1-signed.apk",
+  "bytes": 24901334,
+  "sha256": "c094616e9f578fc0a251660afda8091cf2e7d35fb560dfc13cdd31975b66bf30",
+  "signer_sha1": "6F92BF00AF155C4ADA27936451F95ED2F703039C",
+  "signing": "v2/v3 verified",
+  "jvm_assertions": 168,
+  "refresh_flow_simulations": 10,
+  "dialing_static_checks": 29,
+  "signing_regression_cases": 3,
+  "android_device_test": "not_run",
+  "carrier_call_sms_delivery_test": "not_run",
+  "app_mainland_call_block": "removed",
+  "mutual_exclusion": false,
+  "node_probe": false,
+  "sip_487_fix": false
+}
