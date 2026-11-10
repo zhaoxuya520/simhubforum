@@ -1,0 +1,23 @@
+{
+  "version": "fix2-config1",
+  "baseline": "fix2-cn1; pre-mutual-exclusion fix2 plus mainland number support",
+  "apk": "SIMHub-23.1-phone-slot-fix2-config1-signed.apk",
+  "bytes": 24917718,
+  "sha256": "6001685cc939fa3a2a0ade5d1fd17987a85e980bf8451b8738ee84d79ab4ad7d",
+  "signer_sha1": "6F92BF00AF155C4ADA27936451F95ED2F703039C",
+  "signing": "v2/v3 verified",
+  "jvm_assertions": 263,
+  "wifi_configuration_assertions": 95,
+  "wifi_configuration_static_checks": 48,
+  "refresh_flow_simulations": 10,
+  "dialing_static_checks": 29,
+  "signing_regression_cases": 3,
+  "android_device_test": "not_run",
+  "carrier_call_sms_delivery_test": "not_run",
+  "app_mainland_call_block": "removed",
+  "mutual_exclusion": false,
+  "node_probe": false,
+  "sip_487_fix": false,
+  "wifi_configuration": "18 editable fields; per-profile overrides; blank restores carrier defaults",
+  "wifi_configuration_device_test": "not_run"
+}
