@@ -1,0 +1,4 @@
+d7851416f87834b2739fc0b8f1e54111039224dc101013f26b28a0a1f74ec5a4  README.zh-CN.md
+da0f8612ba60dc18f26a3d22cb61ebe0383c6f2d87a1ccec277029d0d500ac42  SIMHub-23.1-original-switch-ui-signed.apk
+a922a4dd807865dbe05aec8eaf02b57a0ee35ca7172986622f7438c009a9f970  SIMHub-original-switch-ui-patch-source.zip
+77218cac439c6ccee732244473e80c508ad45d44f5eefc73c5b32c712742a3d1  apk-validation.json
