@@ -1,0 +1,17 @@
+{
+  "tests": {
+    "SimProtocolTest": 26,
+    "OmapiSupportTest": 70,
+    "ConnectionLeaseTest": 5,
+    "ProfileRefreshTest": 12,
+    "ChannelLeaseTest": 11,
+    "ProfileReadStateTest": 7,
+    "DialingSupportTest": 37,
+    "WifiConfigTest": 108,
+    "WifiConfigUiTest": 37,
+    "MultiChipSwitchTest": 36,
+    "IdentityBindingTest": 8
+  },
+  "assertions": 357,
+  "android_device_test": false
+}

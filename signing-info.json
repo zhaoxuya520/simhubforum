@@ -1,0 +1,15 @@
+{
+  "alias": "simhub-longterm",
+  "key_algorithm": "RSA",
+  "key_size": 3072,
+  "certificate_signature_algorithm": "SHA256withRSA",
+  "certificate_sha1": "CAEAEE369CA8933EC6A80050ECAF22D87B155006",
+  "certificate_sha256": "50FE8B357EFB2F2397B1F822012A5D7E48A4FC1CAF5A0F8A4F0239FFADAB3C7E",
+  "pkcs12": "simhub-longterm-2026.p12",
+  "encryption": "PBES2 / PBKDF2-HMAC-SHA256 / AES-256-CBC, 600000 iterations; MAC SHA256 600000 iterations",
+  "password_delivery": "Separate private file; never uploaded to GitHub",
+  "certificate_dates": [
+    "notBefore=Nov 11 11:40:32 2026 GMT",
+    "notAfter=Nov 11 11:40:32 2056 GMT"
+  ]
+}
