@@ -1,0 +1,18 @@
+{
+  "assertions": 397,
+  "suites": {
+    "SimProtocolTest": 26,
+    "OmapiSupportTest": 70,
+    "ConnectionLeaseTest": 5,
+    "ProfileRefreshTest": 12,
+    "ChannelLeaseTest": 11,
+    "ProfileReadStateTest": 7,
+    "DialingSupportTest": 37,
+    "WifiConfigTest": 108,
+    "WifiConfigUiTest": 39,
+    "MultiChipSwitchTest": 66,
+    "IdentityBindingTest": 8,
+    "MultiChipActionsTest": 8
+  },
+  "device_tested": false
+}
