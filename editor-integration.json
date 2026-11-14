@@ -1,0 +1,8 @@
+{
+  "native_editor_method_signatures": 19,
+  "original_renderers_unchanged": true,
+  "list_actions_use_three_argument_compose_callback": true,
+  "switch_crash_fix_retained": true,
+  "description_blocks_removed": true,
+  "device_tested": false
+}

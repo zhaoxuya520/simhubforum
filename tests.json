@@ -1,0 +1,18 @@
+{
+  "tests": {
+    "SimProtocolTest": 26,
+    "OmapiSupportTest": 70,
+    "ConnectionLeaseTest": 5,
+    "ProfileRefreshTest": 19,
+    "ChannelLeaseTest": 11,
+    "ProfileReadStateTest": 7,
+    "DialingSupportTest": 37,
+    "WifiConfigTest": 109,
+    "WifiConfigListTest": 17,
+    "WifiConfigUiTest": 57,
+    "MultiChipSwitchTest": 66,
+    "IdentityBindingTest": 19
+  },
+  "assertions": 443,
+  "device_tested": false
+}
