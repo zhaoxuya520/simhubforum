@@ -1,0 +1,11 @@
+{
+  "changed_classes": [
+    "InternalSimCheckedRead.smali"
+  ],
+  "single_cast_change_confirmed": true,
+  "changed_zip_entries": [
+    "classes.dex"
+  ],
+  "non_dex_payload_identical": true,
+  "device_tested": false
+}

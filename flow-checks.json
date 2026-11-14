@@ -1,0 +1,11 @@
+{
+  "refresh_flow_cases": 10,
+  "switch_request_flow_cases": 5,
+  "multichip_flow_cases": 8,
+  "checked_read_flow_cases": 4,
+  "original_toggle_routes_checked": true,
+  "multi_chip_jvm_assertions": 66,
+  "profile_refresh_jvm_assertions": 19,
+  "identity_jvm_assertions": 19,
+  "device_tested": false
+}

@@ -1,0 +1,14 @@
+{
+  "adapter_classes": 11,
+  "methods": 29,
+  "invokes": 77,
+  "reference_arguments": 158,
+  "errors": 1,
+  "apk_sha256": "bcf1a20e936548f56965eb33e000e9a35f8303e9d60a963b190b339cc6b46cc0",
+  "expected_bad_release": true,
+  "diagnostics": [
+    "TYPE ERROR: LInternalSimCheckedRead;->i #7 v5 (Reference,Lct0;) is not assignable to Ldt0; for Lhh1;->C(Ldt0;Lkt1;[B)Ljava/lang/Object;"
+  ],
+  "device_tested": false,
+  "art_execution": false
+}
