@@ -1,0 +1,9 @@
+{
+  "previous_apk_sha256": "a9b1d0886bff27195939e27d3c79135fbe1f2fe05cf756b3b4ac901694b0b7b9",
+  "candidate_apk_sha256": "8fb76b2d3915d5cb76cced53a328391a1ceb1fb502fd4efdc2334049c32e98ac",
+  "changed_payload_entries": [
+    "classes.dex"
+  ],
+  "ui_and_resources_unchanged": true,
+  "device_tested": false
+}
