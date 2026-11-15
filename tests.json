@@ -1,0 +1,21 @@
+{
+  "assertions": 453,
+  "tests": {
+    "CarrierPickerUiTest": 21,
+    "CarrierPresetTest": 33,
+    "ChannelLeaseTest": 11,
+    "ConnectionLeaseTest": 5,
+    "DialingSupportTest": 37,
+    "EditorStyleTest": 13,
+    "IdentityBindingTest": 27,
+    "OmapiSupportTest": 70,
+    "ProfileReadStateTest": 7,
+    "ProfileRefreshTest": 19,
+    "SimProtocolTest": 26,
+    "WifiConfigListTest": 17,
+    "WifiConfigTest": 110,
+    "WifiConfigUiTest": 57
+  },
+  "excluded_experiment": "MultiChipSwitchTest; coordinator not included in recovery APK",
+  "device_tested": false
+}

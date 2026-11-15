@@ -1,0 +1,9 @@
+{
+  "previous_delivered_sha256": "6d6294be1300a0d4e47129c40b663865c1f79ff0f3723ee82ee07e2f4e54cb86",
+  "changed_zip_entries": [
+    "classes.dex"
+  ],
+  "experimental_switch_classes_absent": true,
+  "management_identity_gate_absent": true,
+  "device_tested": false
+}
