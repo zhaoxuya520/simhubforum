@@ -1,0 +1,12 @@
+{
+  "changed_java_sources": [
+    "src/cc/forserein/simhub/internal/WifiConfigEditor.java",
+    "src/cc/forserein/simhub/internal/WifiConfigRuntime.java"
+  ],
+  "changed_zip_entries": [
+    "classes.dex"
+  ],
+  "previous_ui_layout_retained": true,
+  "switch_baseline_unchanged": true,
+  "device_tested": false
+}

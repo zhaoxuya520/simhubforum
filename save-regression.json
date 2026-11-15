@@ -1,0 +1,9 @@
+{
+  "previous_ui_restored_build_fails": true,
+  "failed_assertion": "edit existing SMSC then Save applies without a second select action",
+  "fixed_build_passes": true,
+  "current_group_save_assertions": 48,
+  "device_tested": false,
+  "native_smsc_save_assertions": 23,
+  "duplicate_save_regression_reproduced": true
+}
