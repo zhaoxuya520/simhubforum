@@ -1,0 +1,11 @@
+{
+  "previous_apk_sha256": "42a6273279ef3bd1f715db2b64c8d0f9541afeb946d2206c8ed8eee8aeb33700",
+  "candidate_sha256": "54258707cc64a1c4b51f31c36fa8887e653273e7de61b68647b79ccf78abeea9",
+  "changed_entries": [
+    "assets/vowifi/carrier_presets.json",
+    "assets/vowifi/global_standard_catalogue.json",
+    "classes.dex"
+  ],
+  "ui_resources_unchanged": true,
+  "device_tested": false
+}

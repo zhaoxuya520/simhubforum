@@ -1,0 +1,92 @@
+{
+  "tests": [
+    {
+      "test": "CarrierPickerUiTest",
+      "exit_code": 0,
+      "assertions": 21
+    },
+    {
+      "test": "CarrierPresetTest",
+      "exit_code": 0,
+      "assertions": 33
+    },
+    {
+      "test": "ChannelLeaseTest",
+      "exit_code": 0,
+      "assertions": 11
+    },
+    {
+      "test": "ConfigSaveRegressionTest",
+      "exit_code": 0,
+      "assertions": 48
+    },
+    {
+      "test": "ConnectionLeaseTest",
+      "exit_code": 0,
+      "assertions": 5
+    },
+    {
+      "test": "DialingSupportTest",
+      "exit_code": 0,
+      "assertions": 37
+    },
+    {
+      "test": "DitoCarrierProfileTest",
+      "exit_code": 0,
+      "assertions": 24
+    },
+    {
+      "test": "DitoHomeIdentityTest",
+      "exit_code": 0,
+      "assertions": 88
+    },
+    {
+      "test": "IdentityBindingTest",
+      "exit_code": 0,
+      "assertions": 27
+    },
+    {
+      "test": "OmapiSupportTest",
+      "exit_code": 0,
+      "assertions": 70
+    },
+    {
+      "test": "ProfileReadStateTest",
+      "exit_code": 0,
+      "assertions": 7
+    },
+    {
+      "test": "ProfileRefreshTest",
+      "exit_code": 0,
+      "assertions": 19
+    },
+    {
+      "test": "SimProtocolTest",
+      "exit_code": 0,
+      "assertions": 26
+    },
+    {
+      "test": "SmsCenterSaveTest",
+      "exit_code": 0,
+      "assertions": 23
+    },
+    {
+      "test": "WifiConfigListTest",
+      "exit_code": 0,
+      "assertions": 17
+    },
+    {
+      "test": "WifiConfigTest",
+      "exit_code": 0,
+      "assertions": 110
+    },
+    {
+      "test": "WifiConfigUiTest",
+      "exit_code": 0,
+      "assertions": 57
+    }
+  ],
+  "total_assertions": 623,
+  "device_tested": false,
+  "android_compose_doubles": true
+}

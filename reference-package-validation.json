@@ -1,0 +1,34 @@
+{
+  "reference_ipa_sha256": "1d0b3c0bea93695bf467efda8c3b07793b03532fd55c096207177e8f2edf2b5d",
+  "exact_function_verified": true,
+  "reference_recovery_batch": "8963662600",
+  "independent_static_arrays": {
+    "ike_encr": [
+      "aes128"
+    ],
+    "ike_integ": [
+      "sha1"
+    ],
+    "ike_prf": [
+      "sha1"
+    ],
+    "ike_dh": [
+      "modp1024"
+    ],
+    "esp_encr": [
+      "aes128"
+    ],
+    "esp_integ": [
+      "sha1"
+    ],
+    "pcscf_attrs": [
+      20,
+      21,
+      16384,
+      16386
+    ]
+  },
+  "register_expires_seconds": 7200,
+  "carrier_confirmed": false,
+  "device_tested": false
+}

@@ -1,0 +1,13 @@
+{
+  "apk_sha256": "54258707cc64a1c4b51f31c36fa8887e653273e7de61b68647b79ccf78abeea9",
+  "checks": 25,
+  "legacy_regression_reproduced": false,
+  "actual_apk_helpers_executed": true,
+  "native_json_parser_executed": true,
+  "native_preset_builder_executed": true,
+  "native_model_constructors_executed": true,
+  "dex_to_jvm_constructor_and_interface_adapters": true,
+  "android_platform_and_session_doubles": true,
+  "device_tested": false,
+  "art_execution": false
+}

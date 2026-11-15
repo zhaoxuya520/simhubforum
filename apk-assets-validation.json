@@ -1,0 +1,8 @@
+{
+  "actual_apk_assets_match_runtime_probe": true,
+  "sha256": {
+    "vowifi/carrier_presets.json": "7ecf0b88d2c1c469a31d42f8f025cf46a8b102d7cdc3383c23f8b511251a21b4",
+    "vowifi/global_standard_catalogue.json": "faac5621f7106e04b7371d5061b5a9f63c1a3d25e07ed24850a0280de4913b44",
+    "data/mcc_mnc.json": "c4ca2f694a4ba3579e580bb8cef9670b07cec56b56a53febc09b009af8f6fea7"
+  }
+}
