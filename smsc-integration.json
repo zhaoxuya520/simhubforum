@@ -1,0 +1,8 @@
+{
+  "editor_matches_previous_source": true,
+  "custom_button_style_hook_removed": true,
+  "unified_effective_smsc_display": true,
+  "auto_smsc_source": "SIM EF_SMSP / card.f",
+  "carrier_catalogue_has_smsc": false,
+  "device_tested": false
+}

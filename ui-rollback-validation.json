@@ -1,0 +1,44 @@
+{
+  "restored_editor_source_sha256": "7797f9609107bf97f3be274c039803c69a691ba577815c910006ff2ec52024a5",
+  "changed_classes": [
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda0.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda1.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda10.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda11.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda12.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda13.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda2.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda21.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda22.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda23.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda24.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda25.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda26.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda27.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda28.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda29.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda3.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda30.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda31.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda4.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda9.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$1.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$CarrierPicker.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$Selection.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$Session.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor.smali",
+    "xq0.smali"
+  ],
+  "added_classes": [],
+  "removed_classes": [
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda32.smali",
+    "cc/forserein/simhub/internal/WifiConfigEditor$$ExternalSyntheticLambda33.smali"
+  ],
+  "non_ui_class_changes": [],
+  "unchanged_non_ui_classes": 6574,
+  "changed_zip_entries": [
+    "classes.dex"
+  ],
+  "smsc_fixes_retained": true,
+  "device_tested": false
+}

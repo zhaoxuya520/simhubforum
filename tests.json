@@ -1,0 +1,20 @@
+{
+  "assertions": 440,
+  "tests": {
+    "CarrierPickerUiTest": 21,
+    "CarrierPresetTest": 33,
+    "ChannelLeaseTest": 11,
+    "ConnectionLeaseTest": 5,
+    "DialingSupportTest": 37,
+    "IdentityBindingTest": 27,
+    "OmapiSupportTest": 70,
+    "ProfileReadStateTest": 7,
+    "ProfileRefreshTest": 19,
+    "SimProtocolTest": 26,
+    "WifiConfigListTest": 17,
+    "WifiConfigTest": 110,
+    "WifiConfigUiTest": 57
+  },
+  "excluded_experiment": "MultiChipSwitchTest; coordinator remains disabled",
+  "device_tested": false
+}
