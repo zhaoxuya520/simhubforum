@@ -1,0 +1,10 @@
+{
+  "previous_apk_sha256": "51da0e322594a9164b182c6a8904afec48716f2884d8c05340feac1a59ce00e0",
+  "new_apk_sha256": "40732c68dd5214303fc9aa51a3082a5d31ba97eeb640f046c40169a7bb74122f",
+  "changed_payload_entries": [
+    "classes.dex"
+  ],
+  "ui_and_operator_assets_unchanged": true,
+  "same_signer": true,
+  "signature_sha1": "CAEAEE369CA8933EC6A80050ECAF22D87B155006"
+}

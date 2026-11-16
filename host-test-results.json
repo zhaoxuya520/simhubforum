@@ -1,0 +1,96 @@
+{
+  "tests": [
+    {
+      "test": "CarrierPickerUiTest",
+      "passed": true,
+      "assertions": 21
+    },
+    {
+      "test": "CarrierPresetTest",
+      "passed": true,
+      "assertions": 33
+    },
+    {
+      "test": "ChannelLeaseTest",
+      "passed": true,
+      "assertions": 11
+    },
+    {
+      "test": "ConfigSaveRegressionTest",
+      "passed": true,
+      "assertions": 48
+    },
+    {
+      "test": "ConnectionLeaseTest",
+      "passed": true,
+      "assertions": 5
+    },
+    {
+      "test": "DialingSupportTest",
+      "passed": true,
+      "assertions": 37
+    },
+    {
+      "test": "DitoCarrierProfileTest",
+      "passed": true,
+      "assertions": 24
+    },
+    {
+      "test": "DitoHomeIdentityTest",
+      "passed": true,
+      "assertions": 88
+    },
+    {
+      "test": "IdentityBindingTest",
+      "passed": true,
+      "assertions": 27
+    },
+    {
+      "test": "OmapiSupportTest",
+      "passed": true,
+      "assertions": 70
+    },
+    {
+      "test": "ProfileReadStateTest",
+      "passed": true,
+      "assertions": 7
+    },
+    {
+      "test": "ProfileRefreshTest",
+      "passed": true,
+      "assertions": 19
+    },
+    {
+      "test": "SimProtocolTest",
+      "passed": true,
+      "assertions": 26
+    },
+    {
+      "test": "SmsCenterSaveTest",
+      "passed": true,
+      "assertions": 23
+    },
+    {
+      "test": "WifiConfigListTest",
+      "passed": true,
+      "assertions": 17
+    },
+    {
+      "test": "WifiConfigTest",
+      "passed": true,
+      "assertions": 110
+    },
+    {
+      "test": "WifiConfigUiTest",
+      "passed": true,
+      "assertions": 57
+    },
+    {
+      "test": "AmrFramingTest",
+      "passed": true,
+      "assertions": 4198
+    }
+  ],
+  "device_tested": false,
+  "platform_doubles": true
+}

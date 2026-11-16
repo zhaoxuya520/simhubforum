@@ -1,0 +1,30 @@
+{
+  "release": "https://github.com/maow318/simhubforum/releases/tag/v29.3",
+  "ipa_sha256": "1d0b3c0bea93695bf467efda8c3b07793b03532fd55c096207177e8f2edf2b5d",
+  "executable_sha256": "154cbf6fac52fe6393967fcfa5e9f0d3a2d64ecf3a1dce80863662c3352f4f43",
+  "function": {
+    "address": "0x1001332c4",
+    "size": 328,
+    "sha256": "830b3f03d61ad0d6be6d150e801ab66ee019355167be1db9f1a0e6cf9c859e8b"
+  },
+  "reference_behavior": [
+    "try current framing",
+    "try alternative on failure",
+    "validate alternate packet length",
+    "return alternate frames immediately",
+    "update framing after three matching alternatives",
+    "media receive worker applies detected framing to transmit"
+  ],
+  "receive_worker": "0x100151500",
+  "correct_format_log_offset": "0xb293d0",
+  "local_difference": "Require exact payload length in both formats; only good speech frames count toward transmit switch; malformed packet resets streak; keep per-call state and changed-SDP reset",
+  "packet_capture_available": false,
+  "user_log_observations": {
+    "declared": "AMR-WB/16000;octet-align=1",
+    "first_rtp_bytes": 45,
+    "received_rtp": 972,
+    "unparsable": 686,
+    "decoded_frames": 2
+  },
+  "phone_tested": false
+}
