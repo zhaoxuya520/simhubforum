@@ -1,0 +1,22 @@
+{
+  "apk_sha256": "901aff4a48d4601e909dcc3ffc0d78f795458c4b8755032614d00cb796d76dff",
+  "checks": 56,
+  "legacy_regression_reproduced": true,
+  "actual_apk_audio_controller": true,
+  "actual_capture_and_playback_workers": true,
+  "actual_permission_and_routing_functions": true,
+  "explicit_android_hardware_system_api_fixtures": true,
+  "platform_failure_injection": true,
+  "device_tested": false,
+  "art_execution": false,
+  "covered": [
+    "normal acquisition/start/stop",
+    "AudioTrack.play failure rollback",
+    "audio-focus request failure rollback",
+    "optional audio-effect enable failure disposal",
+    "independent recorder/player/effects release failure cleanup",
+    "focus abandon failure mode restoration",
+    "idempotent cleanup",
+    "Telecom owned system state preserved"
+  ]
+}

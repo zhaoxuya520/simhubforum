@@ -1,0 +1,25 @@
+{
+  "checks": 15,
+  "native_codec_audio_jitter_rtp_and_sdp_unchanged": [
+    "d43",
+    "bl2",
+    "hx3",
+    "q93",
+    "w",
+    "s",
+    "t",
+    "k10",
+    "n10"
+  ],
+  "bounded_native_changes": {
+    "yz": "startup rollback and independent resource cleanup only; full transformed baseline compared",
+    "o82": "registration and session timer hooks reversed; full baseline compared"
+  },
+  "hooks_only": [
+    "per-call constructor",
+    "receive format selection",
+    "transmit format selection",
+    "changed SDP reset"
+  ],
+  "device_tested": false
+}

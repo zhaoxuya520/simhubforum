@@ -1,0 +1,24 @@
+{
+  "baseline": "23.2",
+  "baseline_apk_sha256": "901aff4a48d4601e909dcc3ffc0d78f795458c4b8755032614d00cb796d76dff",
+  "candidate_apk_sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e",
+  "changed_classes": [
+    "bh1.smali",
+    "cb4.smali",
+    "cc/forserein/simhub/internal/AmrFraming.smali",
+    "ma4.smali",
+    "o82.smali",
+    "r75.smali",
+    "yz.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/RegistrationTiming.smali"
+  ],
+  "removed_classes": [],
+  "ui_and_configuration_classes_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

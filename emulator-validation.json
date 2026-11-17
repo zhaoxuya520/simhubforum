@@ -1,0 +1,62 @@
+{
+  "apk_sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e",
+  "installed_apk_sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e",
+  "package": "cc.forserein.simhub",
+  "version_name": "23.3",
+  "version_code": 12,
+  "emulator_serial": "emulator-5580",
+  "android_version": "11",
+  "api": 30,
+  "abi": "x86_64",
+  "cpu_acceleration": "software, no KVM",
+  "install_upgrade_verified": true,
+  "main_activity_start": true,
+  "launch_state": "COLD",
+  "startup_total_ms": 10460,
+  "fatal_or_verification_errors": [],
+  "art_execution": true,
+  "offline_art_checks": 27,
+  "classes_loaded": [
+    "o82",
+    "bh1",
+    "cb4",
+    "ma4",
+    "t10",
+    "m10",
+    "k7",
+    "yz",
+    "cc.forserein.simhub.internal.AmrFraming",
+    "cc.forserein.simhub.internal.RegistrationTiming"
+  ],
+  "actual_art_exercised": [
+    "RegistrationTiming lifetime validation and millisecond delay",
+    "AmrFraming empty payload rejection",
+    "cb4.c incoming x:1800;refresher=UAS yields B=1800/C=true",
+    "cb4 SIP response helper compact header/refresher/time update and duplicate rejection"
+  ],
+  "production_apk_modified": false,
+  "independent_instrumentation": true,
+  "synthetic_protocol_state": true,
+  "network_apdu_audio_started": false,
+  "ui_changed": false,
+  "ui_visual_retest": false,
+  "physical_phone_tested": false,
+  "carrier_call_tested": false,
+  "notes": [
+    "Instrumentation is a separately signed emulator-only helper; no production source or APK changes.",
+    "This verifies ART loading, bounded offline protocol cases and activity startup; it does not verify a live carrier call or cross-chip SIM switch."
+  ],
+  "logs": {
+    "app-error-summary.txt": "9cbf43abd49654fb9aff1e1f20bca357889f1ad1ef68af0da8d4c596fd55fbc1",
+    "final-logcat.txt": "9bc7c3842a6b4fed04f615d853e00736e62cd74e8226abf60a09b6fdb9b97dc3",
+    "harness-install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "installed-apk-sha256.txt": "324759d6c871c7f3937da7270564b03a37f49015dba349a099056ccb293445f3",
+    "main-start-final.txt": "3be698f29a24c867d6b6cc079b75b5de476856f922d2d489c986d3eb27943931",
+    "package.txt": "5bd2e7968cd350806ec6ec2198212b1934a1f608e0524c96b19837028a9b800e",
+    "protocol-art-smoke.txt": "65bd081f1b763afe4f6b36349a06f6a84958e04e7792c20e3ef8acae003d93d4"
+  },
+  "instrumentation_apk_sha256": "10a6cc9c6aa004e78e39a8187df5b117f5edf0f81228836480473fc08602baa6",
+  "instrumentation_source_sha256": "ce230934341ba96c355f557ee9f6c9f6edce44585f860b515135a71ff6c39a81",
+  "completed_utc": "2026-11-17T17:51:23.782237+00:00"
+}
