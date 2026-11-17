@@ -1,0 +1,99 @@
+{
+  "apk_sha256": "c45ec64fdf6069688e3a59f756baadf1a80afd98e899ca0ad8a2e9fbfa7242f2",
+  "installed_apk_sha256": "c45ec64fdf6069688e3a59f756baadf1a80afd98e899ca0ad8a2e9fbfa7242f2",
+  "package": "cc.forserein.simhub",
+  "version_name": "23.5",
+  "version_code": 14,
+  "emulator_serial": "emulator-5580",
+  "android_version": "11",
+  "api": 30,
+  "abi": "x86_64",
+  "cpu_acceleration": "software, no KVM",
+  "install_upgrade_verified": true,
+  "upgraded_from": {
+    "version_name": "23.4",
+    "version_code": 13,
+    "installed_apk_sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac"
+  },
+  "signature_unchanged": true,
+  "signer_certificate_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+  "main_activity_start": true,
+  "launch_state": "COLD",
+  "startup_total_ms": 10171,
+  "fatal_or_verification_errors": [],
+  "art_execution": true,
+  "offline_art_checks": 29,
+  "cleanup_repeat_passed": true,
+  "synthetic_state_cleaned": true,
+  "final_run_prior_fixture_records": 0,
+  "classes_loaded": [
+    "DitoHomeIdentity",
+    "IdentityBinding",
+    "WifiConfigRuntime",
+    "WifiConfigEditor",
+    "CarrierPresets",
+    "DitoCarrierProfile"
+  ],
+  "actual_art_exercised": [
+    "Known DITO IIN with a non-20404 IMSI selects actual DITO config and home realm",
+    "Actual IdentityBinding track/begin/read accepts exact-ICCID provider metadata; nickname-only and wrong-ICCID metadata remain unrecognized",
+    "Missing same-card home IMSI blocks connection; a synthetic actual-home observe permits immutable restored identity while physical card stays unchanged",
+    "Invalid saved carrier preset resolves to DITO config and correct ePDG, without stale Vodafone scalar override",
+    "Real runtime editor snapshot and private editor Session constructor recover with warning and clean draft; bad record remains until explicit repair",
+    "Explicit empty save repairs invalid record"
+  ],
+  "production_apk_modified": false,
+  "production_source_modified": false,
+  "independent_instrumentation": true,
+  "explicit_fixtures": [
+    "Real native ek5/gl5 objects with synthetic card fields",
+    "Reflection-compatible controller/profile metadata; no actual APDU reading",
+    "Random-prefix temporary SharedPreferences through isolated ContextWrapper",
+    "Editor Session constructed without Activity and without rendering UI"
+  ],
+  "fixture_initialization": {
+    "initial_runs_failed": true,
+    "initial_assertions": [
+      "stale endpoint fallback",
+      "missing home after first-run residue"
+    ],
+    "diagnosis": "Instrumentation.onStart can race SimHubApp.onCreate, whose native initialization writes zl5.f/fj5.d. The initial test context isolation was unstable.",
+    "correction": "An empty runOnMainSync barrier before setup waits for application initialization; every helper call asserts both contexts remain the isolated ContextWrapper.",
+    "temporary_synthetic_records_removed": 2,
+    "removal_scope": "Only the exact known test ICCID home/provider keys with their known synthetic values; no user preference file was cleared.",
+    "after_correction": "29 assertions passed; a second independent run again passed all 29 with zero prior fixture records and cleanup=true.",
+    "apk_changed_to_fix_fixture": false
+  },
+  "context_and_state_restored": true,
+  "temporary_preference_files_deleted": true,
+  "network_apdu_audio_started": false,
+  "ui_visual_retest": false,
+  "physical_phone_tested": false,
+  "carrier_registration_tested": false,
+  "notes": [
+    "Actual ART helper/data-model execution with synthetic card and metadata inputs; no real SIM, ePDG authentication, carrier registration, call or APDU operation.",
+    "Editor verification is constructor/snapshot/save behavior, not a visual UI test.",
+    "Both corrected runs used the same final signed APK and unchanged production code."
+  ],
+  "logs": {
+    "app-error-summary.txt": "4dd354a05076a66d981c968577f0adb2f558f76a8510b02aedcb45f7b39fcc05",
+    "baseline23.4-package.txt": "24775c03e8f1ee261eedb1272a1def83a48454e723b7d07a19e0f92ad2c23346",
+    "baseline23.4-signature.txt": "75cf9ce6c20135d90c91357e8a37af13beafc1f0d69b86b074e478ca2f63747e",
+    "carrier-art-smoke-after-barrier.txt": "41d85ec04415d9b332444d9be96b3680c57b2875a497197cc15aed9efd1e037e",
+    "carrier-art-smoke-debug.txt": "380aba47a54ebff3bd29f8a04f401010cd8e6cae7ec2331ed8dd5d133e816a2c",
+    "carrier-art-smoke-first.txt": "cf508e274788aa8954ded49518e23bc895d2ea6ba4186ac8601f2839c2a03a6e",
+    "carrier-art-smoke.txt": "79c7c655b0294951f6a355af8fb10c91de4ad411fe7fc5aa8a6ec69f15accbd6",
+    "final-logcat.txt": "414d4c43b35c724c17f133076ec6f538eaab2471e747ade58e41f763618d222d",
+    "final-signature.txt": "75cf9ce6c20135d90c91357e8a37af13beafc1f0d69b86b074e478ca2f63747e",
+    "harness-install-debug.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "harness-install-final.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "harness-install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "installed-apk-sha256.txt": "5d99ef206df2dc604554c891430bbf5dbe1f3fb84e67c454d801997d37c1bbe0",
+    "main-start-final.txt": "2ba6fec5781efa6bc0344078da3d6672ba70d1816264f6417d2f5763c3d009e7",
+    "package.txt": "6dff6f5bca18f74ed92f187a8d915f551e1f19740b2f690401be2e7cdbbb9289"
+  },
+  "instrumentation_apk_sha256": "23cd1ee557e3bc1057de6407b98712bff627be66da1e1d8204ede182da047b57",
+  "instrumentation_source_sha256": "bd84f2d68793a1068fa0b521942ffc71fbfd2f69fad14408f43726cb300b48c7",
+  "completed_utc": "2026-11-17T20:41:34.936253+00:00"
+}

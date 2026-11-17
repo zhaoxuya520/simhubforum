@@ -1,0 +1,23 @@
+{
+  "native_classes_exact": [
+    "ac5.smali",
+    "cg0.smali",
+    "dc3.smali",
+    "ek5.smali",
+    "hh1.smali",
+    "hz3.smali",
+    "kg1.smali",
+    "ng1.smali",
+    "of3.smali",
+    "pf3.smali",
+    "pg1.smali",
+    "sj.smali",
+    "tb0.smali",
+    "vf1.smali",
+    "xf1.smali"
+  ],
+  "native_selection_methods_exact": 2,
+  "experimental_adapters_present": false,
+  "management_identity_gate_present": false,
+  "device_tested": false
+}

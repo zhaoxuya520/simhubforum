@@ -1,0 +1,19 @@
+{
+  "probe_source_sha256": "f76423c41b3ac77a1b48288e04a88f760217c1d81448997b2da00d10302872b0",
+  "apk_translated_jar_sha256": "237980c4349a86a84053e340d6c2253a8ac2c20678d89c0ebff7d88ef31501a1",
+  "apk_sha256": "a28d913a9bae2e6689534b7425be5e2be86ff4ffc565f1b8483f8220496a188a",
+  "checks": 123,
+  "legacy_regression_reproduced": false,
+  "recognition_legacy_regression_reproduced": false,
+  "actual_apk_helpers_executed": true,
+  "native_usim_coroutine_executed": true,
+  "apdu_transport_fixture": true,
+  "native_profile_models_executed": true,
+  "native_json_parser_executed": true,
+  "native_preset_builder_executed": true,
+  "native_model_constructors_executed": true,
+  "dex_to_jvm_constructor_and_interface_adapters": true,
+  "android_platform_and_session_doubles": true,
+  "device_tested": false,
+  "art_execution": false
+}

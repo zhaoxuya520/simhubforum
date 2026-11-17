@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "phase": "signed",
+  "audited_at_utc": "2026-11-17T20:33:55.041883+00:00",
+  "production_files_modified": false,
+  "baseline_snapshot_sha256": "8ae8b3314fc5b29b8e7ccec53a2dcde4f893d38c9f17424ccd693da00be1bc0b",
+  "old_apk": {
+    "path": "/workspace/recovery/simcat23.4-release/SIMHub-23.4-WiFi-Calling-improved-signed.apk",
+    "sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac",
+    "matches_snapshot": true
+  },
+  "new_unsigned_apk": {
+    "path": "/workspace/simhubforum/android/phone-slot-patch/build-config3/SIMHub-23.1-config3-unsigned.apk",
+    "sha256": "a28d913a9bae2e6689534b7425be5e2be86ff4ffc565f1b8483f8220496a188a"
+  },
+  "new_signed_apk": {
+    "path": "/workspace/recovery/carrier23.5-release/SIMHub-23.5-DITO-recognition-signed.apk",
+    "sha256": "c45ec64fdf6069688e3a59f756baadf1a80afd98e899ca0ad8a2e9fbfa7242f2",
+    "all_zip_payloads_identical_to_unsigned": true
+  },
+  "classes": {
+    "old_count": 6624,
+    "new_count": 6625,
+    "unchanged_existing_count": 6617,
+    "changed_existing": [
+      {
+        "path": "cc/forserein/simhub/internal/DitoHomeIdentity$1.smali",
+        "before": "64cc79f0650b2a83e2c66924d7d18d4940489df752306e8c1ebb41238494156b",
+        "after": "b6f9f78830f53915e5bb3c6757a3b5f2455d7d66b9b117d3a7aa7bdae7c1cae1"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/DitoHomeIdentity.smali",
+        "before": "7f86d4a83794a1e24f62551d993c5da6aaf7259c414a3fbd6debe791281db71f",
+        "after": "d46ffbc74171de7e9c79845fcc21d7aff60bd3f8c6a373892a6fdc9cb4c0318c"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/IdentityBinding$Selection.smali",
+        "before": "a8472c7c1dfb9bec3bfe3dd039eda02c93b9bf268620fa0b918ac224bef40eb2",
+        "after": "a56d01ab833c205ad1a5101fa96fc49c76cb0031e3b0bf52af262e196da03537"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/IdentityBinding.smali",
+        "before": "41faac6944e85ce44a2c1180270000555f82458ca2567038ac03d336ebac2833",
+        "after": "3cb1309122d808077659c5ec12109eb4db3ba6146692e1fe28ec3f7ad5418d59"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/WifiConfigRuntime$Snapshot.smali",
+        "before": "9d291c39e791ff16642a42c642bb9575e90c90ed5c4cf62410b7609aa78077c8",
+        "after": "96b39fd50bbf0f6c390bbfb27bf984cc07a56a8d0a29d5da01455a5438a6b482"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/WifiConfigRuntime.smali",
+        "before": "2066a22bbf6ee85848f67e342bd5eedbc0a446135ba85a1db869bf9b5e5102d7",
+        "after": "0c50b5b7c03a76994c243db3a0edf046a8a0f0be44eeee9a3217dc34e8bf22e9"
+      },
+      {
+        "path": "r75.smali",
+        "before": "7bf4865ac3135ab948be9534190234edcaeb06a6568843e8cc399850dc33b466",
+        "after": "4a5eca14893dff4028dbc4c6fbc1c5bdcc97c4022dcbc2d09b5684f1f87f5491"
+      }
+    ],
+    "added": [
+      {
+        "path": "cc/forserein/simhub/internal/IdentityBinding$Read.smali",
+        "sha256": "61e583d0e80b8e6c3e8a3483fff1d668d9f798f7069e16e3249204f1bb47d856"
+      }
+    ],
+    "removed": [],
+    "unexpected_changes": [],
+    "debug_only_proof": [
+      {
+        "path": "cc/forserein/simhub/internal/DitoHomeIdentity$1.smali",
+        "old_decoded_matches_snapshot": true,
+        "only_dotline_directives_changed": true,
+        "normalized_sha256": "a43a9f11b49b6b8f9716bd3d8e1097ef14ca6dea7bde3acd05751335f1ef7247",
+        "diff": [
+          "--- 23.4",
+          "+++ 23.5",
+          "@@ -30 +30 @@",
+          "-    .line 112",
+          "+    .line 177",
+          "@@ -45 +45 @@",
+          "-    .line 112",
+          "+    .line 177"
+        ]
+      },
+      {
+        "path": "cc/forserein/simhub/internal/WifiConfigRuntime$Snapshot.smali",
+        "old_decoded_matches_snapshot": true,
+        "only_dotline_directives_changed": true,
+        "normalized_sha256": "50e2691d05d6ee92b52692754e2ea953d031115a8480fa33fe1e8daea2634493",
+        "diff": [
+          "--- 23.4",
+          "+++ 23.5",
+          "@@ -68 +68 @@",
+          "-    .line 147",
+          "+    .line 182"
+        ]
+      }
+    ],
+    "r75_only_version_display_changed": true
+  },
+  "zip": {
+    "old_count": 1711,
+    "new_count": 1711,
+    "unchanged_count": 1709,
+    "changed": [
+      {
+        "path": "AndroidManifest.xml",
+        "before": "548ef5ef5d3945e2e381691763501b90d658a2b6ac5521a736335738780fefee",
+        "after": "4ead599c5664a9892e137126f6e57d987e1e3ad134c31530ace160696debbee7"
+      },
+      {
+        "path": "classes.dex",
+        "before": "96887fb5718657b8be684fb001a918bfd919cb634b14ddf5543714c9e2af9193",
+        "after": "e40b0578feef6c585ec2c69f8e807ee48fd7e1c5ba5044ca0f4ded57c7410df7"
+      }
+    ],
+    "added": [],
+    "removed": [],
+    "preserved_categories": {
+      "native_libraries": {
+        "count": 16,
+        "all_byte_identical": true
+      },
+      "resources": {
+        "count": 991,
+        "all_byte_identical": true
+      },
+      "assets": {
+        "count": 579,
+        "all_byte_identical": true
+      }
+    }
+  },
+  "manifest": {
+    "only_version_code_name_changed": true,
+    "version_code_before": 13,
+    "version_code_after": 14,
+    "version_name_before": "23.4",
+    "version_name_after": "23.5",
+    "diff": [
+      "--- 23.4",
+      "+++ 23.5",
+      "@@ -2,4 +2,4 @@",
+      "   E: manifest (line=2)",
+      "-    A: android:versionCode(0x0101021b)=(type 0x10)0xd",
+      "-    A: android:versionName(0x0101021c)=\"23.4\" (Raw: \"23.4\")",
+      "+    A: android:versionCode(0x0101021b)=(type 0x10)0xe",
+      "+    A: android:versionName(0x0101021c)=\"23.5\" (Raw: \"23.5\")",
+      "     A: android:compileSdkVersion(0x01010572)=(type 0x10)0x25"
+    ]
+  },
+  "dex": {
+    "unsigned_sha256": "e40b0578feef6c585ec2c69f8e807ee48fd7e1c5ba5044ca0f4ded57c7410df7",
+    "equals_audited_build_assembly_output": true
+  },
+  "limits": [
+    "Static release scope/identity audit, not a functional or physical-device test.",
+    "All classes outside the explicit changed list, including existing APDU/switch/media/SIP/UI paths, match the captured 23.4 source hashes.",
+    "Debug-only proof comes from fresh decoding of the actual old signed APK, not an assumption about source line movement."
+  ],
+  "signature": {
+    "old_and_new_verified": true,
+    "verifier": "apksigner",
+    "v2_verified": true,
+    "v3_verified": true,
+    "same_certificate_as_23_4": true,
+    "certificate_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+    "certificate_sha1": "caeaee369ca8933ec6a80050ecaf22d87b155006",
+    "log_hashes": {
+      "23.4": "3f22945aa40283498c91a620ba00a77111b535500a630544fb4e9eabe8b5f8db",
+      "23.5": "3f22945aa40283498c91a620ba00a77111b535500a630544fb4e9eabe8b5f8db"
+    }
+  }
+}

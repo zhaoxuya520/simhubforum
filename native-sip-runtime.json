@@ -1,0 +1,16 @@
+{
+  "apk_translated_jar_sha256": "237980c4349a86a84053e340d6c2253a8ac2c20678d89c0ebff7d88ef31501a1",
+  "checks": 1878,
+  "mode": "fixed",
+  "native_request_timer_function_executed": true,
+  "native_update_response_dispatcher_executed": true,
+  "protocol_methods_mocked": false,
+  "engine_constructor_bypassed_to_avoid_network": true,
+  "body_event_delivery_preserved": true,
+  "real_carrier_tested": false,
+  "device_tested": false,
+  "art_execution": false,
+  "apk_sha256": "a28d913a9bae2e6689534b7425be5e2be86ff4ffc565f1b8483f8220496a188a",
+  "carrier_translation_report_sha256": "c1121ff38e3dbccb78b07d88b0c8928e0dad5a71430e9c5fa2964d2f107e8007",
+  "final_apk_executed": true
+}

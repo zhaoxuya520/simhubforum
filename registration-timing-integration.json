@@ -1,0 +1,11 @@
+{
+  "checks": 6,
+  "native_methods": [
+    "o82.v",
+    "o82.y",
+    "bh1.q registration branch"
+  ],
+  "native_contact_matching_unchanged": true,
+  "native_aka_security_negotiation_unchanged": true,
+  "device_tested": false
+}
