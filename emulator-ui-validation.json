@@ -1,0 +1,18 @@
+{
+  "apk_sha256": "901aff4a48d4601e909dcc3ffc0d78f795458c4b8755032614d00cb796d76dff",
+  "emulator": "Android 11 x86_64 software CPU mode",
+  "production_apk_unmodified": true,
+  "instrumentation_separate_from_production": true,
+  "synthetic_card_state": true,
+  "production_apk_installed": true,
+  "app_main_activity_displayed": true,
+  "configuration_NAI_light_screenshot_verified": true,
+  "screenshot": "preview-synthetic-NAI-light.png",
+  "parent_visually_inspected": true,
+  "dark_screen_tested": false,
+  "smsc_list_screen_tested": false,
+  "carrier_search_screen_tested": false,
+  "keyboard_tested": false,
+  "real_sim_or_call_tested": false,
+  "note": "First boot had Android System UI ANR; resumed successfully. Screenshot uses synthetic DITO identity; not a user SIM or carrier-network test."
+}

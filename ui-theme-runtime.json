@@ -1,0 +1,7 @@
+{
+  "checks": 80,
+  "actual_apk_code": true,
+  "apk_sha256": "901aff4a48d4601e909dcc3ffc0d78f795458c4b8755032614d00cb796d76dff",
+  "jvm_dex_translation": true,
+  "rendering_test": false
+}

@@ -1,0 +1,9 @@
+{
+  "changed_payload_entries": [
+    "classes.dex",
+    "AndroidManifest.xml"
+  ],
+  "manifest_version_changes_only": true,
+  "operator_catalogue_unchanged": true,
+  "same_signer_sha1": "CAEAEE369CA8933EC6A80050ECAF22D87B155006"
+}

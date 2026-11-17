@@ -1,0 +1,23 @@
+{
+  "checks": 15,
+  "native_codec_audio_jitter_rtp_and_sdp_unchanged": [
+    "d43",
+    "yz",
+    "bl2",
+    "hx3",
+    "q93",
+    "w",
+    "s",
+    "t",
+    "k10",
+    "o82",
+    "n10"
+  ],
+  "hooks_only": [
+    "per-call constructor",
+    "receive format selection",
+    "transmit format selection",
+    "changed SDP reset"
+  ],
+  "device_tested": false
+}
