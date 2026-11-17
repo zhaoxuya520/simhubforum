@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "audited_at_utc": "2026-11-17T19:23:18.970444+00:00",
+  "scope": "read-only byte-level release-scope audit; no production edits",
+  "baseline_manifest_sha256": "cbfd4d3846891caef5f3fad11f1f2a498f869ef89860555270bd16e6d9d96282",
+  "old_apk": {
+    "path": "/workspace/recovery/wifi23.3-release/SIMHub-23.3-WiFi-Calling-stability-signed.apk",
+    "sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e",
+    "baseline_hash_matches": true
+  },
+  "new_apk": {
+    "path": "/workspace/recovery/simcat23.4-release/SIMHub-23.4-WiFi-Calling-improved-signed.apk",
+    "sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac"
+  },
+  "unsigned_apk": {
+    "path": "/workspace/simhubforum/android/phone-slot-patch/build-config3/SIMHub-23.1-config3-unsigned.apk",
+    "sha256": "3bb014e74ab399bed026d81bf9c33adbc39174caff12984612422d0a94ec1d4e",
+    "all_zip_payloads_identical_to_signed": true
+  },
+  "smali": {
+    "old_count": 6618,
+    "new_count": 6624,
+    "unchanged_existing_count": 6610,
+    "changed_existing": [
+      {
+        "path": "au0.smali",
+        "before": "d0d250f3cdda068e47a3f7555ef5eddfb35ad6f09211d9b54699d4f492b5d8c2",
+        "after": "e51d7208dadd601dc69d393afd1c2210c3d9957507ef0952d2bd4ce0aaace04c"
+      },
+      {
+        "path": "cc/forserein/simhub/ui/call/CallActivity.smali",
+        "before": "c0e027df16a5891b545ddd2d95bde688b0312fa3a3ecad1bccb55553d79ea423",
+        "after": "80404f34254bc03620162d8a92a6f6023ed0440255214937330db50a9d591bfe"
+      },
+      {
+        "path": "cc/forserein/simhub/vowifi/calling/CallActionReceiver.smali",
+        "before": "2a17e9d7cadf0214d93c7736108fc01113ec32e19d807984d503edb56a46d9fc",
+        "after": "2280f97d3068c207c9580753f87020d8571f440803438361f80700f0b72b7325"
+      },
+      {
+        "path": "ej.smali",
+        "before": "60c104ef78b0578a952508d2a17e9819f0f93f764f3c186f7b74136f0cc21e65",
+        "after": "0f55d7197091e0fa8f480e17d1ff4d81c800216de9beb21aa5327df10e4ddbc1"
+      },
+      {
+        "path": "k10.smali",
+        "before": "d71cc90a6b5992c5059697abb445b033045031b375ed52e9eea34ebbd2c709e3",
+        "after": "f1bc596637cfa7cef41e06ba6bfe4ecf4eea526dd67aa02546b2b5e635e4119c"
+      },
+      {
+        "path": "o82.smali",
+        "before": "302dc9e430753dc3df353e37ab27c56a1a53112bc9252c2170da09044e545117",
+        "after": "0fafef04e9e5db504cc2710a61ff587a545c15508d4baec1bbd34ab4559b0d8f"
+      },
+      {
+        "path": "r75.smali",
+        "before": "a9c4721fda52934787721a2251e2ebe66c064df820c3495627dd70985ba74831",
+        "after": "7bf4865ac3135ab948be9534190234edcaeb06a6568843e8cc399850dc33b466"
+      },
+      {
+        "path": "sj5.smali",
+        "before": "7e3030d757416b95bc3767aeff05f2004baa726f8fb766d1a49b34d21d8478d7",
+        "after": "8fc8f40480b1a5e0d0c631c948483637d7f83bbf4aa88f736b956798c24d8e89"
+      }
+    ],
+    "added": [
+      {
+        "path": "cc/forserein/simhub/internal/CallNotificationGuard$Action.smali",
+        "sha256": "cc47fc58669cdf95af39de568080e4095c500d71a37ccd62496d4b8a98f3565c"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/CallNotificationGuard.smali",
+        "sha256": "75fbce240b4e4e609f47668dfef676ab377dcaf5c6c5736fd61c051fe8b68866"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/DiagnosticShareSanitizer.smali",
+        "sha256": "176cc9b9c223eaed500517eb96ff116fb39df32ec5d5286cd20d2a15bc70f9e4"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/SipForkProtection$Bucket.smali",
+        "sha256": "ac805326b61e00a3c44e9b0fe837921d65a53d2ad0bca0b60ece4540a2773456"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/SipForkProtection$Entry.smali",
+        "sha256": "968769e695b298afbbf72109be58d07a64fe9aae3b18bd2bbd588f83d7ee6752"
+      },
+      {
+        "path": "cc/forserein/simhub/internal/SipForkProtection.smali",
+        "sha256": "8f2940e1845e8035bb082437342b041e2c5f8e027bcbcdb79741e01a6cd18034"
+      }
+    ],
+    "removed": [],
+    "unexpected_changed": [],
+    "unexpected_added": [],
+    "complete_current_hash_manifest": "/workspace/recovery/simcat-reference/current-23.4-classes.json"
+  },
+  "zip": {
+    "old_count": 1711,
+    "new_count": 1711,
+    "unchanged_count": 1709,
+    "changed": [
+      {
+        "path": "AndroidManifest.xml",
+        "before": "b6da3b00f8d7f733ec82a8b5650512a415e879313431929226da13f711c17679",
+        "after": "548ef5ef5d3945e2e381691763501b90d658a2b6ac5521a736335738780fefee"
+      },
+      {
+        "path": "classes.dex",
+        "before": "16dbedcec9075dc36b28aaaca3763524dff396da66b21f47ab7dc80c2039fa0b",
+        "after": "96887fb5718657b8be684fb001a918bfd919cb634b14ddf5543714c9e2af9193"
+      }
+    ],
+    "added": [],
+    "removed": [],
+    "preserved_categories": {
+      "native_libraries": {
+        "count": 16,
+        "all_byte_identical": true,
+        "entries": [
+          "lib/arm64-v8a/libsurface_util_jni.so",
+          "lib/arm64-v8a/libandroidx.graphics.path.so",
+          "lib/arm64-v8a/libdatastore_shared_counter.so",
+          "lib/arm64-v8a/libimage_processing_util_jni.so",
+          "lib/x86_64/libsurface_util_jni.so",
+          "lib/x86_64/libandroidx.graphics.path.so",
+          "lib/x86_64/libdatastore_shared_counter.so",
+          "lib/x86_64/libimage_processing_util_jni.so",
+          "lib/x86/libsurface_util_jni.so",
+          "lib/x86/libandroidx.graphics.path.so",
+          "lib/x86/libdatastore_shared_counter.so",
+          "lib/x86/libimage_processing_util_jni.so",
+          "lib/armeabi-v7a/libsurface_util_jni.so",
+          "lib/armeabi-v7a/libandroidx.graphics.path.so",
+          "lib/armeabi-v7a/libdatastore_shared_counter.so",
+          "lib/armeabi-v7a/libimage_processing_util_jni.so"
+        ]
+      },
+      "resources": {
+        "count": 991,
+        "all_byte_identical": true,
+        "entries": null
+      },
+      "assets": {
+        "count": 579,
+        "all_byte_identical": true,
+        "entries": null
+      }
+    }
+  },
+  "dex": {
+    "final_signed_sha256": "96887fb5718657b8be684fb001a918bfd919cb634b14ddf5543714c9e2af9193",
+    "assembled_build_sha256": "96887fb5718657b8be684fb001a918bfd919cb634b14ddf5543714c9e2af9193",
+    "identical": true
+  },
+  "manifest": {
+    "changes_only_version_code_name": true,
+    "version_code": {
+      "before": 12,
+      "after": 13
+    },
+    "version_name": {
+      "before": "23.3",
+      "after": "23.4"
+    },
+    "diff": [
+      "--- 23.3",
+      "+++ 23.4",
+      "@@ -1,7 +1,7 @@",
+      " N: android=http://schemas.android.com/apk/res/android",
+      "   E: manifest (line=2)",
+      "-    A: android:versionCode(0x0101021b)=(type 0x10)0xc",
+      "-    A: android:versionName(0x0101021c)=\"23.3\" (Raw: \"23.3\")",
+      "+    A: android:versionCode(0x0101021b)=(type 0x10)0xd",
+      "+    A: android:versionName(0x0101021c)=\"23.4\" (Raw: \"23.4\")",
+      "     A: android:compileSdkVersion(0x01010572)=(type 0x10)0x25",
+      "     A: android:compileSdkVersionCodename(0x01010573)=\"17\" (Raw: \"17\")",
+      "     A: package=\"cc.forserein.simhub\" (Raw: \"cc.forserein.simhub\")"
+    ]
+  },
+  "limits": [
+    "This compares release scope and identity, not runtime behavior.",
+    "Expected CallActivity/notification action changes are allowed; no assertion that every UI-related class is unchanged.",
+    "Existing config, card-switch, AMR/audio and native-library code outside the explicit eight-class list is byte-identical."
+  ]
+}

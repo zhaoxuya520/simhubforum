@@ -1,0 +1,31 @@
+{
+  "baseline": "23.3",
+  "baseline_apk_sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e",
+  "candidate_apk_sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac",
+  "changed_classes": [
+    "au0.smali",
+    "cc/forserein/simhub/ui/call/CallActivity.smali",
+    "cc/forserein/simhub/vowifi/calling/CallActionReceiver.smali",
+    "ej.smali",
+    "k10.smali",
+    "o82.smali",
+    "r75.smali",
+    "sj5.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/CallNotificationGuard$Action.smali",
+    "cc/forserein/simhub/internal/CallNotificationGuard.smali",
+    "cc/forserein/simhub/internal/DiagnosticShareSanitizer.smali",
+    "cc/forserein/simhub/internal/SipForkProtection$Bucket.smali",
+    "cc/forserein/simhub/internal/SipForkProtection$Entry.smali",
+    "cc/forserein/simhub/internal/SipForkProtection.smali"
+  ],
+  "removed_classes": [],
+  "configuration_and_card_classes_identical": true,
+  "call_ui_changes_limited_to_action_and_permission_identity_guards": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

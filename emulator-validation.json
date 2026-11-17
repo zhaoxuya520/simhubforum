@@ -1,0 +1,89 @@
+{
+  "apk_sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac",
+  "installed_apk_sha256": "77774c46dbf8d828c7daa7f895306f172fa96e30f630ac83c95c5dd4a11d0eac",
+  "package": "cc.forserein.simhub",
+  "version_name": "23.4",
+  "version_code": 13,
+  "emulator_serial": "emulator-5580",
+  "android_version": "11",
+  "api": 30,
+  "abi": "x86_64",
+  "cpu_acceleration": "software, no KVM",
+  "install_upgrade_verified": true,
+  "upgraded_from": {
+    "version_name": "23.3",
+    "version_code": 12,
+    "installed_apk_sha256": "4a83e74a5e207fc1ab23085ba4a9558375d2758c3fdf5b3f8dc6c3cc287d805e"
+  },
+  "main_activity_start": true,
+  "launch_state": "COLD",
+  "startup_total_ms": 9931,
+  "fatal_or_verification_errors": [],
+  "art_execution": true,
+  "offline_art_checks": 64,
+  "classes_loaded": [
+    "o82",
+    "bh1",
+    "cb4",
+    "ma4",
+    "t10",
+    "m10",
+    "k7",
+    "yz",
+    "cc.forserein.simhub.internal.AmrFraming",
+    "cc.forserein.simhub.internal.RegistrationTiming",
+    "cc.forserein.simhub.internal.CallNotificationGuard",
+    "cc.forserein.simhub.internal.DiagnosticShareSanitizer",
+    "cc.forserein.simhub.internal.SipForkProtection"
+  ],
+  "actual_art_exercised": [
+    "Prior registration millisecond lifetime and SIP timer compact-header/refresher/duplicate cases",
+    "AmrFraming empty payload rejection",
+    "Actual Android PendingIntent identity isolation across call A/B, UUID and action; repeated same-call identity reused",
+    "Notification allows/bind reject stale synthetic call and UUID",
+    "DiagnosticShareSanitizer removes synthetic subscriber, phone and authentication values while preserving domain, Call-ID and RTP fields",
+    "SipForkProtection handle builds native ACK/BYE through recording-only fixture; preserves selected dialog and only ACKs retransmissions",
+    "Wrong local From-tag additional response is consumed without outbound packets",
+    "SipForkProtection handleRequest builds 200 for known extra-leg BYE, 481 for unknown dialog, and no response for ACK; selected dialog and SDP preserved"
+  ],
+  "pending_intents_sent": false,
+  "pending_intents_created_by_probe_cancelled": true,
+  "production_apk_modified": false,
+  "independent_instrumentation": true,
+  "synthetic_protocol_state": true,
+  "explicit_fixtures": [
+    "ForkTransport.C(kb4) records constructed outbound packets",
+    "ForkTransport.k(List) records native response actions",
+    "Synthetic selected dialog and synthetic notification call snapshots"
+  ],
+  "fork_native_dispatcher_h_r_art_executed": false,
+  "network_apdu_audio_started": false,
+  "ui_changed": false,
+  "ui_visual_retest": false,
+  "physical_phone_tested": false,
+  "carrier_call_tested": false,
+  "original_simcat_apk_executed": false,
+  "notes": [
+    "Independent instrumentation was installed separately; no production source, test or signed APK changes.",
+    "Actual ART PendingIntent objects were created and cancelled only; no actions were sent and no permission flow was invoked.",
+    "Fork coverage exercises shipped helper/native message and dialog builders, not the complete o82.h/r dispatchers or real sockets.",
+    "This verifies ART loading, offline protocol cases, signed upgrade and activity startup, not actual carrier registration/calling or cross-chip SIM switching."
+  ],
+  "logs": {
+    "app-error-summary.txt": "55330dbe58a58b01868a0d589043f72bfc4b20829ed4b424003228b8de29e9c2",
+    "baseline23.3-package.txt": "4a23e17b1eaadce5ada11f74b0b48b82b7e89ff3b03c65d18256c1e7b7584861",
+    "final-logcat.txt": "da859427489e5bdccd48021fd2f14c71719b8abeb6d667d0c43c22ac10ae64c5",
+    "harness-install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "install.txt": "8cfe21ca9831863004ad6eb25b313f8944786f7a01b291da8fbbe61cc0c847e5",
+    "installed-apk-sha256.txt": "d3687986f846e28a48d5e04e1555c60fd57d2d0e1c884acb5dd2c5b689ff1b49",
+    "main-start-final.txt": "08d1082b8f2212b55101814cfa79665011e0946962d0065b23528903b171558d",
+    "package.txt": "6f765ffe5ab67d66d3c5c8e3e34a8a3c36b7cb1f20431175e3c8ab16d457dd9c",
+    "protocol-art-smoke.txt": "30ecc4c7d3a2cdbb975acd305610aecd03a4491998d8b5339c2a285fe295f998"
+  },
+  "instrumentation_apk_sha256": "1cc8cf8fbe0e56d8369d71bfd14d90e8ff1cbb1588e459ee68b2130d1e43d620",
+  "instrumentation_source_sha256": {
+    "ForkTransport.java": "ac84f5cb3b238dee7b97fba77d95dc3f375d5c02543a7fab31127b452ecd1476",
+    "ProtocolSmoke.java": "4cf500b6958430ee5c29be7abdf57818641c1b9413cd6dcb320a5791e6de910f"
+  },
+  "completed_utc": "2026-11-17T19:23:16.861682+00:00"
+}
