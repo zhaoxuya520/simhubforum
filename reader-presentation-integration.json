@@ -1,0 +1,23 @@
+{
+  "checks": 39,
+  "method_pins": {
+    "public static final r(Lgl5;Ljava/lang/String;Lus1;Lus1;Lus1;ZLlu1;I)V": "a47e73801f2aed93d8c011bdd1718a9f9dfc8b56c11574ec333e93974fb85595",
+    "public static final m(Lek5;ILlu1;II)V": "194fccd362eebc5110ba8f5a78518419606c3f487a5033f348df68af20b29860"
+  },
+  "checks_are_static": true,
+  "in_memory_transform": false,
+  "explicit_country_dependency": true,
+  "original_methods_changed": [
+    "public static final r(Lgl5;Ljava/lang/String;Lus1;Lus1;Lus1;ZLlu1;I)V"
+  ],
+  "native_entry": "public static final r(Lgl5;Ljava/lang/String;Lus1;Lus1;Lus1;ZLlu1;I)V",
+  "renderer": "public static final readerWifiFlag(Ljava/lang/String;ILlu1;II)V",
+  "explicit_state": true,
+  "original_sim_flag_unchanged": true,
+  "native_flag_layout_preserved": true,
+  "credential_mutation": false,
+  "global_state_lookup": false,
+  "switch_and_status_unchanged": true,
+  "fully_reversible": true,
+  "device_tested": false
+}

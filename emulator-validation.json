@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "apk_sha256": "9f4779611ba4d5b9270699f6f504b7a01b7124f2f4b58badc9b4199c8e551375",
+  "installed_apk_sha256": "9f4779611ba4d5b9270699f6f504b7a01b7124f2f4b58badc9b4199c8e551375",
+  "package": "cc.forserein.simhub",
+  "version_name": "23.7",
+  "version_code": 16,
+  "emulator_serial": "emulator-5580",
+  "android_version": "11",
+  "api": 30,
+  "abi": "x86_64",
+  "cpu_acceleration": "software, no KVM",
+  "install_upgrade_verified": true,
+  "upgraded_from": {
+    "version_name": "23.6",
+    "version_code": 15,
+    "installed_apk_sha256": "36fd89fd5d9b633196479b74cdd67de26e2d52139e36caf6a0e054cdc91e56a0"
+  },
+  "signature_unchanged": true,
+  "signer_certificate_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+  "main_activity_start": true,
+  "launch_state": "COLD",
+  "startup_total_ms": 8504,
+  "fatal_or_verification_errors": [],
+  "art_execution": true,
+  "offline_art_checks": 115,
+  "checks": {
+    "native_enable_and_job_capture": 73,
+    "actual_reader_compose_and_recomposition": 42
+  },
+  "actual_native_entry_scope": {
+    "entry_points": [
+      "zl5.x(true)",
+      "zl5.z"
+    ],
+    "actual_native_chain": [
+      "zl5.x(true) -> zl5.z",
+      "xq0.X",
+      "ls4",
+      "hm0"
+    ],
+    "captured_cases": [
+      "current-20404-no-home",
+      "enable-x-true-current-20404-no-home",
+      "same-card-real-home-DITO",
+      "manual-non-DITO-with-home-history",
+      "current-native-51566"
+    ],
+    "captured_fields": [
+      "hm0.a0 actual ac5 auth",
+      "hm0.b0 actual published xi5 config",
+      "hm0.c0 actual/current or immutable same-card home ek5"
+    ],
+    "negative_case": "Current 51566 with wrong MNC length: actual x(true) entry returns switch to off, q stays unchanged, p remains null, and no hm0 connection is scheduled; native teardown dispatch is allowed but not executed.",
+    "scheduler_fixture": "Actual native vz1 dispatcher installed temporarily into the existing at0 scope context. Android Handler records messages without executing them. Scope context and native globals are restored.",
+    "service_fixture": "ContextWrapper intercepts startForegroundService; no foreground service is started.",
+    "transport_fixture": "Actual ac5 constructed with qg0 proxy that fails on any transport operation.",
+    "apdu_calls": 0,
+    "connection_coroutine_body_executed": false,
+    "ike_or_ims_engine_started": false,
+    "pending_tasks": "Captured connection jobs cancelled and queued callbacks dropped; target test process force-stopped after validation."
+  },
+  "actual_ui_scope": {
+    "native_method": "fd2.r(gl5,String,us1,us1,us1,boolean,lu1,int)",
+    "native_theme": "z55",
+    "flag_method": "fd2.readerWifiFlag",
+    "replacement_layout_used": false,
+    "same_composition_recomposition": true,
+    "input_sequence": [
+      "current 20404 without saved home / DITO / PH",
+      "same current card with observed home / DITO / PH",
+      "same raw card manually selecting 20404 preset / Vodafone / NL",
+      "same raw card returning to DITO / PH",
+      "current native 51566 / DITO / PH"
+    ],
+    "verified": [
+      "Selected-config subtitle shown in actual native card; mismatched raw 20404 does not appear as DITO home PLMN",
+      "Country helper and visible flag change PH -> NL -> PH on the same raw card under actual Compose recomposition",
+      "Native readiness text remains the APK localized card-ready message",
+      "Native switch remains enabled and unchecked; it is not clicked in the UI probe",
+      "Flag image decoding is awaited and visible red/blue pixel ordering matches the expected PH/NL flag",
+      "Representative final PH and NL screenshots manually inspected; all five final screenshots pass flag pixel checks."
+    ],
+    "locale": "en; expected readiness text obtained from actual qv4.b(vowifi_sms_phase_card_ready)",
+    "connection_toggle_clicked": false,
+    "programmatic_enable_entry_tested_separately": true,
+    "full_reader_navigation": false,
+    "optional_message_section_shown": false,
+    "dark_theme_retested": false
+  },
+  "screenshots": [
+    {
+      "path": "/workspace/recovery/reader23.7-review/emulator/synthetic-reader-current20404-no-home.png",
+      "sha256": "4480ee9bd7f9291b2cb5690dee16e3f9cc4ef1dc222dc2201ca5d038f5caa8bb",
+      "bytes": 22456
+    },
+    {
+      "path": "/workspace/recovery/reader23.7-review/emulator/synthetic-reader-current20404-saved-home.png",
+      "sha256": "4480ee9bd7f9291b2cb5690dee16e3f9cc4ef1dc222dc2201ca5d038f5caa8bb",
+      "bytes": 22456
+    },
+    {
+      "path": "/workspace/recovery/reader23.7-review/emulator/synthetic-reader-same-card-manual-nl.png",
+      "sha256": "e002267af409c3461d57be50cc02ec5632fe60849dfe94dd5c151fb329c423a6",
+      "bytes": 22548
+    },
+    {
+      "path": "/workspace/recovery/reader23.7-review/emulator/synthetic-reader-same-card-return-dito.png",
+      "sha256": "f03863b1d8bfb229507cd0507ef0ed1d646cdb5de656ba53dab016b27e2aca71",
+      "bytes": 22344
+    },
+    {
+      "path": "/workspace/recovery/reader23.7-review/emulator/synthetic-reader-native51566.png",
+      "sha256": "94c6e9d8c7e03e980c29ce290542955e17325b86f64e70e675d171f74999c0bf",
+      "bytes": 22791
+    }
+  ],
+  "synthetic_state_cleaned": true,
+  "context_and_state_restored": true,
+  "temporary_preference_files_deleted": true,
+  "test_process_stopped_after_validation": true,
+  "physical_phone_tested": false,
+  "carrier_registration_tested": false,
+  "network_apdu_audio_started": false,
+  "production_apk_modified": false,
+  "production_source_modified": false,
+  "independent_instrumentation": true,
+  "fixture_adjustments": [
+    {
+      "initial_failure": "MNC negative test required an entirely empty dispatcher queue and an immediate uk5 error phase.",
+      "evidence": "reader-entry-art-initial-teardown-fixture.txt",
+      "resolution": "Actual connectionError invokes x(false), which schedules native f10 teardown. The probe now checks actual x(true) rejection: no hm0 job, p null, unchanged q, switch off. No production change."
+    },
+    {
+      "initial_failure": "UI assertion assumed a Chinese readiness string on an English emulator.",
+      "evidence": "reader-ui-art-initial-locale-fixture.txt",
+      "resolution": "Read the expected localized message from the actual APK qv4.b resource function."
+    },
+    {
+      "initial_limitation": "First successful functional UI screenshots could capture flag placeholders before local image decoding completed.",
+      "evidence": "reader-ui-art-before-image-ready.txt",
+      "resolution": "Wait for actual expected flag pixels before saving each final screenshot."
+    },
+    {
+      "initial_failure": "Pixel wait converted raw resource density to positions outside the rendered flag.",
+      "evidence": "reader-ui-art-initial-density-fixture.txt",
+      "resolution": "Use the actual screenshot header icon region and PH/NL red/blue vertical ordering. Final five screenshots contain the expected loaded flags."
+    }
+  ],
+  "limits": [
+    "Actual native entry and coroutine creation are verified, but the captured connection body is never run. No hardware SIM, APDU authentication, DNS/ePDG/IKE/IMS network, carrier registration, live call or audio was tested.",
+    "The rendered UI is the shipped native fd2.r reader card in an independent MainActivity Compose host with synthetic card state, not a hand-built substitute or full reader navigation.",
+    "The readiness label means the local enable path is available; these tests do not establish that a carrier accepts the synthetic/current identity.",
+    "Only isolated temporary preferences and test runtime state were changed; the final signed production APK remained byte-identical across all runs."
+  ],
+  "harness_sources": {
+    "harness/ReaderUiSmoke.java": "67cd652eb7547bd764176719d6c8e7bf29acd8a91b534fdb389afe9f7d72efaa",
+    "harness/ReaderSmoke.java": "a8abf3c7421fe8d3c41fe2f770d845cfc05872de7ee9f57154a99f63b821af5f",
+    "harness/build.py": "c2bdd29a32dbc94d865d719b014252830fc5ab0dbb747b82788d02529ffd5c4c",
+    "harness/AndroidManifest.xml": "7c02062d5d743662bd113291d6c8d764462e8dc01a7dbc4cb19127b775bc3b57",
+    "run_reader_ui.py": "8f7dabca2aba8e024f5021e30b190c0f5926bbf63ff253157b8d267965ac3ad3"
+  },
+  "final_instrumentation_apk_sha256": "7289f54380694da1ac01b20133ceb068323ea4211ea59590535a56b061dc4e7e",
+  "entry_probe_source_unchanged_during_ui_only_fixture_corrections": true,
+  "logs": {
+    "reader-ui-art-before-image-ready.txt": "ac90bfd6835ec9ed9af6d22bbb14be56af7cf798c2b5c1fa4b88caad5bec842e",
+    "install.txt": "c349b88439fad44f9c17516226af3cff69606b0218e30a1cb0c8224731229fbe",
+    "harness-install.txt": "908007a63998a94440b86262abe1165cb2d4bc8a2ebe85ddb816f860d4b79206",
+    "reader-entry-art-initial-teardown-fixture.txt": "eb03502916e5adaaceff76140d33bd099df2d26112c4b21ecf39ca3835dfead5",
+    "reader-ui-art-initial-locale-fixture.txt": "71c7197f9bacc868ca9e15077566f2ec8881dbd89c62162b254f8c963124ee8e",
+    "baseline23.6-package.txt": "e2fc7adcc527509c0f215f20e2f95348f5fd658d1a5a5216e04b9d99dab87f6a",
+    "reader-ui-art-initial-density-fixture.txt": "0c7d4dd30f7bceb6c1ab97bfa24ae95f8077795fdca642577345fcb6bcc1cf16",
+    "main-start-final.txt": "49e96ae937d747c480c890a2189d8d116ae08570a45b52b5d92a99f4b67c7268",
+    "installed-apk-sha256.txt": "610d87f7c7d633ea7171fd86041a873909834dd73e754305df663d3d55df0465",
+    "reader-ui-art.txt": "2ad90baea53dd5cb604e2bfe3aa041d805a753f238961a59d564d6bac4ebba0e",
+    "final-logcat.txt": "bb404522abc900451886dade8c48b87643a966ea9a64b0dedad9f18c83e066e2",
+    "app-error-summary.txt": "a2d0651cd87280abd82d137bcb67bffc6e11a8cff5c693bc88a1d92dd0917d25",
+    "package.txt": "da48683c5d3c000d5c44d83ade82c15a5c3c3ff96d73123640cb8b7d82dbc020",
+    "reader-entry-art.txt": "22c25406c00f1e1aad356308403994984a43b0ee2b388bd0d1ad44a09b52854b",
+    "final-signature.txt": "3f22945aa40283498c91a620ba00a77111b535500a630544fb4e9eabe8b5f8db",
+    "baseline23.6-installed-sha256.txt": "e20ffbd0144fe7a1b773758b7d9531c2a51f8e3acaf583f4c0036bd989faf5c1"
+  },
+  "completed_utc": "2026-11-18T09:48:40.160693+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "checks": 7250,
+  "catalogue_presets": 3607,
+  "searchable_keys": 3607,
+  "dito_key": "51566|apple_dito_ph",
+  "legacy_dito_key_alias": "51566|standard_plmn_51566",
+  "real_imsi_template": true,
+  "device_tested": false
+}

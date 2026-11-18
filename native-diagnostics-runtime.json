@@ -1,0 +1,22 @@
+{
+  "apk_sha256": "18a83685e423fb69e7a9951ec06ffab539fdf6bc72ed573a4ba225733f5b7143",
+  "checks": 20,
+  "legacy_regression_reproduced": false,
+  "actual_apk_logger": true,
+  "actual_apk_share_callback": true,
+  "actual_apk_sanitizer": true,
+  "android_platform_and_localization_fixtures": true,
+  "synthetic_identifiers": true,
+  "network_used": false,
+  "normal_authorization_leak_claimed": false,
+  "device_tested": false,
+  "art_execution": false,
+  "covered": [
+    "actual ACTION_SEND EXTRA_TEXT",
+    "telephone and SIP user identity removal",
+    "existing IMSI mask",
+    "defensive synthetic folded authentication headers",
+    "route/domain/media/Call-ID preservation",
+    "internal log unchanged"
+  ]
+}

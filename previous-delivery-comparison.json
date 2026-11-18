@@ -1,0 +1,26 @@
+{
+  "baseline": "23.6",
+  "baseline_apk_sha256": "36fd89fd5d9b633196479b74cdd67de26e2d52139e36caf6a0e054cdc91e56a0",
+  "candidate_apk_sha256": "9f4779611ba4d5b9270699f6f504b7a01b7124f2f4b58badc9b4199c8e551375",
+  "changed_classes": [
+    "cc/forserein/simhub/internal/CarrierPresets.smali",
+    "cc/forserein/simhub/internal/DitoCarrierProfile.smali",
+    "cc/forserein/simhub/internal/DitoHomeIdentity$1.smali",
+    "cc/forserein/simhub/internal/DitoHomeIdentity.smali",
+    "fd2.smali",
+    "r75.smali",
+    "zl5.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/ReaderWifiPresentation$$ExternalSyntheticLambda0.smali",
+    "cc/forserein/simhub/internal/ReaderWifiPresentation.smali"
+  ],
+  "removed_classes": [],
+  "native_apdu_and_authentication_worker_identical": true,
+  "sip_dispatch_and_media_classes_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}
