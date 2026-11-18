@@ -1,0 +1,22 @@
+{
+  "native_methods": [
+    "sj5.l",
+    "CallActionReceiver.onReceive",
+    "CallActivity.onCreate",
+    "CallActivity.onNewIntent",
+    "CallActivity.i",
+    "au0.e (only CallActivity branch)",
+    "k10.b",
+    "k10.h"
+  ],
+  "identity": "native SIP call ID plus per-call UUID token in extras and unique PendingIntent data URI",
+  "notification": "rendered call snapshot; missing/stale identities fail closed; SHOW unchanged",
+  "permission": "grant must be true, pending answer consumed once, still same incoming call",
+  "ringtone": "answer stops only at the validated final native selection; unresolved/denied/stale permission leaves it unchanged",
+  "final_native_selection": "scoped identity check after k10.b/h select the object passed to native d10 coroutine",
+  "telecom_headset_paths": "unscoped native commands preserved",
+  "media_and_sip_unchanged": true,
+  "device_carrier_verified": false,
+  "checks": 6,
+  "native_class_restore_exact": true
+}

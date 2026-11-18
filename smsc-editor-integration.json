@@ -1,0 +1,22 @@
+{
+  "native_class": "mc0.smali",
+  "native_method": "public final d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+  "method_pin": "2e7b7378b656872b3e5e7b02442fa7767d258e34155bd851d73a9c389c1a701b",
+  "native_entry": "original card.f == null SMS-page input branch",
+  "hook_count": 1,
+  "hook_arguments": [
+    "v6: current SMSC text",
+    "v10: native composer"
+  ],
+  "preserved_live_out": [
+    "v14=0",
+    "v60=v7 (native gl5 state)"
+  ],
+  "native_continuation": ":goto_16",
+  "original_region_bytes": 13293,
+  "fully_reversible_method": true,
+  "old_inline_input_removed": true,
+  "compose_group_contract": "the replacement helper owns its complete balanced group",
+  "sms_transport_changed": false,
+  "device_tested": false
+}

@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "apk_sha256": "36fd89fd5d9b633196479b74cdd67de26e2d52139e36caf6a0e054cdc91e56a0",
+  "installed_apk_sha256": "36fd89fd5d9b633196479b74cdd67de26e2d52139e36caf6a0e054cdc91e56a0",
+  "package": "cc.forserein.simhub",
+  "version_name": "23.6",
+  "version_code": 15,
+  "emulator_serial": "emulator-5580",
+  "android_version": "11",
+  "api": 30,
+  "abi": "x86_64",
+  "cpu_acceleration": "software, no KVM",
+  "install_upgrade_verified": true,
+  "upgraded_from": {
+    "version_name": "23.5",
+    "version_code": 14,
+    "installed_apk_sha256": "c45ec64fdf6069688e3a59f756baadf1a80afd98e899ca0ad8a2e9fbfa7242f2"
+  },
+  "signature_unchanged": true,
+  "signer_certificate_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+  "main_activity_start": true,
+  "launch_state": "COLD",
+  "startup_total_ms": 8760,
+  "fatal_or_verification_errors": [],
+  "art_execution": true,
+  "offline_art_checks": 125,
+  "checks": {
+    "sms_ui": 23,
+    "carrier_editor_identity": 38,
+    "protocol": 64
+  },
+  "synthetic_card_and_ui_state_cleaned": true,
+  "prior_carrier_fixture_records_removed": 0,
+  "actual_art_exercised": [
+    "Native Compose SMS entry under the original z55 app theme in MainActivity; Android accessibility clicks and editable text actions; Android Back invokes real dismiss/cancel callback",
+    "Synthetic missing-EF_SMSP card (native card.f=null), active native Ready phase, and pre-persisted temporary config: unsaved SMS edits are discarded on cancel; Save replaces selected SMSC and preserves alternative; reopening displays both saved numbers",
+    "Actual native gl5 constructor resolves the pre-persisted synthetic domain before UI actions; SMS save preserves the exact published config and Ready object references and unrelated saved config",
+    "Real Editor stageCallback/us1.a/finish executes asynchronous unchanged-draft repair, closes the editor, replaces the malformed record and clears needsRepair",
+    "Real IdentityBinding begin/current/invalidate rejects stale cross-transport ownership, mixed transport/auth and post-disconnect continuation; fresh begin owns publication",
+    "Rerun DITO known-IIN/non-20404 and exact-ICCID provider evidence, nickname-only/wrong-ICCID rejection, actual-home restoration and missing-home refusal",
+    "Rerun invalid saved carrier recovery to DITO home realm/ePDG and stale endpoint suppression",
+    "Protocol smoke: native/helper class loading, registration lifetime, malformed AMR rejection, SIP timer and fork helper behavior with recording-only transport, diagnostic masking, Android PendingIntent uniqueness (never sent)"
+  ],
+  "classes_loaded": {
+    "carrier": [
+      "DitoHomeIdentity",
+      "IdentityBinding",
+      "WifiConfigRuntime",
+      "WifiConfigEditor",
+      "CarrierPresets",
+      "DitoCarrierProfile"
+    ],
+    "protocol": [
+      "o82",
+      "bh1",
+      "cb4",
+      "ma4",
+      "t10",
+      "m10",
+      "k7",
+      "yz",
+      "cc.forserein.simhub.internal.AmrFraming",
+      "cc.forserein.simhub.internal.RegistrationTiming",
+      "cc.forserein.simhub.internal.CallNotificationGuard",
+      "cc.forserein.simhub.internal.DiagnosticShareSanitizer",
+      "cc.forserein.simhub.internal.SipForkProtection"
+    ]
+  },
+  "production_apk_modified": false,
+  "production_source_modified": false,
+  "independent_instrumentation": true,
+  "context_and_state_restored": true,
+  "temporary_preference_files_deleted": true,
+  "network_apdu_audio_started": false,
+  "physical_phone_tested": false,
+  "carrier_registration_tested": false,
+  "sip_engine_dispatchers_h_r_executed_on_art": false,
+  "ui_coverage": {
+    "native_compose_sms_entry": true,
+    "real_accessibility_input_save_reopen": true,
+    "real_back_dismiss_cancel": true,
+    "synthetic_active_ims": true,
+    "full_sms_page_navigation": false,
+    "full_app_visual_regression": false,
+    "dark_theme_retested": false,
+    "screenshots_device_paths": [
+      "/storage/emulated/0/Android/data/cc.forserein.simhub/files/synthetic-sms236-open.png",
+      "/storage/emulated/0/Android/data/cc.forserein.simhub/files/synthetic-sms236-saved.png"
+    ],
+    "local_intermediate_synthetic_screenshot": "/workspace/recovery/quality23.6-review/emulator/sms-ui-progress.png",
+    "screenshot_export": "Direct adb pull denied by Android scoped storage. Further export was stopped as requested; no permission changes or export instrumentation installation."
+  },
+  "fixture_adjustments": [
+    {
+      "initial_failure": "System UI ANR dialog obscured the first accessibility run",
+      "evidence": "sms-ui-art-initial-systemui-blocked.txt",
+      "resolution": "Dismissed the emulator system dialog via its normal Wait button; the tested app had no fatal/verifier error"
+    },
+    {
+      "initial_failure": "Fixture searched for a nonexistent Cancel text button",
+      "evidence": "sms-ui-art-initial-cancel-fixture.txt",
+      "resolution": "The intended popup has Reset and Save only; fixture uses Android Back to invoke the actual cancel/dismiss callback"
+    },
+    {
+      "initial_failure": "Fixture compared active state.f with a raw config constructor argument",
+      "evidence": "sms-ui-art-initial-constructor-fixture.txt",
+      "resolution": "Actual gl5 constructor calls Runtime.resolve. Fixture now persists config first, constructs gl5, verifies the applied domain, and captures the actual published f/k before UI actions. No production change."
+    }
+  ],
+  "published_reference_evidence": {
+    "raw_config_hash": 95385494,
+    "published_config_hash": 103403287,
+    "saved_config_hash": 103403287,
+    "published_phase_hash": 263216900,
+    "saved_phase_hash": 263216900,
+    "source": "final-logcat.txt SmsArtFixture"
+  },
+  "limits": [
+    "Real Android ART and native Compose behavior with synthetic card/config state only; no real SIM, ePDG authentication, carrier registration, physical cross-chip switching, call or audio was attempted.",
+    "SMS entry is rendered in an independent Compose host using the real app theme; full messaging-page navigation was not tested.",
+    "Protocol helper tests do not execute full o82.h/r dispatchers on ART; full native dispatcher checks are separate host tests.",
+    "No production APK change was made to address fixture initialization, UI-action or comparison mistakes."
+  ],
+  "harnesses": {
+    "protocol-harness/ForkTransport.java": "ac84f5cb3b238dee7b97fba77d95dc3f375d5c02543a7fab31127b452ecd1476",
+    "protocol-harness/ProtocolSmoke.java": "6a84e062510c3a8b4007ffc7676549d3e209dc2dc217754ae64f7b65370c71f6",
+    "carrier-harness/CarrierSmoke.java": "f096c50f170a59b3fcb1f4b4f822d2150e0db37567f7527ee36619f9b99dbdcb",
+    "carrier-harness/SmsUiSmoke.java": "a048d00db026279be67b28df6ab1e6fbab76b773dd9920f06c5154baac0e14c3",
+    "protocol-harness/protocol-instrumentation.apk": "d82f5274ca9b25a145ca802cd102ceb2e9cbc09abc4dcd1959c41ce5fbb2d98a",
+    "carrier-harness/carrier-instrumentation.apk": "9d60a2dce5e78fca1642d26c8d0d0c56641c6bb3aab57d276318bc2387eb9807"
+  },
+  "logs": {
+    "install.txt": "592c4f84c94fea44ed9fec579c306128bb17be1a273e4f4ade6912661600bca3",
+    "carrier-art-smoke.txt": "0aa2d54eac057c6251ef545b90a52b6f8b6a7e638d31a68f2cbc10301cb218e7",
+    "baseline23.5-signature.txt": "3f22945aa40283498c91a620ba00a77111b535500a630544fb4e9eabe8b5f8db",
+    "sms-ui-art-initial-systemui-blocked.txt": "589d4833c1c9c8d11f7866c46af38dea94862d0a48f2fd70694fba6bd1150600",
+    "carrier-harness-install.txt": "6711ce713a7df83bbbd166fdf20339df869995679db47659066b830b10fe551c",
+    "baseline23.5-installed-sha256.txt": "5d99ef206df2dc604554c891430bbf5dbe1f3fb84e67c454d801997d37c1bbe0",
+    "sms-ui-art-initial-constructor-fixture.txt": "110b99c84502a92eb116c358996e1915965c9994da5e05c1e003e5074325f920",
+    "main-start-final.txt": "936fa9b63977257eb286aa3e3f51928adda160d79325661fac03c9a95b6227d1",
+    "baseline23.5-package.txt": "e2d2d49a34ca8f5abe10d7f1b17809fb007e98fae33e1bcb46a11fdb781dea33",
+    "installed-apk-sha256.txt": "e20ffbd0144fe7a1b773758b7d9531c2a51f8e3acaf583f4c0036bd989faf5c1",
+    "final-logcat.txt": "c384da1977652d354838f712cf67117a0630888fc7a8457b54184b9481c1171e",
+    "app-error-summary.txt": "9064b2a9c5ddeeb690f3f84760f27728f6d15694e9e7753af6034f16be7b33d0",
+    "package.txt": "fedaaace9f41c94c30f17551adc6ecb2d863b7d4c3b49b8d8da2599e21306f82",
+    "sms-ui-art.txt": "9237b1490c428afc9d4ed6d3936f5956f14d1b80dffccfec395687590d109d38",
+    "final-signature.txt": "3f22945aa40283498c91a620ba00a77111b535500a630544fb4e9eabe8b5f8db",
+    "protocol-art-smoke.txt": "30ecc4c7d3a2cdbb975acd305610aecd03a4491998d8b5339c2a285fe295f998",
+    "protocol-harness-install.txt": "c3516864a020eed7ef048e6b8eb8ccf7e12f8147810923b6a5b65da73dd60e3f",
+    "sms-ui-art-initial-cancel-fixture.txt": "9ed39c37be741755abda0e2343990201ada765f57c19fe4b9ce783469b1007d9"
+  },
+  "completed_utc": "2026-11-18T05:52:30.013706+00:00"
+}
