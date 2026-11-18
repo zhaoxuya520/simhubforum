@@ -1,0 +1,50 @@
+{
+  "baseline": "23.8",
+  "baseline_apk_sha256": "1258e3c7b7f69cadd7d97932dae72fdb0f40caf202178c6d345c0a703cf93647",
+  "candidate_apk_sha256": "669cb2270e4473bf6261ca627a5e459b085d82a536cadbe5567fb0b46dea2728",
+  "changed_classes": [
+    "b72.smali",
+    "cc/forserein/simhub/internal/WifiConfigModel.smali",
+    "cc/forserein/simhub/internal/WifiConfigRuntime$Snapshot.smali",
+    "cc/forserein/simhub/internal/WifiConfigRuntime.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues$Algorithms.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues$Field.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues$Invalid.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues.smali",
+    "da1.smali",
+    "r75.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/EapIdentityLog.smali",
+    "cc/forserein/simhub/internal/EapIdentityReplay.smali"
+  ],
+  "removed_classes": [],
+  "native_changed_classes": [
+    "b72.smali",
+    "da1.smali",
+    "r75.smali"
+  ],
+  "native_da1_identity_replay_scope": {
+    "native_class": "da1",
+    "native_baseline_sha256": "78b3558ac89325d7fc699facad3edd34c38ef34749334c6ab668a1e1d5fd286e",
+    "native_methods": [
+      "da1.<init>",
+      "da1.b initial coroutine entry and successful subtype 5 return"
+    ],
+    "scope": "one most recent successful AKA-Identity exchange per native EAP session",
+    "key": "complete declared EAP bytes and unchanged native transcript size",
+    "responses": "independent copies; exact replay bypasses native transcript append",
+    "challenge_and_key_derivation_unchanged": true,
+    "full_native_class_exactly_restorable": true,
+    "physical_card_or_gateway_tested": false
+  },
+  "native_da1_exactly_restored_to_23_8_after_reversing_replay_hooks": true,
+  "native_b72_exactly_restored_to_23_8_after_removing_realm_log_hook": true,
+  "all_other_preexisting_native_classes_except_version_label_r75_identical": true,
+  "all_preexisting_classes_outside_approved_scope_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

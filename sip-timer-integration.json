@@ -1,0 +1,19 @@
+{
+  "native_methods": [
+    "cb4.c",
+    "cb4.k",
+    "o82.a",
+    "o82.h"
+  ],
+  "helper": "cb4.sipApplyRefreshResponse",
+  "incoming_refresh_role": "local UAS regardless of initial call direction",
+  "outgoing_refresh_role": "local UAC regardless of initial call direction",
+  "successful_update": "apply interval/refresher/receipt time even without SDP; absent header disables timer",
+  "transaction_matching": "latest locally generated UPDATE CSeq; consume once, unaffected by INFO",
+  "compact_header": "Session-Expires and x/X accepted for received requests and UPDATE responses",
+  "request_refresher": "case-insensitive uas/uac; existing default/response echo preserved",
+  "malformed_response": "ignored without changing existing timer state",
+  "ui_changed": false,
+  "media_changed": false,
+  "device_carrier_verified": false
+}

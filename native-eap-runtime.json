@@ -1,0 +1,32 @@
+{
+  "apk_sha256": "1c313f1631cb75aebef7dc1867db3fcee6894cb7c1610ce08a8cd69e74889c80",
+  "native_jar_sha256": "cf718dab7b3fd5faa7f534bb5bbba0fb333d9ec1fc1dc44ee483a5d57707f72f",
+  "carrier_report_sha256": "1ed16a22a9bd183edc32ad241074aff34ec8d4d6aef55ce4770cdfe3c38b30f5",
+  "probe_source_sha256": "234eb2ac813ccb501b30250c1634f2355e36d02c5824d67678e82dc4c78a1237",
+  "checks": 200,
+  "legacy_regression_reproduced": false,
+  "actual_native_da1_and_serializers_executed": true,
+  "eap_classes_unchanged_by_transport_fixture": true,
+  "reused_native_carrier_translation": true,
+  "patch": {
+    "native_class": "da1",
+    "native_baseline_sha256": "78b3558ac89325d7fc699facad3edd34c38ef34749334c6ab668a1e1d5fd286e",
+    "native_methods": [
+      "da1.<init>",
+      "da1.b initial coroutine entry and successful subtype 5 return"
+    ],
+    "scope": "one most recent successful AKA-Identity exchange per native EAP session",
+    "key": "complete declared EAP bytes and unchanged native transcript size",
+    "responses": "independent copies; exact replay bypasses native transcript append",
+    "challenge_and_key_derivation_unchanged": true,
+    "full_native_class_exactly_restorable": true,
+    "physical_card_or_gateway_tested": false
+  },
+  "native_identity_replay_and_transcript_tested": true,
+  "native_generated_response_realm_log_checked": true,
+  "challenge_boundary": "Well-framed synthetic RAND/AUTN/MAC reaches original null-AKA-adapter boundary; no real challenge or key validation claimed",
+  "physical_apdu_or_gateway_tested": false,
+  "android_art_tested": false,
+  "jvm_r8_constructor_adapter": true,
+  "jvm_verification_disabled_for_translated_dex": true
+}
