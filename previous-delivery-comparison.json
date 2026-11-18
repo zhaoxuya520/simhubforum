@@ -1,0 +1,20 @@
+{
+  "baseline": "23.7",
+  "baseline_apk_sha256": "9f4779611ba4d5b9270699f6f504b7a01b7124f2f4b58badc9b4199c8e551375",
+  "candidate_apk_sha256": "1258e3c7b7f69cadd7d97932dae72fdb0f40caf202178c6d345c0a703cf93647",
+  "changed_classes": [
+    "cc/forserein/simhub/internal/DitoCarrierProfile.smali",
+    "cc/forserein/simhub/internal/DitoHomeIdentity$1.smali",
+    "cc/forserein/simhub/internal/DitoHomeIdentity.smali",
+    "r75.smali"
+  ],
+  "added_classes": [],
+  "removed_classes": [],
+  "native_apdu_and_authentication_worker_identical": true,
+  "sip_dispatch_and_media_classes_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

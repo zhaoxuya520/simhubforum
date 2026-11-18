@@ -1,0 +1,25 @@
+{
+  "version_name": "23.8",
+  "version_code": 17,
+  "upgrade_from_sha256": "9f4779611ba4d5b9270699f6f504b7a01b7124f2f4b58badc9b4199c8e551375",
+  "apk_sha256": "1258e3c7b7f69cadd7d97932dae72fdb0f40caf202178c6d345c0a703cf93647",
+  "installed_apk_sha256": "1258e3c7b7f69cadd7d97932dae72fdb0f40caf202178c6d345c0a703cf93647",
+  "install_upgrade_verified": true,
+  "main_activity_start": true,
+  "art_execution": true,
+  "offline_art_checks": 90,
+  "fatal_or_verification_errors": [],
+  "synthetic_sim": true,
+  "real_carrier_tested": false,
+  "physical_phone_tested": false,
+  "calls_sent": false,
+  "apdu_calls": 0,
+  "native_at_permanent_id_req_tested": true,
+  "scope": "Actual APK config and scheduler on ART plus independent checks of da1 response to EAP-AKA/Identity AT_PERMANENT_ID_REQ, using synthetic subscriber data and a disconnected transport.",
+  "sources": {
+    "ReaderSmoke.java": "f5a2ddf0bf60b6c44c00c185ab6e275d70256b657875fd9c94895e473a532d49",
+    "build.py": "c6b680ef8d25c7c5b2b7bdc851a30eedc9d0d9a54bb4f5893611667a670fd072",
+    "AndroidManifest.xml": "ca8b14818098d5189f7f10a51146edbefee6bf7ad2d3a06a424ab4eca30823ff"
+  },
+  "cold_start": "Starting: Intent { cmp=cc.forserein.simhub/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: cc.forserein.simhub/.MainActivity\nTotalTime: 8529\nWaitTime: 8659\nComplete"
+}

@@ -1,0 +1,15 @@
+{
+  "apk_sha256": "1544be082e3caa4c367a6eabe2587d98163fe58090f2aaca74b0675d8f3b62ca",
+  "checks": 210,
+  "legacy_regression_reproduced": false,
+  "legacy_stream_regression_reproduced": false,
+  "actual_apk_media_constructor": true,
+  "native_rtp_parser": true,
+  "native_amr_depacketizer": true,
+  "native_jitter_queue": true,
+  "native_amr_packetizer": true,
+  "explicit_audio_codec_hardware_and_network_fixtures": true,
+  "synthetic_speech_vectors": true,
+  "device_tested": false,
+  "art_execution": false
+}
