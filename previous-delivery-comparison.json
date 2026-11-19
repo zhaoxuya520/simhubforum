@@ -1,0 +1,91 @@
+{
+  "baseline": "24.2",
+  "baseline_apk_sha256": "40471d65d554e0a76214efc98f1810d577246a0dcfd75c9766b349155927e0d9",
+  "candidate_apk_sha256": "4aff162690628b2e9265b6cf88eeb1cf93b0c644d0c999015ba1d609863abf98",
+  "changed_classes": [
+    "cb4.smali",
+    "cc/forserein/simhub/internal/SipForkProtection.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure.smali",
+    "o82.smali",
+    "r75.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/SipIncomingInvite$Bucket.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Entry.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Expiry.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Key.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Bucket.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Entry.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Key.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess.smali"
+  ],
+  "removed_classes": [],
+  "native_changed_classes": [
+    "cb4.smali",
+    "o82.smali",
+    "r75.smali"
+  ],
+  "native_o82_exactly_restored_to_24_2_after_reversing_hooks": true,
+  "native_cb4_exactly_restored_to_24_2_after_reversing_hooks_and_local_end_guards": true,
+  "outgoing_success_scope": {
+    "status_min": 200,
+    "status_max": 299,
+    "method": "INVITE",
+    "first_acceptance": "native ACK, SDP and local cancellation handling",
+    "duplicate": "original ACK replay; no dialog mutation or new BYE transaction",
+    "release_dispatch": "original action order; resume unsent actions after synchronous failure",
+    "maximum_bye_dispatch_attempts": 2,
+    "ack_cache_limit": 64,
+    "removed_dialog_seconds_from_first_ack": 32,
+    "live_dialog_ack_retained": true,
+    "new_cancel_race_fork": "existing isolated fork handler",
+    "device_tested": false
+  },
+  "incoming_replay_scope": {
+    "scope": "native initial incoming INVITE final 603 or 487 only",
+    "match": "Call-ID, CSeq, branch, From, To without tag, request URI and Via sent-by",
+    "response": "original final status/To-tag; current request Via chain and inbound transport",
+    "cache_limit": 64,
+    "cache_seconds": 32,
+    "retransmission_extends_cache": false,
+    "cache_owner": "weak native call manager; no dialog or original request retained",
+    "expiry": "bounded daemon expiry tasks with weak owner/bucket references",
+    "native_methods_exactly_reversible": true,
+    "real_carrier_tested": false
+  },
+  "sip_invite_failure_only_changed_method_visibility": [
+    "copyMessage(Ljava/lang/Object;)Ljava/lang/Object;",
+    "parameter(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+    "topVia(Ljava/lang/Object;)Ljava/lang/String;"
+  ],
+  "previous_fallback_and_failure_classes_identical": [
+    "a82.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Key.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Entry.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Bucket.smali",
+    "cc/forserein/simhub/internal/SipReliableProgress.smali",
+    "cc/forserein/simhub/internal/SipInviteTransport.smali"
+  ],
+  "native_lifecycle_validation": {
+    "invite-success": {
+      "previous_checks": 134,
+      "signed_current_checks": 162,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    },
+    "incoming-invite": {
+      "previous_checks": 28,
+      "signed_current_checks": 47,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    }
+  },
+  "all_native_classes_outside_approved_scope_identical": true,
+  "all_preexisting_classes_outside_approved_scope_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

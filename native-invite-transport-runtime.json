@@ -1,0 +1,36 @@
+{
+  "apk_sha256": "a54baef2f98198d95cba33bbb3747cb433838712c9a4d603092fa4697c318109",
+  "dex_sha256": {
+    "classes.dex": "be1680555354dd2025f1f495f7a92f926edbbd4a096815bd416e4cf242a057d4"
+  },
+  "apk_translated_jar_sha256": "88c30ae688317d74c8ddc2cefb88a739fc9305aa7b8b1cd9a456a4229aea9424",
+  "carrier_report_sha256": "e06f06167c2fedfae7c82de7fa42e22584f85d669c2a8a1429f602bbb771016a",
+  "mode": "fixed",
+  "checks": 78,
+  "real_outgoing_invite_cancel_ack": true,
+  "real_tcp_fallback_callback": true,
+  "real_udp_ip_packet_serialization": true,
+  "real_invite_timer_and_scheduler": true,
+  "fixture_boundaries": [
+    "o82.E receives outgoing TCP payload",
+    "b72.r receives the final tunnel packet",
+    "Android log sink and in-memory engine state"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "NORMAL [UDP, UDP] stored_wire_match=true guard_match=true",
+    "NORMAL [TCP, TCP] stored_wire_match=true guard_match=true",
+    "FALLBACK transports=[TCP, UDP, UDP, UDP, UDP] initial_via=SIP/2.0/TCP [2001:db8::1]:40001;branch=z9hG4bKwi3ilybjmzynwudc;rport fallback_via=SIP/2.0/UDP [2001:db8::1]:40001;branch=z9hG4bKwi3ilybjmzynwudc;rport ack_via=SIP/2.0/UDP [2001:db8::1]:40001;branch=z9hG4bKwi3ilybjmzynwudc;rport",
+    "FALLBACK original_deadline_retained=true udp_timer_armed=true udp_invite_retried=true"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-transport/OutboundTransportProbe.java": "a08aa0652afb87ff13b88e53b4f99a5c0ab30028e4d3dc2f1512c08e929d19fb",
+    "validation/native-invite-transport/TransportBoundaryAdapter.java": "e084861a45f6d04cb00fb2798de0663f8b1fefb0ea3b340587b78f4d4a3360c0"
+  }
+}

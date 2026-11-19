@@ -1,0 +1,41 @@
+{
+  "apk_sha256": "a54baef2f98198d95cba33bbb3747cb433838712c9a4d603092fa4697c318109",
+  "apk_translated_jar_sha256": "88c30ae688317d74c8ddc2cefb88a739fc9305aa7b8b1cd9a456a4229aea9424",
+  "carrier_report_sha256": "e06f06167c2fedfae7c82de7fa42e22584f85d669c2a8a1429f602bbb771016a",
+  "checks": 17,
+  "legacy_regression_reproduced": false,
+  "native_read_continuation_executed": true,
+  "native_disconnect_executed": true,
+  "native_flow_and_state_models_executed": true,
+  "actual_apk_identity_helper_executed": true,
+  "native_q_g_method_instructions_unmodified_by_probe": true,
+  "synthetic_continuation_state": 3,
+  "synthetic_identifiers": true,
+  "platform_boundaries_adapted": [
+    "zl5.<clinit>",
+    "zl5.b(String) log sink",
+    "wn4.b(Context,String) IMEI lookup",
+    "qv4.<clinit>",
+    "qv4.a(String,Object[]) localized text",
+    "qv4.b(String) localized text"
+  ],
+  "physical_read_or_apdu_executed": false,
+  "device_tested": false,
+  "art_execution": false,
+  "real_carrier_tested": false,
+  "source_sha256": {
+    "NativeReadPublicationProbe.java": "29097ce4383192bfb2ba50a1ec7152676de008f857363aa10592f3369ca4f783",
+    "ReadPublicationAdapter.java": "56ad7bc076126abd0cc98c8460a903146417711354a2ce7d69be1ae3e884f831"
+  },
+  "android_fixture_sha256": {
+    "android/util/Log.class": "61d2d9cc831a46dd473175f62dbe8aa7d4049f0e68231716f4d9659185e189ff",
+    "android/widget/Toast.class": "3aee58baa88e20ce9e4020d68f7c4a490c89b8aafb3187e9b3b4d46a936211ed",
+    "android/os/Handler.class": "3d6940f8a0e6122568ac906f0331283a7530675095e8676dbcc920b4fa6eb72c",
+    "android/os/Looper.class": "0b7f034f9e1a6d63a62299bad182609bcf06657c3689baca6559ab9079c9f264",
+    "android/content/Context.class": "4edf86b8296e05fe2ef5162655772eb1a81d7da52ca4fe374a75715e0311d5f9",
+    "android/content/SharedPreferences$Editor.class": "f085b4cce0fa5753c12839a461a0691dc92fd60d21dd844a3c2aaf5aebccde2e",
+    "android/content/SharedPreferences.class": "eee65457755f45462c8e9e4eef654744042e5501b9ff748585370ee7e6044abc",
+    "android/content/res/AssetManager.class": "c64eef4d5944e9005ef80c66bc1873dee312b0e3c2ef525246d6cb4611fc3274"
+  },
+  "decoded_assets_verified": 579
+}

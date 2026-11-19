@@ -1,0 +1,14 @@
+{
+  "status_min": 200,
+  "status_max": 299,
+  "method": "INVITE",
+  "first_acceptance": "native ACK, SDP and local cancellation handling",
+  "duplicate": "original ACK replay; no dialog mutation or new BYE transaction",
+  "release_dispatch": "original action order; resume unsent actions after synchronous failure",
+  "maximum_bye_dispatch_attempts": 2,
+  "ack_cache_limit": 64,
+  "removed_dialog_seconds_from_first_ack": 32,
+  "live_dialog_ack_retained": true,
+  "new_cancel_race_fork": "existing isolated fork handler",
+  "device_tested": false
+}

@@ -1,0 +1,45 @@
+{
+  "apk_sha256": "4aff162690628b2e9265b6cf88eeb1cf93b0c644d0c999015ba1d609863abf98",
+  "dex_sha256": {
+    "classes.dex": "be1680555354dd2025f1f495f7a92f926edbbd4a096815bd416e4cf242a057d4"
+  },
+  "apk_translated_jar_sha256": "88c30ae688317d74c8ddc2cefb88a739fc9305aa7b8b1cd9a456a4229aea9424",
+  "carrier_report_sha256": "e06f06167c2fedfae7c82de7fa42e22584f85d669c2a8a1429f602bbb771016a",
+  "mode": "fixed",
+  "checks": 162,
+  "real_response_dispatcher_and_parser": true,
+  "real_dialog_hangup_and_ack_builder": true,
+  "fixture_boundaries": [
+    "o82.C/kb4 and x/bytes collect the socket sends",
+    "Android log and event sinks",
+    "in-memory caller with no SIM or live network"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "normal retransmission ACK wire identical=true",
+    "cancel race before BYE final sends 1 additional requests",
+    "removed call consumed retransmitted 200=true additional requests=1",
+    "in-dialog UPDATE provided new SDP=true events=3",
+    "old initial 200 after in-dialog UPDATE preserves revised SDP=true",
+    "second 200 with different tag while terminating A retained leg=A",
+    "first ACK send failure, recovered delivered BYEs=1",
+    "first BYE send failure, recovered delivered BYEs=1",
+    "persistent BYE send failure: attempted=2 local release events=1",
+    "earlier 200 with different CSeq confirmed current call=false",
+    "earlier 200 with different Via confirmed current call=false",
+    "earlier 200 with different From confirmed current call=false"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-fork/SipForkTransportAdapter.java": "99fdd3fac8ad2548e7dc445a5ae210edddaad2fc5a709ff14731b0b1303ea7fc",
+    "validation/native-invite-failure/InviteFinalProbe.java": "59c2c1de1d1fee49b7a9242255d8f6c02fdd4bfcb1e03674677a1c19b455128e",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-invite-success/InviteSuccessProbe.java": "fa5d0fe6fcbb92e56b54e540f04e1063211dfcb46f6ee15c17f94467277218c7",
+    "validation/native-invite-success/HangupIdempotenceProbe.java": "3ad14b63a0305761ebb10810f6de693c81c75aff5b5b96813c8e59a87aea0a5b"
+  }
+}
