@@ -1,0 +1,51 @@
+{
+  "baseline": "24.1",
+  "baseline_apk_sha256": "1727977e6ad2fe300b9218360be8363cf8169f6dffad7b98e87be58c2a4a56dd",
+  "candidate_apk_sha256": "40471d65d554e0a76214efc98f1810d577246a0dcfd75c9766b349155927e0d9",
+  "changed_classes": [
+    "a82.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure.smali",
+    "r75.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/SipInviteTransport.smali",
+    "cc/forserein/simhub/internal/SipReliableProgress.smali"
+  ],
+  "removed_classes": [],
+  "native_changed_classes": [
+    "a82.smali",
+    "r75.smali"
+  ],
+  "native_a82_exactly_restored_to_24_1_after_reversing_fallback_hook": true,
+  "fallback_hook_scope": {
+    "hook": "a82.f native queued fallback, after successful o82.C return",
+    "scope": "same original outgoing INVITE Call-ID, CSeq, From, URI, complete rewritten Via",
+    "mutation": "stored original Via only; branch, sent-by and all other parameters retained",
+    "timer": "reuse matching original pre-provisional TCP timer; preserve final deadline",
+    "new_timer": false,
+    "native_callback_exactly_reversible": true,
+    "real_carrier_tested": false
+  },
+  "native_invite_validation": {
+    "failure": {
+      "previous_checks": 497,
+      "signed_current_checks": 513,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    },
+    "transport": {
+      "previous_checks": 76,
+      "signed_current_checks": 78,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    }
+  },
+  "native_o82_and_existing_response_hooks_identical_to_24_1": true,
+  "all_native_classes_outside_approved_scope_identical": true,
+  "all_preexisting_classes_outside_approved_scope_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

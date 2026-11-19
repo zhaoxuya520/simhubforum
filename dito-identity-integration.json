@@ -1,0 +1,18 @@
+{
+  "checks": 26,
+  "reference_release": "https://github.com/maow318/simhubforum/releases/tag/v29.3",
+  "reference_ipa_sha256": "1d0b3c0bea93695bf467efda8c3b07793b03532fd55c096207177e8f2edf2b5d",
+  "issuer_iccid_prefix": "896366",
+  "reference_recovery_batch": "8963662600",
+  "home_plmn": "51566",
+  "reference_roaming_plmn": "20404",
+  "classification_independent_of_current_roaming_plmn": true,
+  "provider_evidence": "generation-bound same transport snapshot; full actual ICCID equals profile ICCID; serviceProviderName only",
+  "missing_iccid_never_inferred_from_management_selection": true,
+  "identity_source": "current physical IMSI by default; observed same-card home for DITO when available; never inferred from roaming IMSI",
+  "configured_carrier_decides_identity_policy": true,
+  "missing_history_does_not_block_valid_current_identity": true,
+  "native_authentication_worker_unchanged": true,
+  "fork_and_timing_hooks_reversed_before_full_class_comparison": true,
+  "device_tested": false
+}

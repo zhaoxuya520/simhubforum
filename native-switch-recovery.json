@@ -1,0 +1,26 @@
+{
+  "native_classes_exact": [
+    "ac5.smali",
+    "cg0.smali",
+    "dc3.smali",
+    "ek5.smali",
+    "hh1.smali",
+    "kg1.smali",
+    "ng1.smali",
+    "of3.smali",
+    "pf3.smali",
+    "sj.smali",
+    "tb0.smali",
+    "vf1.smali",
+    "xf1.smali"
+  ],
+  "native_classes_exact_after_hook_removal": [
+    "hz3.smali",
+    "pg1.smali"
+  ],
+  "native_selection_methods_exact": 2,
+  "estk_dual_chip_entry": true,
+  "legacy_experimental_adapters_present": false,
+  "management_identity_gate_present": false,
+  "device_tested": false
+}

@@ -1,0 +1,7 @@
+{
+  "native_class": "ej",
+  "whole_class_restored_exactly": true,
+  "hook_count": 1,
+  "scope": "existing diagnostic ACTION_SEND body only",
+  "internal_log_changed": false
+}
