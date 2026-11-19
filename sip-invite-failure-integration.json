@@ -1,0 +1,12 @@
+{
+  "status": 487,
+  "method": "INVITE",
+  "transaction": "original request CSeq, Call-ID, Via branch, From tag",
+  "native_failure_retained": true,
+  "native_ack_retained": true,
+  "confirmed_dialog_protected": true,
+  "ack_cache_limit": 64,
+  "ack_cache_seconds": 32,
+  "automatic_redial": false,
+  "device_tested": false
+}

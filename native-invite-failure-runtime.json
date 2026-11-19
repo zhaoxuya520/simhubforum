@@ -1,0 +1,35 @@
+{
+  "apk_sha256": "02c1bd93dd7ff3693c73ccf5e747cd4f7458bb715061158b6ab6b86350d863c6",
+  "dex_sha256": {
+    "classes.dex": "4c26b7e89d61d4d26d8678bd36f386e6c87562c4319e747b2ec531b5a89d9ce5"
+  },
+  "apk_translated_jar_sha256": "d6d0a9e51a97211625f4e56d5257a8dceb36e33f7d64391fa31a1e9986c25570",
+  "carrier_report_sha256": "6888efeaca999bd868886a5875021cb6ab92eedf89da55a36cd80ef49f726412",
+  "mode": "fixed",
+  "checks": 78,
+  "diagnostic_observations": [
+    "pending 487 duplicate: consumed=true,packets=2,failures=1",
+    "confirmed A followed by late 487 of B: live=true,failures=0,packets=1",
+    "earlier CSeq10 followed by active CSeq11: live=true,failures=0,packets=0"
+  ],
+  "real_sip_response_dispatcher": true,
+  "real_dialog_state_and_ack_builder": true,
+  "real_sip_parser_and_request_serialization": true,
+  "fixture_boundaries": [
+    "o82.C(kb4)/x(byte[],context) socket sends collected",
+    "Android log and event sinks",
+    "SIP engine constructed without a live socket or SIM"
+  ],
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "real_carrier_tested": false,
+  "network_calls_placed": false,
+  "android_art_tested": false,
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-fork/SipForkTransportAdapter.java": "99fdd3fac8ad2548e7dc445a5ae210edddaad2fc5a709ff14731b0b1303ea7fc",
+    "validation/native-invite-failure/InviteFinalProbe.java": "59c2c1de1d1fee49b7a9242255d8f6c02fdd4bfcb1e03674677a1c19b455128e",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735"
+  }
+}

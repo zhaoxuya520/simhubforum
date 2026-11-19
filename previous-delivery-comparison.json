@@ -1,0 +1,40 @@
+{
+  "baseline": "24.0",
+  "baseline_apk_sha256": "bf4655a05a7942123e604daaff70a5a73f803689b3550bb04cacc6f5b57f41b9",
+  "candidate_apk_sha256": "1727977e6ad2fe300b9218360be8363cf8169f6dffad7b98e87be58c2a4a56dd",
+  "changed_classes": [
+    "o82.smali",
+    "r75.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/SipInviteFailure$Bucket.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Entry.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Key.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure.smali"
+  ],
+  "removed_classes": [],
+  "native_changed_classes": [
+    "o82.smali",
+    "r75.smali"
+  ],
+  "invite_failure_scope": {
+    "status": 487,
+    "method": "INVITE",
+    "transaction": "original request CSeq, Call-ID, Via branch, From tag",
+    "native_failure_retained": true,
+    "native_ack_retained": true,
+    "confirmed_dialog_protected": true,
+    "ack_cache_limit": 64,
+    "ack_cache_seconds": 32,
+    "automatic_redial": false,
+    "device_tested": false
+  },
+  "native_o82_exactly_restored_to_24_0_after_reversing_invite_failure_hooks": true,
+  "all_native_classes_outside_approved_scope_identical": true,
+  "all_preexisting_classes_outside_approved_scope_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}
