@@ -1,0 +1,46 @@
+{
+  "apk_sha256": "de1b571ef90ae3b8f8afdce13681eb9544b757cbabe3d4ff86b5ab20bdeab47b",
+  "dex_sha256": {
+    "classes.dex": "4e65be7a29e555432ac1f7d64b3d047237c71663d1f3e9608590bdde39a739ef"
+  },
+  "apk_translated_jar_sha256": "a5c59babac8182f1d111e44f9acad124fde52fbf55084f2fb7f88ab6bcc16bd7",
+  "carrier_report_sha256": "839ba0c0cb6bedb73df7bb6eb63fc4e54de77c95a4080e8c872096955dc0b909",
+  "mode": "fixed",
+  "checks": 94,
+  "actual_apk_config_parser_and_preset": true,
+  "actual_apk_sms_coroutine": true,
+  "fixture_boundaries": [
+    "synthetic card read and Android SharedPreferences return values",
+    "xq0.g0 completes history persistence without a database",
+    "o82.D collects all SMS arguments without sending"
+  ],
+  "network_sms_sent": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "valid-saved template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.fixture.example.invalid apn=ims-fixture send_calls=1 smsc=+8613800100500 error=null",
+    "cold-saved template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.fixture.example.invalid apn=ims-fixture send_calls=1 smsc=+8613800100500 error=null",
+    "valid-empty template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=0 smsc=null error=\u8bf7\u5148\u6dfb\u52a0\u77ed\u4fe1\u4e2d\u5fc3",
+    "cold-empty template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=0 smsc=null error=\u8bf7\u5148\u6dfb\u52a0\u77ed\u4fe1\u4e2d\u5fc3",
+    "builtin template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=1 smsc=+447700900456 error=null",
+    "card-changed template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.fixture.example.invalid apn=ims-fixture send_calls=0 smsc=null error=\u5361\u7247\u5df2\u5207\u6362\uff0c\u8bf7\u91cd\u65b0\u8fde\u63a5 Wi-Fi \u901a\u8bdd\u540e\u53d1\u9001\u77ed\u4fe1",
+    "author-per-ICCID template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=1 smsc=+447700900789 error=null",
+    "managed-over-author template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.fixture.example.invalid apn=ims-fixture send_calls=1 smsc=+8613800100500 error=null",
+    "managed-clear-over-author template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=0 smsc=null error=\u8bf7\u5148\u6dfb\u52a0\u77ed\u4fe1\u4e2d\u5fc3",
+    "managed-domain-only template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.fixture.example.invalid apn=ims-fixture send_calls=1 smsc=+447700900456 error=null",
+    "invalid-author template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=1 smsc=+447700900456 error=null",
+    "other-card-author template=CTExcel UK builtin_domain=ims.mnc033.mcc234.3gppnetwork.org domain=ims.mnc033.mcc234.3gppnetwork.org apn=ims send_calls=1 smsc=+447700900456 error=null"
+  ],
+  "fixture_sources": {
+    "validation/native-carrier/Context.java": "c0be75811ebb79982654fb95ad66658c75b826d9ef66d43b0e7addead59fe058",
+    "validation/native-carrier/AssetManager.java": "1e90710305c781fb348a3fb819beadc1ad6a0ff9e7dd5e128c98a58f60349455",
+    "tests/android/content/SharedPreferences.java": "3e01dde0cf28533022ed299993a5f5f4e0aa669ba27e47623c8d3624704a2d75",
+    "tests/android/util/Log.java": "792098b511dea17e85ec701f48c70907cd7b4712b09cf5410c81e843b02122b4",
+    "validation/native-diagnostics/android/os/Looper.java": "b40fdb842e37640f8e738fec8b9620ddb4ce22a804250838b4efd0c52d66870c",
+    "validation/native-diagnostics/android/os/Handler.java": "6894f75dd3aedf7b35e6c2d845c66d6e1c6ff40e4c28d2df9b7108986c8f55ec",
+    "validation/native-config-store/ConfigStoreProbe.java": "403588c339a24929671b546419b47838f7d955fb5ced3498e93737f6af2f7b09",
+    "validation/native-config-store/SmsBoundaryAdapter.java": "2da9762514be049e805f4c73024b8b081b8d15288bcdd671b49c80da7fe2db09"
+  }
+}

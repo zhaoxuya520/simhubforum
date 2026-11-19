@@ -1,0 +1,15 @@
+{
+  "changed": [
+    "cc/forserein/simhub/internal/WifiConfigRuntime$Snapshot.smali",
+    "cc/forserein/simhub/internal/WifiConfigRuntime.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues.smali",
+    "f82.smali",
+    "o82.smali",
+    "r75.smali"
+  ],
+  "added": [
+    "cc/forserein/simhub/internal/CtExcelCallPolicy.smali",
+    "cc/forserein/simhub/internal/SipCallDiagnostics.smali"
+  ],
+  "removed": []
+}
