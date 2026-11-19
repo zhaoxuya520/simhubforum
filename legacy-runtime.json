@@ -1,0 +1,36 @@
+{
+  "apk_sha256": "669cb2270e4473bf6261ca627a5e459b085d82a536cadbe5567fb0b46dea2728",
+  "carrier_report_sha256": "1ed16a22a9bd183edc32ad241074aff34ec8d4d6aef55ce4770cdfe3c38b30f5",
+  "native_jar_sha256": "2c3a93b7437262975d390645032eed90474d197bdc8fad332ea9ba78e3916f76",
+  "dex_sha256": {
+    "classes.dex": "331171c8e32b5dd53ddb9e366601d63fd9ccb92df1e60565a0fd61ca2418f91c"
+  },
+  "mode": "legacy",
+  "checks": 11,
+  "forward_write_sequence": "[enable1=0]",
+  "stale_manual_disable_sequence": "[disable0=2]",
+  "forward_es10c_trace": "[1/BF31, 1/BF2D, 1/BF2D]",
+  "actual_switch_worker_and_per_chip_cache": true,
+  "actual_es10c_encoder_parser": true,
+  "synthetic_logical_channels_at_hh1_x": true,
+  "scheduler_and_delays_synchronous": true,
+  "resource_localization_stub": true,
+  "physical_card_tested": false,
+  "android_art_tested": false,
+  "translated_dex_jvm_verification_disabled": true,
+  "exact_unchanged_tested_classes": [
+    "hz3",
+    "iz3",
+    "pg1",
+    "ng1",
+    "vf1",
+    "if1",
+    "qy3",
+    "xx3",
+    "rf1"
+  ],
+  "fixture_sources": {
+    "CrossSwitchProbe.java": "0a7d5ac27a7da12b93843c6dcfcf60044d99a3ceb5bbc4c5c6fb0a0b5bc09db1",
+    "CrossSwitchAdapter.java": "6b177cf6598ba5fa540aa8a66447e7e3cf0852bb5c5907ee885747382ea43627"
+  }
+}

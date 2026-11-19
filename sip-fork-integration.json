@@ -1,0 +1,21 @@
+{
+  "guard": "selected outgoing original INVITE 2xx, differing nonempty To-tag",
+  "response_hook": "before native transaction/dialog/SDP mutation",
+  "fork_tag_cap": 64,
+  "cache": "weak original dialog key; values have no original/manager/engine reference",
+  "duplicate": "ACK every time; BYE constructed once, at most two send attempts on failure",
+  "request_hook": "before native request dispatch; known fork BYE 200, other differing legs 481, ACK consumed",
+  "unchanged": "matching selected-dialog tags, unselected CANCEL race, CANCEL transaction dispatch",
+  "invalid_tags": "extra INVITE2xx consumed; invalid in-dialog requests 481/ACK silent",
+  "device_tested": false,
+  "native_abi_pinned": true,
+  "dex_full_method_targets": [
+    "o82.h(Lkb4;)Z",
+    "o82.r(Lkb4;Loc2;Ljava/lang/String;)V"
+  ],
+  "reverse_order": [
+    "fork",
+    "session_timer",
+    "registration"
+  ]
+}
