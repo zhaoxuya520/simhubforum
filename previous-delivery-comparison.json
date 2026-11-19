@@ -1,0 +1,97 @@
+{
+  "baseline": "24.3",
+  "baseline_apk_sha256": "4aff162690628b2e9265b6cf88eeb1cf93b0c644d0c999015ba1d609863abf98",
+  "candidate_apk_sha256": "b921ee91f00264593b527d22be68cb763807e0e3e320d525fdb523c06be0460d",
+  "changed_classes": [
+    "cb4.smali",
+    "cc/forserein/simhub/internal/WifiConfigRuntime$Snapshot.smali",
+    "cc/forserein/simhub/internal/WifiConfigRuntime.smali",
+    "cc/forserein/simhub/internal/WifiConfigValues.smali",
+    "o82.smali",
+    "r75.smali",
+    "zl5.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/SipEarlyPrecondition$Proof.smali",
+    "cc/forserein/simhub/internal/SipEarlyPrecondition.smali"
+  ],
+  "removed_classes": [],
+  "native_changed_classes": [
+    "cb4.smali",
+    "o82.smali",
+    "r75.smali",
+    "zl5.smali"
+  ],
+  "native_o82_and_cb4_exactly_restored_to_24_3_after_reversing_precondition_hooks": true,
+  "native_zl5_exactly_restored_to_24_3_after_reversing_sms_boundary": true,
+  "precondition_scope": {
+    "native_methods": [
+      "o82.h",
+      "cb4.k"
+    ],
+    "scope": "outgoing early-dialog SDP UPDATE after accepted INVITE provisional SDP requires precondition",
+    "initial_invite_unchanged": true,
+    "confirmed_dialog_unchanged": true,
+    "correlation": [
+      "Call-ID",
+      "original INVITE CSeq and Via branch",
+      "local and remote tags",
+      "accepted SDP digest"
+    ],
+    "evidence_limit": 64,
+    "evidence_seconds": 180,
+    "repeated_identical_evidence_extends_lifetime": false,
+    "header_preservation": "append Require precondition only when absent; existing headers unchanged",
+    "native_methods_exactly_reversible": true,
+    "real_carrier_tested": false
+  },
+  "native_runtime_validation": {
+    "config-store": {
+      "previous_checks": 94,
+      "signed_current_checks": 94,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    },
+    "preconditions": {
+      "previous_checks": 550,
+      "signed_current_checks": 562,
+      "same_fixture_sources": true,
+      "actual_signed_dex_verified": true
+    }
+  },
+  "preserved_sms_encoding_classes": [
+    "ub4.smali",
+    "pb4.smali",
+    "qb4.smali",
+    "rb4.smali",
+    "vb4.smali"
+  ],
+  "preserved_previous_sip_lifecycle_classes": [
+    "a82.smali",
+    "cc/forserein/simhub/internal/SipForkProtection$Bucket.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Key.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Key.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Entry.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure$Bucket.smali",
+    "cc/forserein/simhub/internal/SipForkProtection$Entry.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Key.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Expiry.smali",
+    "cc/forserein/simhub/internal/SipReliableProgress.smali",
+    "cc/forserein/simhub/internal/SipForkProtection.smali",
+    "cc/forserein/simhub/internal/SipInviteFailure.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Entry.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Bucket.smali",
+    "cc/forserein/simhub/internal/SipInviteTransport.smali",
+    "cc/forserein/simhub/internal/SipIncomingInvite$Entry.smali",
+    "cc/forserein/simhub/internal/SipInviteSuccess$Bucket.smali"
+  ],
+  "all_native_classes_outside_approved_scope_identical": true,
+  "all_preexisting_classes_outside_approved_scope_identical": true,
+  "changed_apk_entries": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "all_assets_and_native_libraries_identical": true
+}

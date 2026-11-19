@@ -1,0 +1,23 @@
+{
+  "native_methods": [
+    "o82.h",
+    "cb4.k"
+  ],
+  "scope": "outgoing early-dialog SDP UPDATE after accepted INVITE provisional SDP requires precondition",
+  "initial_invite_unchanged": true,
+  "confirmed_dialog_unchanged": true,
+  "correlation": [
+    "Call-ID",
+    "original INVITE CSeq and Via branch",
+    "local and remote tags",
+    "accepted SDP digest"
+  ],
+  "evidence_limit": 64,
+  "evidence_seconds": 180,
+  "repeated_identical_evidence_extends_lifetime": false,
+  "header_preservation": "append Require precondition only when absent; existing headers unchanged",
+  "native_methods_exactly_reversible": true,
+  "real_carrier_tested": false,
+  "partial_and_orphan_hooks_rejected": true,
+  "native_abi_pinned": true
+}

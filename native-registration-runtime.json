@@ -1,0 +1,19 @@
+{
+  "apk_sha256": "28d6a49d8d2698ae7bcc62c3f67e59d4411b0ec4dd936495fd245daca6e138ca",
+  "normalized_dex_jar_sha256": "0c86c4353e066c9a2018dd55dd6356a0bb1bbd824428c413f5fe714c2d48c6bb",
+  "checks": 82,
+  "legacy_regression_reproduced": false,
+  "actual_register_response_coroutine": true,
+  "actual_contact_expiry_parser": true,
+  "actual_refresh_task": true,
+  "actual_old_job_cancellation": true,
+  "explicit_fixtures": [
+    "scheduler entry xq0",
+    "clock g7",
+    "log sink g11",
+    "synthetic REGISTER 200 response and resumed continuation"
+  ],
+  "exercised_ike_authentication": false,
+  "device_tested": false,
+  "art_execution": false
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "native initial incoming INVITE final 603 or 487 only",
+  "match": "Call-ID, CSeq, branch, From, To without tag, request URI and Via sent-by",
+  "response": "original final status/To-tag; current request Via chain and inbound transport",
+  "cache_limit": 64,
+  "cache_seconds": 32,
+  "retransmission_extends_cache": false,
+  "cache_owner": "weak native call manager; no dialog or original request retained",
+  "expiry": "bounded daemon expiry tasks with weak owner/bucket references",
+  "native_methods_exactly_reversible": true,
+  "real_carrier_tested": false
+}

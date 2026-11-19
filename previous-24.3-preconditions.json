@@ -1,0 +1,44 @@
+{
+  "apk_sha256": "4aff162690628b2e9265b6cf88eeb1cf93b0c644d0c999015ba1d609863abf98",
+  "dex_sha256": {
+    "classes.dex": "be1680555354dd2025f1f495f7a92f926edbbd4a096815bd416e4cf242a057d4"
+  },
+  "apk_translated_jar_sha256": "88c30ae688317d74c8ddc2cefb88a739fc9305aa7b8b1cd9a456a4229aea9424",
+  "carrier_report_sha256": "e06f06167c2fedfae7c82de7fa42e22584f85d669c2a8a1429f602bbb771016a",
+  "mode": "previous-24-3",
+  "checks": 550,
+  "real_outgoing_invite_and_update": true,
+  "real_response_dispatcher_and_precondition_callback": true,
+  "real_ctexcel_policy": "zi5.a[23433].d",
+  "native_gm_esp_packets_verified": 16,
+  "gm_validation": "native AES-CBC and NULL ESP; independently verified HMAC-SHA1-96 and UDP content",
+  "negative_control_reproduced": true,
+  "initial_invite_policy_preserved": true,
+  "fixture_boundaries": [
+    "o82.E receives outgoing TCP payload before its TCP stack",
+    "b72.r collects complete native IPv6 ESP datagrams",
+    "fixed synthetic session keys and registered-session state",
+    "native parser receives synthetic clear SIP responses",
+    "Android log and event sinks"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "NORMAL tcp=true required=true update_require=false",
+    "NORMAL tcp=true required=false update_require=false",
+    "NORMAL tcp=false required=true update_require=false",
+    "NORMAL tcp=false required=false update_require=false",
+    "NORMAL tcp=false required=true update_require=false",
+    "NORMAL tcp=false required=false update_require=false"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-preconditions/PreconditionTransportAdapter.java": "7712a64f01cb42cf43a8a46935374a4b92f79144c6bda5da238aa56a7fb21f66",
+    "validation/native-preconditions/PreconditionProbe.java": "e3ddd71cb108f2bfdb15d562f43c8f3f50c491ef897ee91ba2a72f1964e9bed0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "apk_sha256": "28d6a49d8d2698ae7bcc62c3f67e59d4411b0ec4dd936495fd245daca6e138ca",
+  "carrier_report_sha256": "08acbbf327c77da513a27be445af9e87c5e732d8be9af55a87b60047e3da8626",
+  "native_jar_sha256": "0c86c4353e066c9a2018dd55dd6356a0bb1bbd824428c413f5fe714c2d48c6bb",
+  "dex_sha256": {
+    "classes.dex": "51bc641619d2267222e0413fd19c404b830a170f92c8d25d69cfd374464df793"
+  },
+  "mode": "fixed",
+  "checks": 60,
+  "forward_write_sequence": "[disable0=0, enable1=0]",
+  "stale_manual_disable_sequence": "[]",
+  "forward_es10c_trace": "[0/BF3E, 0/BF2D, 0/BF2D, 1/BF3E, 1/BF2D, 1/BF2D, 0/BF3E, 0/BF2D, 0/BF2D, 0/BF32, 0/BF3E, 0/BF2D, 0/BF2D, 1/BF3E, 1/BF2D, 1/BF2D, 1/BF3E, 1/BF2D, 1/BF2D, 1/BF31, 1/BF3E, 1/BF2D, 1/BF2D, 0/BF3E, 0/BF2D, 0/BF2D, 1/BF3E, 1/BF2D, 1/BF2D]",
+  "actual_switch_worker_and_per_chip_cache": true,
+  "actual_es10c_encoder_parser": true,
+  "synthetic_logical_channels_at_hh1_x": true,
+  "scheduler_and_delays_synchronous": true,
+  "resource_localization_stub": true,
+  "physical_card_tested": false,
+  "android_art_tested": false,
+  "translated_dex_jvm_verification_disabled": true,
+  "exact_unchanged_tested_classes": [
+    "hz3",
+    "iz3",
+    "pg1",
+    "ng1",
+    "vf1",
+    "if1",
+    "qy3",
+    "xx3",
+    "rf1",
+    "cc/forserein/simhub/internal/EstkSwitchPlan",
+    "InternalEstkSwitch",
+    "InternalEstkAccess"
+  ],
+  "fixture_sources": {
+    "CrossSwitchProbe.java": "0a7d5ac27a7da12b93843c6dcfcf60044d99a3ceb5bbc4c5c6fb0a0b5bc09db1",
+    "CrossSwitchAdapter.java": "6b177cf6598ba5fa540aa8a66447e7e3cf0852bb5c5907ee885747382ea43627"
+  }
+}

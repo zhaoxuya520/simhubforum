@@ -1,0 +1,21 @@
+{
+  "previous_apk_sha256": "4aff162690628b2e9265b6cf88eeb1cf93b0c644d0c999015ba1d609863abf98",
+  "current_apk_sha256": "b921ee91f00264593b527d22be68cb763807e0e3e320d525fdb523c06be0460d",
+  "previous_24_3_normal_write_then_cold_read_corruption_reproduced": true,
+  "previous_six_record_checks": 45,
+  "retained_synthetic_record_xml_sha256": "30f08f246c9abbde1d6f8809d178f4286f03ea4270521658c385d332845e7e33",
+  "original_records_unchanged_after_24_4_recovery": true,
+  "actual_android_preferences_used": true,
+  "current_config_checks": 99,
+  "current_precondition_checks": 32,
+  "unchanged_prior_regression_checks": 345,
+  "baseline_evidence_sha256": {
+    "/workspace/recovery/stable24.3-review/emulator/upgrade24.3-seed.txt": "53703eda14808c08c8af1b0708a2f64ccaf766a60153d90f87bc923db4ebb8bf",
+    "/workspace/recovery/stable24.3-review/emulator/upgrade24.3-cold-read.txt": "335dc955b5ff54d32dd596164ac089ada8bfb3befd5db44792f64a8e96a0a775",
+    "/workspace/recovery/stable24.3-review/emulator/precondition24.3-baseline.txt": "ec5353b3738533e983bea58ae3f311e1fae3be2e68104004e0196c0d967a0430",
+    "/workspace/recovery/stable24.3-review/emulator/baseline-six-records/validation.json": "87d783ec80f09c7663d593eada05f8d8fc9d95421d31c4546838a5fd10d201a7"
+  },
+  "evidence_archive": "emulator-smoke-source.zip",
+  "user_configuration_read_or_changed": false,
+  "real_carrier_tested": false
+}

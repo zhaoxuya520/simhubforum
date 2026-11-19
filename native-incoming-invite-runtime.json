@@ -1,0 +1,34 @@
+{
+  "apk_sha256": "28d6a49d8d2698ae7bcc62c3f67e59d4411b0ec4dd936495fd245daca6e138ca",
+  "dex_sha256": {
+    "classes.dex": "51bc641619d2267222e0413fd19c404b830a170f92c8d25d69cfd374464df793"
+  },
+  "apk_translated_jar_sha256": "0c86c4353e066c9a2018dd55dd6356a0bb1bbd824428c413f5fe714c2d48c6bb",
+  "carrier_report_sha256": "08acbbf327c77da513a27be445af9e87c5e732d8be9af55a87b60047e3da8626",
+  "mode": "fixed",
+  "checks": 47,
+  "real_incoming_dispatcher_and_parser": true,
+  "real_accept_decline_and_sdp_negotiator": true,
+  "fixture_boundaries": [
+    "o82.C/kb4 and x/bytes collect the socket sends",
+    "Android log and event sinks",
+    "in-memory caller with no SIM or live network"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "NORMAL incoming_retransmit_accept_ack_bye=true",
+    "DECLINE late_duplicate_initial_invite_rings_again=false rings=1 ended=1",
+    "CANCEL late_duplicate_initial_invite_rings_again=false rings=1 ended=1"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-fork/SipForkTransportAdapter.java": "99fdd3fac8ad2548e7dc445a5ae210edddaad2fc5a709ff14731b0b1303ea7fc",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-incoming-invite/IncomingLifecycleProbe.java": "26d742ce709cd2ae9459e4be115f3cfdb953ef8973364667b966654903fa8c73"
+  }
+}

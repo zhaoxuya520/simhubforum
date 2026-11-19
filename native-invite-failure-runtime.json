@@ -1,0 +1,61 @@
+{
+  "apk_sha256": "28d6a49d8d2698ae7bcc62c3f67e59d4411b0ec4dd936495fd245daca6e138ca",
+  "dex_sha256": {
+    "classes.dex": "51bc641619d2267222e0413fd19c404b830a170f92c8d25d69cfd374464df793"
+  },
+  "apk_translated_jar_sha256": "0c86c4353e066c9a2018dd55dd6356a0bb1bbd824428c413f5fe714c2d48c6bb",
+  "carrier_report_sha256": "08acbbf327c77da513a27be445af9e87c5e732d8be9af55a87b60047e3da8626",
+  "mode": "fixed",
+  "checks": 513,
+  "invite_487_checks": 78,
+  "other_final_checks": 435,
+  "diagnostic_observations": [
+    "pending 487 duplicate: consumed=true,packets=2,failures=1",
+    "confirmed A followed by late 487 of B: live=true,failures=0,packets=1",
+    "earlier CSeq10 followed by active CSeq11: live=true,failures=0,packets=0",
+    "confirmed + 486 (A): live=true, failures=0",
+    "confirmed + 302 (B): live=true, failures=0",
+    "confirmed + 401 (B): live=true, failures=0",
+    "confirmed + 407 (B): live=true, failures=0",
+    "confirmed + 422 (B): live=true, failures=0",
+    "confirmed + 480 (B): live=true, failures=0",
+    "confirmed + 486 (B): live=true, failures=0",
+    "confirmed + 491 (B): live=true, failures=0",
+    "confirmed + 500 (B): live=true, failures=0",
+    "confirmed + 503 (B): live=true, failures=0",
+    "confirmed + 603 (B): live=true, failures=0",
+    "earlier INVITE 480 with active CSeq 11: live=true, ACKs=0",
+    "earlier INVITE 603 with active CSeq 11: live=true, ACKs=0",
+    "487 multi-value v: live=false, ACKs=1",
+    "487 multi-value via: live=false, ACKs=1",
+    "487 multi-value Via quoted: live=false, ACKs=1",
+    "confirmed + 180 ending=false reliable=false: state=confirmed, tag=A, events=0, packets=0",
+    "confirmed + 183 ending=false reliable=false: state=confirmed, tag=A, events=0, packets=0",
+    "confirmed + 180 ending=false reliable=true: state=confirmed, tag=A, events=0, packets=0",
+    "confirmed + 183 ending=false reliable=true: state=confirmed, tag=A, events=0, packets=0",
+    "confirmed + 183 ending=true reliable=true: state=terminating, tag=A, events=0, packets=0",
+    "Reliable progress: mode=fixed, checks=30"
+  ],
+  "real_sip_response_dispatcher": true,
+  "real_dialog_state_and_ack_builder": true,
+  "real_sip_parser_and_request_serialization": true,
+  "fixture_boundaries": [
+    "o82.C(kb4)/x(byte[],context) socket sends collected",
+    "Android log and event sinks",
+    "SIP engine constructed without a live socket or SIM"
+  ],
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "real_carrier_tested": false,
+  "network_calls_placed": false,
+  "android_art_tested": false,
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-fork/SipForkTransportAdapter.java": "99fdd3fac8ad2548e7dc445a5ae210edddaad2fc5a709ff14731b0b1303ea7fc",
+    "validation/native-invite-failure/InviteFinalProbe.java": "59c2c1de1d1fee49b7a9242255d8f6c02fdd4bfcb1e03674677a1c19b455128e",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-invite-failure/InviteFailureStatusesProbe.java": "13fba15d9b48ec032518e4cce8f84122aa08906411184523d7cde5316b8b1ef9",
+    "validation/native-invite-failure/ReliableProgressProbe.java": "fd33304446d818d6e13ede61bfeda72bbb3f0b11dbda4cd83924ed63767b9a42"
+  }
+}

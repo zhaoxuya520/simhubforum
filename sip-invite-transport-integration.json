@@ -1,0 +1,9 @@
+{
+  "hook": "a82.f native queued fallback, after successful o82.C return",
+  "scope": "same original outgoing INVITE Call-ID, CSeq, From, URI, complete rewritten Via",
+  "mutation": "stored original Via only; branch, sent-by and all other parameters retained",
+  "timer": "reuse matching original pre-provisional TCP timer; preserve final deadline",
+  "new_timer": false,
+  "native_callback_exactly_reversible": true,
+  "real_carrier_tested": false
+}
