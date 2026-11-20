@@ -1,0 +1,12 @@
+{
+  "adapter_classes": 154,
+  "methods": 763,
+  "invokes": 6868,
+  "reference_arguments": 11427,
+  "errors": 0,
+  "apk_sha256": "6bd0cf7baba81a58bb5b6c8851cab7d666083a30c31fbada8ff2a8610880d3fd",
+  "expected_bad_release": false,
+  "diagnostics": [],
+  "device_tested": false,
+  "art_execution": false
+}

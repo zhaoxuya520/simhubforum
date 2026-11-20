@@ -1,0 +1,54 @@
+{
+  "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "updated_from_sha256": "8fbf8495fe19be5e90f82d14e256a41581dbf56672b0dfd777880405ac94398d",
+  "status": "passed",
+  "android_version": "17",
+  "api": "37",
+  "image": {
+    "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-37.0_r06.zip",
+    "official_size": 907680404,
+    "official_sha1": "8842a57a6b146423debb46c1496a9c0986aa1b9e",
+    "local_sha256": "a80ad9f0f8b487df146df1c1412ee4744ba95dde471b601843b8039616be28d2"
+  },
+  "role_test": {
+    "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+    "test_apk_sha256": "efd425d6be1a3e2b4126ce099c2ba7aab92ecac1feb8152d31cff85ef27e18a9",
+    "api": "37",
+    "serial": "emulator-5582",
+    "role_before": "com.android.messaging",
+    "query_result": [
+      "cc.forserein.simhub.rcssmoke/rcssmoke.RcsRemoteService"
+    ],
+    "phases": {
+      "off": {
+        "checks": "14",
+        "phase": "off",
+        "scope": "Installed SIMHub uses Android's real PackageManager, role, compatibility broadcast and remote typed Binder against a synthetic user-installed provider and line; zero carrier network traffic.",
+        "status": "passed"
+      },
+      "selected": {
+        "accepted_after_revocation": "0",
+        "accepted_during_role": "1",
+        "checks": "24",
+        "phase": "selected",
+        "provider_restarted": "true",
+        "scope": "Installed SIMHub uses Android's real PackageManager, role, compatibility broadcast and remote typed Binder against a synthetic user-installed provider and line; zero carrier network traffic.",
+        "status": "passed"
+      }
+    },
+    "status": "passed",
+    "scope": "Real Android package resolution and role manager. Synthetic card, registration and isolated-process RCS provider. No carrier messages.",
+    "role_selected": "cc.forserein.simhub.rcssmoke",
+    "role_after": "com.android.messaging",
+    "utc": "2026-11-20T03:04:05.444951+00:00"
+  },
+  "permission": {
+    "permission": "com.gsma.services.permission.RCS",
+    "protection": "normal",
+    "owner": "cc.forserein.simhub.rcssmoke",
+    "granted_after_later_provider_install": false,
+    "granted_after_ordinary_simhub_update": true,
+    "shell_permission_grants": 0
+  },
+  "scope": "Official AOSP Android 17 software emulator, extended startup watchdog and test observer timeouts, background ANR prompts enabled, Bluetooth scanning disabled and lower display resolution. The inert provider declares normal messaging role permissions, and its counter persists across Android revoking the role and terminating the provider process. Actual installation and in-place update, default SMS role selection, permission enforcement and cross-process GSMA service for a synthetic provider and line. No operator traffic or physical OnePlus device."
+}

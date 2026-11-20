@@ -1,0 +1,19 @@
+{
+  "native_methods": [
+    "f82.q"
+  ],
+  "plmn": "23433",
+  "identity_source": "current registered IMS associated SIP public identity; native fallback retained",
+  "identity_consistency": "one selected immutable dialog identity supplies From and P-Preferred-Identity",
+  "local_target": "tel local-number with effective IMS domain phone-context",
+  "international_target_unchanged": true,
+  "early_media": "initial registered INVITE, live negotiated Gm IPsec only; P-Early-Media supported",
+  "unsupported_capability_tags_added": false,
+  "registration_authentication_media_unchanged": true,
+  "native_method_exactly_reversible": true,
+  "real_carrier_tested": false,
+  "complete_coroutine_class_restored": true,
+  "original_destination_policy_call_retained": true,
+  "partial_orphan_hooks_rejected": true,
+  "helper_source_sha256": "d7239c02e03f6d446a414f711e46be4b3fc4055c2d02366a0c27668548ed0606"
+}

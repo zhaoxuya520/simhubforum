@@ -1,0 +1,45 @@
+{
+  "runner_sha256": "98cbab374b1cf935aebe86b473fbf73f081e1c11c1472c1436c0f5c507038359",
+  "apk_sha256": "6bd0cf7baba81a58bb5b6c8851cab7d666083a30c31fbada8ff2a8610880d3fd",
+  "dex_sha256": {
+    "classes.dex": "432595f308ebaa19fb2a12e7839bf601284a2717f244a5966b934d113ca2a819"
+  },
+  "apk_translated_jar_sha256": "5f4c782384d49c382b21abdfa4193499e4b184339f34b22e7ec4b62ea82d704d",
+  "carrier_report_sha256": "2fe875cb1c0564baa044a3cb43f6fb5ca325fd0daaec3dbdbd2c1068f7261728",
+  "mode": "fixed",
+  "checks": 1081,
+  "diagnostic_checks": 588,
+  "native_snapshot_checks": 388,
+  "shared_path_checks": 105,
+  "diagnostic_lines": 27,
+  "real_native_outgoing_C_and_incoming_h": true,
+  "real_prack_update_cancel_ack_and_failure_event": true,
+  "incoming_objects_and_outgoing_request_bytes_preserved": true,
+  "real_ctexcel_policy": "zi5.a[23433].d",
+  "baseline_logging_absent": false,
+  "fixture_boundaries": [
+    "o82.E receives outgoing TCP payload before its TCP stack",
+    "b72.r final datagram boundary replaced but not exercised by this TCP-only probe",
+    "synthetic registered session and Gm security context",
+    "native parser receives synthetic clear SIP responses",
+    "Android log and event sinks",
+    "shared constructor initial INVITE has unset MCC/MNC; fixture sets 234/33 then explicitly resubmits same native request through C for diagnostic verification"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "REMOTE_487 actual_cancel_count=0 actual_ack_count=1 network_failure_count=1 diagnostic_lines=7",
+    "LOCAL_CANCEL actual_cancel_count=1 actual_ack_count=1 network_failure_count=0 diagnostic_lines=5"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-preconditions/PreconditionTransportAdapter.java": "7712a64f01cb42cf43a8a46935374a4b92f79144c6bda5da238aa56a7fb21f66",
+    "validation/native-preconditions/PreconditionProbe.java": "e3ddd71cb108f2bfdb15d562f43c8f3f50c491ef897ee91ba2a72f1964e9bed0",
+    "validation/native-call-diagnostics/CallDiagnosticsProbe.java": "d5e75440ccecc6eb19673728f2aaf2f2fae23ba3dc7ed3b7a68fc835e7f19fc6"
+  }
+}

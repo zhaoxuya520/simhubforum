@@ -1,0 +1,44 @@
+{
+  "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "api": "37",
+  "android_version": "17",
+  "image": {
+    "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-37.0_r06.zip",
+    "official_size": 907680404,
+    "official_sha1": "8842a57a6b146423debb46c1496a9c0986aa1b9e",
+    "local_sha256": "a80ad9f0f8b487df146df1c1412ee4744ba95dde471b601843b8039616be28d2"
+  },
+  "tests": {
+    "signed_update_from_24_6": {
+      "status": "passed",
+      "previous_sha256": "8fbf8495fe19be5e90f82d14e256a41581dbf56672b0dfd777880405ac94398d",
+      "new_installed_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b"
+    },
+    "provider_installed_after_simhub_then_same_signed_update": {
+      "status": "passed",
+      "owner": "cc.forserein.simhub.rcssmoke",
+      "permission": "com.gsma.services.permission.RCS",
+      "protection": "normal",
+      "before_update": false,
+      "after_ordinary_update": true,
+      "manual_permission_grant": false
+    },
+    "non_default_fixture_rejected": {
+      "checks": "14",
+      "phase": "off",
+      "scope": "Installed SIMHub uses Android's real PackageManager, role, compatibility broadcast and remote typed Binder against a synthetic user-installed provider and line; zero carrier network traffic.",
+      "status": "passed"
+    }
+  },
+  "test_apk_sha256": "3c910b102ea5ea475636a34320753ff7ef5ceed50b61b83d0a2b8576e6fb05a1",
+  "scope": "AOSP emulator. Installation, actual permission model, package resolution and non-default role tested. Real carrier RCS and OnePlus not tested. Positive role test separately tracked.",
+  "positive_role_test": {
+    "status": "passed",
+    "observed": "Actual Android SMS role, cross-process chat submission, status update and incoming message verified. After the role was revoked, SIMHub cleared the session and the provider counter showed no further submissions.",
+    "accepted_during_role": 1,
+    "accepted_after_revocation": 0,
+    "full_report": "android17-validation.json",
+    "test_apk_sha256": "efd425d6be1a3e2b4126ce099c2ba7aab92ecac1feb8152d31cff85ef27e18a9",
+    "environment": "Official AOSP 17 emulator, synthetic provider and line, zero carrier traffic."
+  }
+}

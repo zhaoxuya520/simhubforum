@@ -1,0 +1,18 @@
+{
+  "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "test_apk_sha256": "be927abf53293a7d1f01af27ffad92891b75510352d10f9cf32b10f5847df7a2",
+  "role_before": "com.android.messaging",
+  "status": "passed",
+  "results": {
+    "actual_external_draft_receipts": "1",
+    "checks": "40",
+    "normal_subscription_access": "no complete subscription identity",
+    "scope": "Stock package resolution, SMS role, virtual Android subscription and real new-message click; synthetic SIMHub OMAPI reader and matching card. Selected fixture Activity captures only reserved offline input. No SMS, RCS message, native APDU or permission changes to the installed application.",
+    "shell_read_identity_needed_for_positive_ui": "true",
+    "status": "passed",
+    "test_shell_identity_dropped": "true"
+  },
+  "chat_component_restored": true,
+  "role_after": "com.android.messaging",
+  "utc": "2026-11-20T02:40:32.507055+00:00"
+}

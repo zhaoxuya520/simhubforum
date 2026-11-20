@@ -1,0 +1,40 @@
+{
+  "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "test_apk_sha256": "be927abf53293a7d1f01af27ffad92891b75510352d10f9cf32b10f5847df7a2",
+  "results": {
+    "checks": "34",
+    "navigations": "0",
+    "provider_send_calls": "1",
+    "scope": "Actual installed pk5.e/mc0.d new form, native Accessibility field edits and toggle, visible original send key and its native zz callback. Synthetic card/registration, positive provider injected after observing actual unavailable service. No live number, carrier or network message.",
+    "status": "passed"
+  },
+  "sources": {
+    "run_release.py": "d3eb999f560f4bda70c8c94e4778451cbb5ef07114e6dcd89daaa4bdb746edcc",
+    "RcsDefaultProviderSmoke.java": "922b82612125bd082912e9c1c6cac766a30f019be4a22911bb8d7f775ef4b486",
+    "OfflineRcsProvider.java": "c9e3614406d984c91ca086c572a31a484024f6ca92393ecf76c43dcc02744768",
+    "run_default_provider.py": "733d3594cbf53640da832282af54fa7f6a4984d8439e9026b153ef9da2b9388a",
+    "CrossProcessRcsProvider.java": "8ca63eed7e9bce5b104f58ad69b79b7ce97cb9aeec347e0f14ab8d050349295a",
+    "run_transport.py": "671d4f8f49ca8fcc34d6dcc8b72164b9f813bed87056af4dd0c47cad2bb69a4d",
+    "RcsComposeNewSmoke.java": "4f24d073ffa3a7d236ff0c878ab1f3483f1ca66579df36926c02780bb84b0738",
+    "run_new_compose.py": "806025b543b993657a7c8011365ed584ca866ca85f235cf5da66a1ed6170522d",
+    "RcsRemoteCompatibility.java": "9648e49cad9211f4bbd563a5b692329e3bb6dc5c927061df0dafafdaad6f8efb",
+    "ForwardingPackageManager.java": "996d0300dff1116152437f0a5df16b20d480a4c7e6caadf97709a591e993d791",
+    "RcsTransportSmoke.java": "dda70208c1fd53f0004f1fbed09fc979c1d3b03a523c6089c2c4ed4ab9e707ff",
+    "build.py": "06705aa18314bcd95730a758b4b03c6291163d93462a19a63d6d41518b585507",
+    "AndroidManifest.xml": "e59d6ba74e9b6b2d48495ad49ba1269d5434375ca6630cf0eebec47565285c9a",
+    "run_handoff.py": "dc1aaafa7b76d6279e6be28877888a1de283cfce8bb5404761e8581aab095145",
+    "run_ui.py": "5040dd414fd6de1fbeacbab92bd333f3acf0e115c4cd073d472e51cfd9085858",
+    "RcsComposerHandoffSmoke.java": "25e94833b78358c7e2fca2dc1f7ad26f45a098fd9a599d7677c5b9be70180fc1",
+    "RcsRemoteService.java": "75138eb386dd52d54e234bc28ae2c9bb442566b48466d056af4b93ca416cdef2",
+    "SmsRoleComponents.java": "f4e84c6ad1d845335ea0cb0490705c56d4faa2849b124db541d2d599eaf4bc63",
+    "NativeRcsFixture.java": "f89fbc4febbb0603881ed008c81aec123d87784f5fa7c8bcf64f9623c19ef21d",
+    "RcsUiSmoke.java": "2cd6e5334c6e422c185656bd0776c565c636fca923e0663c1761ba4429385038",
+    "FixtureChatState.java": "0d11fb1c0f344d30e1426ff90e353534761038b91b0ae5e277f04b95455b0ee4",
+    "GeneratePackageManager.java": "7f677e8926c80961b2e627c31891ff825a6c54308305bc03aea5dfddb1e356e6"
+  },
+  "utc": "2026-11-20T02:41:31.551611+00:00",
+  "limitations": [
+    "The installed form is rendered inside MainActivity under the original theme with a synthetic native card and registration.",
+    "Positive connected service metadata is simulated. No carrier or network message is sent."
+  ]
+}
