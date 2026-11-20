@@ -1,0 +1,39 @@
+{
+  "previous_apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "manifest_changes_limited_to_version": true,
+  "apk_entries_changed": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "classes_checked": 6783,
+  "classes_changed": [
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$$ExternalSyntheticLambda0.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$$ExternalSyntheticLambda1.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$$ExternalSyntheticLambda2.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$1.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$ProviderUnavailable.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$Session$1.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$Session$2.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$Session$3.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$Session.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport$UserFailure.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatTransport.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$DraftState.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Pending.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Session$1.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Session$2.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Session$3.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Session$4.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi$Session.smali",
+    "smali/cc/forserein/simhub/internal/RcsChatUi.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemComposer.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemLine$Api30.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemLine$Api33.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemLine$DraftLine.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemLine$Match.smali",
+    "smali/cc/forserein/simhub/internal/RcsSystemLine.smali",
+    "smali/r75.smali"
+  ],
+  "unexpected_changes": []
+}

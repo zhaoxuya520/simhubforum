@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "version": "17",
+  "api": 37,
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "test_apk_sha256": "dde1d39c1d8a3de05e9751f1eb7f87d91dbe7e84c397de3fa50e8c39ea397fad",
+  "original_sms_default": "com.android.messaging",
+  "updated_from_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "android_subscription_active": true,
+  "device_type": "Official AOSP software emulator",
+  "root_checked_iccid": false,
+  "selected_sms_default": "cc.forserein.simhub.rcssmoke",
+  "test": {
+    "actual_external_draft_receipts": "1",
+    "adopted_subscriber_permissions": "false",
+    "checks": "15",
+    "full_iccid_hidden": "true",
+    "scope": "Actual signed release core capture/open, real Android SMS role and external activity, synthetic native reader/card. Zero carrier traffic.",
+    "status": "passed",
+    "ui_clicked": "false"
+  },
+  "real_carrier_traffic": 0,
+  "scope": "Installed 24.8 release capture/open in a foreground activity with actual Android 17 SMS role, ordinary SIMHub read permissions, masked ICCID, synthetic local reader/card, real explicit Intent to a separate process. Target accepted one draft with only recipient and sms_body. No SIM selection or transport hints; no SMS or carrier RCS delivery. This run did not click the native view.",
+  "restored_default": "com.android.messaging",
+  "utc": "2026-11-20T11:54:51.577801+00:00"
+}

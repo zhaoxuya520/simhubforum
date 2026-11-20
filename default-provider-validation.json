@@ -1,0 +1,29 @@
+{
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "test_apk_sha256": "d666c2f96a9ed8c1f62ab40ce24adf7b78d42344c5d43547065493318b23fc6d",
+  "api": "30",
+  "serial": "emulator-5580",
+  "role_before": "com.android.messaging",
+  "query_result": [
+    "cc.forserein.simhub.rcssmoke/rcssmoke.RcsRemoteService"
+  ],
+  "phases": {
+    "off": {
+      "checks": "14",
+      "phase": "off",
+      "scope": "Installed SIMHub uses Android's real PackageManager, role, compatibility broadcast and remote typed Binder against a synthetic user-installed provider and line; zero carrier network traffic.",
+      "status": "passed"
+    },
+    "selected": {
+      "checks": "24",
+      "phase": "selected",
+      "scope": "Installed SIMHub uses Android's real PackageManager, role, compatibility broadcast and remote typed Binder against a synthetic user-installed provider and line; zero carrier network traffic.",
+      "status": "passed"
+    }
+  },
+  "status": "passed",
+  "scope": "Real Android package resolution and role manager. Synthetic card, registration and isolated-process RCS provider. No carrier messages.",
+  "role_selected": "cc.forserein.simhub.rcssmoke",
+  "role_after": "com.android.messaging",
+  "utc": "2026-11-20T11:30:46.865318+00:00"
+}

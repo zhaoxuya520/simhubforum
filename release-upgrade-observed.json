@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "old_apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "serial": "emulator-5580",
+  "api": "30",
+  "same_signature_in_place_upgrade": true,
+  "cleared_app_data": false,
+  "utc": "2026-11-20T11:29:31.511452+00:00"
+}

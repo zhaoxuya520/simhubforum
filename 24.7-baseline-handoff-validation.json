@@ -1,0 +1,47 @@
+{
+  "apk_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "test_apk_sha256": "d666c2f96a9ed8c1f62ab40ce24adf7b78d42344c5d43547065493318b23fc6d",
+  "role_before": "com.android.messaging",
+  "status": "passed",
+  "phases": {
+    "new": {
+      "actual_external_draft_receipts": "0",
+      "adopted_subscriber_permissions": "false",
+      "baseline_24_7": "true",
+      "checks": "19",
+      "form": "new message",
+      "full_iccid_hidden": "true",
+      "scope": "Installed native SMS form and accessibility clicks. Real Android subscription APIs and role, synthetic local SIMHub OMAPI reader/card; inert external compose Activity accepts reserved test input only. Zero carrier traffic.",
+      "status": "passed"
+    },
+    "thread": {
+      "actual_external_draft_receipts": "0",
+      "adopted_subscriber_permissions": "false",
+      "baseline_24_7": "true",
+      "checks": "15",
+      "form": "existing conversation",
+      "full_iccid_hidden": "true",
+      "scope": "Installed native SMS form and accessibility clicks. Real Android subscription APIs and role, synthetic local SIMHub OMAPI reader/card; inert external compose Activity accepts reserved test input only. Zero carrier traffic.",
+      "status": "passed"
+    }
+  },
+  "api": "30",
+  "serial": "emulator-5580",
+  "baseline_24_7": true,
+  "advertised_chat_services_while_testing": 0,
+  "results": {
+    "checks": 34,
+    "status": "passed",
+    "actual_external_draft_receipts": 0,
+    "ui_unavailable_reproduced": true,
+    "visible_manual_sim_route": false,
+    "iccid_hidden_to_application": true,
+    "adopted_subscriber_permissions": false,
+    "real_network_messages": 0,
+    "receiver_extras": [],
+    "local_drafts_preserved": true
+  },
+  "chat_component_restored": true,
+  "role_after": "com.android.messaging",
+  "utc": "2026-11-20T11:26:32.200423+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "checks": 27,
+  "status": "passed",
+  "android_emulator": false,
+  "synthetic_package_and_role_metadata": true,
+  "binder_or_network": false,
+  "source_sha256": {
+    "RcsProviderDiscovery.java": "053fce3767ef5690f2a463bb8263a1fd3913a645de9f125e68cb79575ea5d110",
+    "RcsChatTransport.java": "c5b0817f3f4996ea21675ab88bd33744ccb7942d1300475296f24c08ad78036b"
+  },
+  "fixture_sha256": {
+    "check_runtime.py": "75bcd698f73bc024f6c7319ca9bf9a05aa4bcca804a21e0837f83dd99203c13f",
+    "ProviderDiscoveryTest.java": "6db2c2d8a6d29489438b4ef2253e09d651eef74cf39b4c36aa47bb7ae827803b",
+    "stubs/android/content/ComponentName.java": "e37e516e3b5b8d4cb1a357541e89517496290450422ec743794a883ceea77a58",
+    "stubs/android/content/Context.java": "4889bf8bed974893af45c705caf8d076e716d99d50128bfc481c47cabbd56f8f",
+    "stubs/android/content/Intent.java": "18b2f22626ca67ad3f0b0e118f33e989fe5c1adf212909419f2085871bf3c9ca",
+    "stubs/android/content/pm/ApplicationInfo.java": "6251cb628bf3fdab265f7436664e3026188bc6f2b4d98ffba0bff2887474cd74",
+    "stubs/android/content/pm/PackageManager.java": "d1665a98082d59ad642722ebadb6ad256773c63d1a873df93462a1b211642981",
+    "stubs/android/content/pm/PermissionInfo.java": "05eb879d44598d90f8915a7ed0fdfb31660453109043a4620a438ca7e281a1d7",
+    "stubs/android/content/pm/ResolveInfo.java": "3ce0c6a221bc255b5c5a9ccc1eba80d2157b4828d8719cefa7981e39e7b37503",
+    "stubs/android/content/pm/ServiceInfo.java": "9f98b44ba373f02af2dbd0d4cbdcb31ba08a8ae10e7e5697154b0700a552a275",
+    "stubs/android/provider/Telephony.java": "321f9e8932026f6d7ecbebfd94e18b0d76ef1fe5137096e666fc1ba8544c6219"
+  },
+  "production_class_sha256": "58b8b632272fff9489e4f93d93ae94f5a9046e39458eca2c9d0ad85fcef1a70d"
+}

@@ -1,0 +1,66 @@
+{
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "api": 37,
+  "version": "17",
+  "status": "passed",
+  "image": {
+    "url": "https://dl.google.com/android/repository/sys-img/android/x86_64-37.0_r06.zip",
+    "official_sha1": "8842a57a6b146423debb46c1496a9c0986aa1b9e",
+    "local_sha256": "a80ad9f0f8b487df146df1c1412ee4744ba95dde471b601843b8039616be28d2"
+  },
+  "original_installed_sha256": "6c64349e698a1f8a0b468257e8916142d5d2c22501eccf073d93c85f0e777b7b",
+  "same_signed_in_place_update": true,
+  "24_7_comparison": null,
+  "handoff": {
+    "stock_platform_active_subscription": true,
+    "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+    "test_apk_sha256": "dde1d39c1d8a3de05e9751f1eb7f87d91dbe7e84c397de3fa50e8c39ea397fad",
+    "role_before": "com.android.messaging",
+    "status": "passed",
+    "phases": {
+      "thread": {
+        "actual_external_draft_receipts": "1",
+        "adopted_subscriber_permissions": "false",
+        "baseline_24_7": "false",
+        "checks": "41",
+        "form": "existing conversation",
+        "full_iccid_hidden": "true",
+        "scope": "Installed native SMS form and accessibility clicks. Real Android subscription APIs and role, synthetic local SIMHub OMAPI reader/card; inert external compose Activity accepts reserved test input only. Zero carrier traffic.",
+        "status": "passed"
+      },
+      "new": {
+        "actual_external_draft_receipts": "1",
+        "adopted_subscriber_permissions": "false",
+        "baseline_24_7": "false",
+        "checks": "45",
+        "form": "new message",
+        "full_iccid_hidden": "true",
+        "scope": "Installed native SMS form and accessibility clicks. Real Android subscription APIs and role, synthetic local SIMHub OMAPI reader/card; inert external compose Activity accepts reserved test input only. Zero carrier traffic.",
+        "status": "passed"
+      }
+    },
+    "api": "37",
+    "serial": "emulator-5582",
+    "baseline_24_7": false,
+    "advertised_chat_services_while_testing": 0,
+    "results": {
+      "checks": 86,
+      "status": "passed",
+      "actual_external_draft_receipts": 2,
+      "ui_unavailable_reproduced": false,
+      "visible_manual_sim_route": true,
+      "iccid_hidden_to_application": true,
+      "adopted_subscriber_permissions": false,
+      "real_network_messages": 0,
+      "receiver_extras": [
+        "sms_body"
+      ],
+      "local_drafts_preserved": true
+    },
+    "chat_component_restored": true,
+    "role_after": "com.android.messaging",
+    "utc": "2026-11-20T11:58:40.875010+00:00"
+  },
+  "device": "emulator-5582",
+  "scope": "Official AOSP Android 17, synthetic SIMHub OMAPI reader/profile with redaction enforced by the real Android subscription APIs. The actual native thread and new-message forms both handed a reserved draft to the explicitly selected cross-process messaging fixture only after tapping the action. The target app had no privileged phone-state permission, and zero SMS or RCS messages were sent to a carrier. Test observer waits and AVD responsiveness settings were extended for software-only rendering."
+}

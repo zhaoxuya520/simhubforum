@@ -1,0 +1,41 @@
+{
+  "apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "test_apk_sha256": "d666c2f96a9ed8c1f62ab40ce24adf7b78d42344c5d43547065493318b23fc6d",
+  "status": "passed",
+  "checks": 336,
+  "tests": {
+    "default_provider": {
+      "status": "passed",
+      "checks": 38,
+      "sha256": "ef90f86ccf51ceb3267b7b0953744d883a0f2a4b8dcff049b3df6660a7ddf707",
+      "report": "default-provider-validation.json"
+    },
+    "handoff": {
+      "status": "passed",
+      "checks": 86,
+      "sha256": "c9c9b5d0d1071c1773ffc219d64e9cb3e28399fd88157213c36e12e690e57f55",
+      "report": "handoff-validation.json"
+    },
+    "new_compose": {
+      "status": "passed",
+      "checks": 34,
+      "sha256": "c3ef589d223fae5aa06a718ea97f3c31694ad71735efb147f0071fc3d5b72c50",
+      "report": "rcs-new-compose-validation.json"
+    },
+    "ui": {
+      "status": "passed",
+      "checks": 48,
+      "sha256": "4113331639b061418129ee5b85fa80fd9d67409bdd8df1e0203c42d03dc293ba",
+      "report": "rcs-ui-validation.json"
+    },
+    "transport": {
+      "status": "passed",
+      "checks": 130,
+      "sha256": "5d68b6c76220494e1e4e535926404c0d5ed283626d90db8313f973c4f879438a",
+      "report": "rcs-transport-validation.json"
+    }
+  },
+  "utc": "2026-11-20T11:35:03.365841+00:00",
+  "real_network_messages": 0,
+  "physical_device_validated": false
+}
