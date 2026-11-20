@@ -1,0 +1,59 @@
+{
+  "apk_sha256": "8fbf8495fe19be5e90f82d14e256a41581dbf56672b0dfd777880405ac94398d",
+  "dex_sha256": {
+    "classes.dex": "fa2c3636a8a64c4b2c75cf1ed2adacffd42945937c683e05caa81f9bf3e7a1ba"
+  },
+  "apk_translated_jar_sha256": "761202e180434d47a89bd45cef88a8cb886510d2e78b67a614cb180f85c7ccf3",
+  "carrier_report_sha256": "60fcbb52d242a61925118f2d893a3c8ddbbb945f7cfaf7397dea030438937168",
+  "mode": "fixed",
+  "checks": 1213,
+  "transaction_checks": 324,
+  "shared_native_checks": 889,
+  "direct_helper_correlation_checks": 9,
+  "native_gm_esp_packets_verified": 40,
+  "real_native_paths": [
+    "cb4.p",
+    "a82.f",
+    "o82.C",
+    "o82.h",
+    "o82.a",
+    "f82",
+    "native SIP parser"
+  ],
+  "scope": "outgoing early PRACK and SDP precondition UPDATE during native TCP-to-UDP fallback",
+  "negative_control_missing_udp_timer": false,
+  "original_absolute_deadline_preserved": true,
+  "ordinary_tcp_retransmits": false,
+  "completed_transaction_revived": false,
+  "route_and_selected_dialog_unchanged": true,
+  "fixture_boundaries": [
+    "o82.E collects payload before TCP stack",
+    "b72.r collects final native ESP datagram",
+    "synthetic registered CTExcel/Gm session and pending TCP connection state",
+    "native parser gets synthetic responses",
+    "Android event/log sinks",
+    "native timer next/deadline fields set due to exercise scheduler without wall-clock waits",
+    "mismatched-correlation cases call helper directly; ordinary and completed flows use actual cb4/a82/C/h/a"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "observations": [
+    "RETRY method=PRACK final=200 baseline_missing=false",
+    "RETRY method=PRACK final=481 baseline_missing=false",
+    "RETRY method=UPDATE final=200 baseline_missing=false",
+    "RETRY method=UPDATE final=481 baseline_missing=false"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-preconditions/PreconditionTransportAdapter.java": "7712a64f01cb42cf43a8a46935374a4b92f79144c6bda5da238aa56a7fb21f66",
+    "validation/native-preconditions/PreconditionProbe.java": "e3ddd71cb108f2bfdb15d562f43c8f3f50c491ef897ee91ba2a72f1964e9bed0",
+    "validation/native-invite-transport/OutboundTransportProbe.java": "a08aa0652afb87ff13b88e53b4f99a5c0ab30028e4d3dc2f1512c08e929d19fb",
+    "validation/native-early-transaction-transport/EarlyTransactionTransportProbe.java": "4969f23234f3b5e0308e681f9632a69df7ff665f8a21b592081c9776a1748839"
+  },
+  "runner_sha256": "406018bdd6d6fd90418eb48b1942b595a85506cb948d44855f3204a67d5f3d85"
+}

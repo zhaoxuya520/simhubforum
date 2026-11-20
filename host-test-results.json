@@ -1,0 +1,181 @@
+{
+  "tests": [
+    {
+      "test": "AmrFramingTest",
+      "passed": true,
+      "assertions": 4228
+    },
+    {
+      "test": "CarrierPickerUiTest",
+      "passed": true,
+      "assertions": 24
+    },
+    {
+      "test": "CarrierPresetTest",
+      "passed": true,
+      "assertions": 33
+    },
+    {
+      "test": "ChannelLeaseTest",
+      "passed": true,
+      "assertions": 16
+    },
+    {
+      "test": "ConfigSaveRegressionTest",
+      "passed": true,
+      "assertions": 48
+    },
+    {
+      "test": "ConnectionLeaseTest",
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "test": "DiagnosticShareSanitizerTest",
+      "passed": true,
+      "assertions": 54
+    },
+    {
+      "test": "DialingSupportTest",
+      "passed": true,
+      "assertions": 165
+    },
+    {
+      "test": "DitoAuthenticationDefaultsTest",
+      "passed": true,
+      "assertions": 127
+    },
+    {
+      "test": "DitoCarrierProfileTest",
+      "passed": true,
+      "assertions": 25
+    },
+    {
+      "test": "DitoCurrentIdentityTest",
+      "passed": true,
+      "assertions": 209
+    },
+    {
+      "test": "DitoHomeIdentityTest",
+      "passed": true,
+      "assertions": 90
+    },
+    {
+      "test": "DitoRecognitionEvidenceTest",
+      "passed": true,
+      "assertions": 188
+    },
+    {
+      "test": "EapIdentityLogTest",
+      "passed": true,
+      "assertions": 11
+    },
+    {
+      "test": "EapIdentityRecoveryTest",
+      "passed": true,
+      "assertions": 117
+    },
+    {
+      "test": "EapIdentityValidationTest",
+      "passed": true,
+      "assertions": 50
+    },
+    {
+      "test": "IdentityBindingTest",
+      "passed": true,
+      "assertions": 102
+    },
+    {
+      "test": "OmapiSupportTest",
+      "passed": true,
+      "assertions": 70
+    },
+    {
+      "test": "ProfileReadStateTest",
+      "passed": true,
+      "assertions": 7
+    },
+    {
+      "test": "ProfileRefreshTest",
+      "passed": true,
+      "assertions": 19
+    },
+    {
+      "test": "RcsChatBindingTest",
+      "passed": true,
+      "assertions": 57
+    },
+    {
+      "test": "RcsChatDraftTest",
+      "passed": true,
+      "assertions": 25
+    },
+    {
+      "test": "RcsSystemLineTest",
+      "passed": true,
+      "assertions": 68
+    },
+    {
+      "test": "ReaderWifiPresentationTest",
+      "passed": true,
+      "assertions": 28
+    },
+    {
+      "test": "SimProtocolTest",
+      "passed": true,
+      "assertions": 26
+    },
+    {
+      "test": "SmsCenterDispatchTest",
+      "passed": true,
+      "assertions": 33
+    },
+    {
+      "test": "SmsCenterEditorUiTest",
+      "passed": true,
+      "assertions": 32
+    },
+    {
+      "test": "SmsCenterSaveTest",
+      "passed": true,
+      "assertions": 23
+    },
+    {
+      "test": "SmsRecoverySaveTest",
+      "passed": true,
+      "assertions": 99
+    },
+    {
+      "test": "WifiConfigListTest",
+      "passed": true,
+      "assertions": 17
+    },
+    {
+      "test": "WifiConfigRecoveryTest",
+      "passed": true,
+      "assertions": 55
+    },
+    {
+      "test": "WifiConfigRepairUiTest",
+      "passed": true,
+      "assertions": 36
+    },
+    {
+      "test": "WifiConfigTest",
+      "passed": true,
+      "assertions": 110
+    },
+    {
+      "test": "WifiConfigUiTest",
+      "passed": true,
+      "assertions": 62
+    },
+    {
+      "test": "WifiConfigWhitespaceTest",
+      "passed": true,
+      "assertions": 57
+    }
+  ],
+  "device_tested": false,
+  "platform_doubles": true
+}

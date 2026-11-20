@@ -1,0 +1,33 @@
+{
+  "apk_sha256": "8fbf8495fe19be5e90f82d14e256a41581dbf56672b0dfd777880405ac94398d",
+  "test_apk_sha256": "00a089b328c9320c65a8e0ee0a1f95501ebe97fab3c315c1342b518d17f5b668",
+  "results": {
+    "checks": "34",
+    "navigations": "0",
+    "provider_send_calls": "1",
+    "scope": "Actual installed pk5.e/mc0.d new form, native Accessibility field edits and toggle, visible original send key and its native zz callback. Synthetic card/registration, positive provider injected after observing actual unavailable service. No live number, carrier or network message.",
+    "status": "passed"
+  },
+  "sources": {
+    "OfflineRcsProvider.java": "cb3cc7a7d233025f1b384a91a089d202b52d25c77b7159482f93ef374a98ede7",
+    "CrossProcessRcsProvider.java": "8ca63eed7e9bce5b104f58ad69b79b7ce97cb9aeec347e0f14ab8d050349295a",
+    "run_transport.py": "671d4f8f49ca8fcc34d6dcc8b72164b9f813bed87056af4dd0c47cad2bb69a4d",
+    "RcsComposeNewSmoke.java": "b5e7dd59b4f5bbd1f947117969bbc88e644a121f37f6aa36e30380b3c50a5612",
+    "run_new_compose.py": "806025b543b993657a7c8011365ed584ca866ca85f235cf5da66a1ed6170522d",
+    "RcsRemoteCompatibility.java": "9648e49cad9211f4bbd563a5b692329e3bb6dc5c927061df0dafafdaad6f8efb",
+    "ForwardingPackageManager.java": "996d0300dff1116152437f0a5df16b20d480a4c7e6caadf97709a591e993d791",
+    "RcsTransportSmoke.java": "2acbfcad326955d43d4da35c71a204713cd45902fb89ca159d474593274c3620",
+    "build.py": "06705aa18314bcd95730a758b4b03c6291163d93462a19a63d6d41518b585507",
+    "AndroidManifest.xml": "d9e8e8f9ae4989d9c73dc927b4eee90f3c2e29fdc2b2c7fd38ef940e886c6d2e",
+    "run_ui.py": "959f1e9026f30a36e722ff2db47a2fbd344954a029de120cb94ca7318484e9d0",
+    "RcsRemoteService.java": "75138eb386dd52d54e234bc28ae2c9bb442566b48466d056af4b93ca416cdef2",
+    "NativeRcsFixture.java": "f89fbc4febbb0603881ed008c81aec123d87784f5fa7c8bcf64f9623c19ef21d",
+    "RcsUiSmoke.java": "2cd6e5334c6e422c185656bd0776c565c636fca923e0663c1761ba4429385038",
+    "GeneratePackageManager.java": "7f677e8926c80961b2e627c31891ff825a6c54308305bc03aea5dfddb1e356e6"
+  },
+  "utc": "2026-11-20T01:14:42.148077+00:00",
+  "limitations": [
+    "The installed form is rendered inside MainActivity under the original theme with a synthetic native card and registration.",
+    "Positive connected service metadata is simulated. No carrier or network message is sent."
+  ]
+}

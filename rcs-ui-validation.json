@@ -1,0 +1,34 @@
+{
+  "binder_transactions": "158",
+  "captures": "[thread-off-original-sms, thread-on-unavailable-no-fallback, thread-connected-fixture-original-send, thread-fixture-send-accepted, thread-fixture-incoming]",
+  "checks": "48",
+  "native_callback_invocations": "4",
+  "provider_send_calls": "1",
+  "scope": "Actual installed pk5.j SMS thread rendered inside MainActivity under native z55 theme, synthetic card/engine/registration and peer. Toggle and original send button clicked through Accessibility. Native j51/zz callback failures also invoked. Connected UI session uses a deliberately substituted ContextWrapper fixture running actual installed RcsChatTransport and typed Binder Proxy/Parcel, not an OEM/carrier. No full navigation, real subscription, real network or private message.",
+  "status": "passed",
+  "installed_apk_sha256": "8fbf8495fe19be5e90f82d14e256a41581dbf56672b0dfd777880405ac94398d",
+  "test_apk_sha256": "00a089b328c9320c65a8e0ee0a1f95501ebe97fab3c315c1342b518d17f5b668",
+  "screenshots": [
+    {
+      "name": "thread-off-original-sms",
+      "sha256": "617a1f60fb14e626053f91acfcdcd42567fa71ffc9148d1fb753413e3f746f83"
+    },
+    {
+      "name": "thread-on-unavailable-no-fallback",
+      "sha256": "82cd8a027c27e5683486c8d75188916420e259abd1e6c87548b09255cf40a19b"
+    },
+    {
+      "name": "thread-connected-fixture-original-send",
+      "sha256": "33749b673af9e2a610373aed868681c2bffaa7cf196060dcb0eb54ea8cee283d"
+    },
+    {
+      "name": "thread-fixture-send-accepted",
+      "sha256": "bf0fcb5f631fa1d768924c101c9a47ab4de3e9a8b72a69fcafec32863c3e70ed"
+    },
+    {
+      "name": "thread-fixture-incoming",
+      "sha256": "89dab606dc0728c86873841376df9c76453450c927237912a8309eac9637b71c"
+    }
+  ],
+  "ui_fixture_source_sha256": "2cd6e5334c6e422c185656bd0776c565c636fca923e0663c1761ba4429385038"
+}
