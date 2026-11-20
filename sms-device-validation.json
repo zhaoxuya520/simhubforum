@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "apk_sha256": "34544ca9e4ade1136e438e31ab48055129d59fd355f787a70a7e43005efb625a",
+  "old_apk_sha256": "dcb52b9b0ea1f0115de88015490a1ae9b723187f180904938266ed71a7451efb",
+  "api": 30,
+  "serial": "emulator-5580",
+  "same_signature_in_place_upgrade": true,
+  "app_data_cleared": false,
+  "previous_native_sms_history_retained": true,
+  "previous_rcs_requested_in_old_process": true,
+  "real_network_messages": 0,
+  "fixture_sha256": "823efbe5ea0a400602b644e280aa92b5448bb8b4acdf54e375f6de6f26328914",
+  "baseline_fixture_sha256": "889c615114473d1d8c9df1f6381cc4d0889d664c90e15753a45d90fb623171a3",
+  "baseline": {
+    "baseline": "true",
+    "checks": "21",
+    "form": "thread",
+    "native_offline_sms_row": "failed",
+    "native_send_key_clicks": "1",
+    "status": "passed"
+  },
+  "forms": {
+    "thread": {
+      "baseline": "false",
+      "checks": "35",
+      "form": "thread",
+      "native_offline_sms_row": "failed",
+      "native_send_key_clicks": "1",
+      "status": "passed"
+    },
+    "new": {
+      "baseline": "false",
+      "checks": "39",
+      "form": "new",
+      "native_offline_sms_row": "failed",
+      "native_send_key_clicks": "1",
+      "status": "passed"
+    }
+  },
+  "checks": 74,
+  "scope": "Native new-message and existing-thread composables opened inside the installed MainActivity. Ordinary accessibility edits and the visible native send control run against a synthetic registration-ready UI and an intentionally disconnected engine. Actual SMS callbacks produced a single failed, persisted native test SMS per click, verified in the SMS database. No real SIM/IMS registration or external delivery.",
+  "utc": "2026-11-20T12:18:12.877721+00:00"
+}
