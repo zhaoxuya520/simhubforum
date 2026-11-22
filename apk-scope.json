@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "apk_sha256": "d5f3ec8085e682e1dc0a5f39e8d1120e14fbea45b3c437b219a14bb86d54edbf",
+  "previous_apk_sha256": "d38fb97846ae8702ae7391348886fcb2bb7816d9a3e5f1fb27f89fddf8c535f4",
+  "manifest_unchanged_except_version": true,
+  "same_archive_entry_names": true,
+  "archive_content_changes": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "unchanged_entries": 1709,
+  "updated_classes": [
+    "a20.smali",
+    "cc/forserein/simhub/internal/CaptionCompose.smali",
+    "r75.smali"
+  ],
+  "added_classes": [],
+  "untouched_classes": 6704
+}
