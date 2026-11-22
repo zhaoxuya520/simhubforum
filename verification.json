@@ -1,0 +1,36 @@
+{
+  "version_name": "25.6",
+  "version_code": 35,
+  "signer_sha1": "CAEAEE369CA8933EC6A80050ECAF22D87B155006",
+  "signer_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+  "signed_apk_sha256": "fc37c27074fc66d44ab08055c23b1db465c4bb41bdd259e3b7618035012f62a4",
+  "signature_v2": true,
+  "signature_v3": true,
+  "self_check_trusts_actual_signer": true,
+  "signed_payload_unchanged": true,
+  "host_suites": 32,
+  "ui_tests": {
+    "wifi": {
+      "checks": "13",
+      "evidence": "[visible Domain, clicked Domain, editable Wi-Fi domain, wifi-domain screenshot available, edit domain, visible \u4fdd\u5b58, clicked \u4fdd\u5b58, save persisted through Wi-Fi editor, visible Domain, clicked Domain, visible \u91cd\u7f6e\u4e3a\u5185\u7f6e, clicked \u91cd\u7f6e\u4e3a\u5185\u7f6e, restore built-in domain]",
+      "status": "passed"
+    },
+    "dialer": {
+      "checks": "19",
+      "evidence": "[visible \u901a\u8bdd\u7ffb\u8bd1, clicked \u901a\u8bdd\u7ffb\u8bd1, first-use setup, unconfigured switch remains off, field \u670d\u52a1\u5668\u914d\u5bf9\u94fe\u63a5, field input \u670d\u52a1\u5668\u914d\u5bf9\u94fe\u63a5, visible \u4fdd\u5b58, clicked \u4fdd\u5b58, enabled after user save, dialer target selector available, visible \u5b57\u5e55\u8bed\u8a00\uff0c, clicked \u5b57\u5e55\u8bed\u8a00\uff0c, field \u641c\u7d22\u5b57\u5e55\u8bed\u8a00, field input \u641c\u7d22\u5b57\u5e55\u8bed\u8a00, visible \u82f1\u8bed, clicked \u82f1\u8bed, language changed in dialer, dialer renders English selection, dialer screenshot available]",
+      "status": "passed"
+    },
+    "settings": {
+      "checks": "15",
+      "evidence": "[selection survives application restart, visible \u901a\u8bdd\u7ffb\u8bd1, clicked \u901a\u8bdd\u7ffb\u8bd1, native settings form, visible \u5b57\u5e55\u8bed\u8a00\uff0c, clicked \u5b57\u5e55\u8bed\u8a00\uff0c, field \u641c\u7d22\u5b57\u5e55\u8bed\u8a00, field input \u641c\u7d22\u5b57\u5e55\u8bed\u8a00, visible \u7b80\u4f53\u4e2d\u6587, clicked \u7b80\u4f53\u4e2d\u6587, settings renders selected Chinese target, settings screenshot available, visible \u4fdd\u5b58, clicked \u4fdd\u5b58, settings and dialer share target preference]",
+      "status": "passed"
+    },
+    "call": {
+      "checks": "31",
+      "evidence": "[settings target persists in call process, remote caption backend ready, gear available, gear at right side, visible \u901a\u8bdd\u7ffb\u8bd1\u8bbe\u7f6e, clicked \u901a\u8bdd\u7ffb\u8bd1\u8bbe\u7f6e, visible \u8bd1\u97f3\u8bed\u8a00\uff0c, clicked \u8bd1\u97f3\u8bed\u8a00\uff0c, field \u641c\u7d22\u8bd1\u97f3\u8bed\u8a00, field input \u641c\u7d22\u8bd1\u97f3\u8bed\u8a00, visible \u65e5\u8bed, clicked \u65e5\u8bed, visible \u6d4b\u8bd5\u5bc6\u94a5, clicked \u6d4b\u8bd5\u5bc6\u94a5, separate model test results, gear-settings screenshot available, visible \u4fdd\u5b58, clicked \u4fdd\u5b58, voice language saved independently, native call shows subtitle controls, fixture response passes production parser, fixture response passes production parser, previous utterance retained, translated fixture text visible in call, two individually requested utterances, current owner PCM only, native mute control visible, subtitles clear native mute control, call screenshot available, stale hangup preserves current call, hangup clears subtitles, disabled captions disappear]",
+      "status": "passed"
+    }
+  },
+  "real_sim_tested": false,
+  "oracle_deployed": false
+}
