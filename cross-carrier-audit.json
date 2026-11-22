@@ -1,0 +1,1867 @@
+{
+  "passed": true,
+  "reference_routing_failures": [],
+  "neutral_identity_without_a_generic_rule": {
+    "20809": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 14
+    },
+    "21402": {
+      "selected_from_uninformative_card": "apple_movistar_ec",
+      "candidate_count": 2
+    },
+    "21405": {
+      "selected_from_uninformative_card": "apple_knowroaming",
+      "candidate_count": 2
+    },
+    "23457": {
+      "selected_from_uninformative_card": "apple_esimgo",
+      "candidate_count": 2
+    },
+    "310120": {
+      "selected_from_uninformative_card": "apple_sprint_boost_isim_lte_us",
+      "candidate_count": 3
+    },
+    "310240": {
+      "selected_from_uninformative_card": "apple_dentwireless",
+      "candidate_count": 14
+    },
+    "310260": {
+      "selected_from_uninformative_card": "apple_dentwireless",
+      "candidate_count": 11
+    },
+    "310280": {
+      "selected_from_uninformative_card": "apple_att_cc_us",
+      "candidate_count": 8
+    },
+    "310410": {
+      "selected_from_uninformative_card": "apple_att_cc_us",
+      "candidate_count": 8
+    },
+    "310560": {
+      "selected_from_uninformative_card": "apple_att_cc_us",
+      "candidate_count": 5
+    },
+    "310840": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 9
+    },
+    "310950": {
+      "selected_from_uninformative_card": "apple_att_cc_us",
+      "candidate_count": 6
+    },
+    "311180": {
+      "selected_from_uninformative_card": "apple_att_cc_us",
+      "candidate_count": 6
+    },
+    "311370": {
+      "selected_from_uninformative_card": "apple_acs_us",
+      "candidate_count": 2
+    },
+    "312530": {
+      "selected_from_uninformative_card": "apple_sprint_boost_isim_lte_us",
+      "candidate_count": 3
+    },
+    "33805": {
+      "selected_from_uninformative_card": "apple_digicel_ag",
+      "candidate_count": 14
+    },
+    "338050": {
+      "selected_from_uninformative_card": "apple_digicel_ag",
+      "candidate_count": 16
+    },
+    "40177": {
+      "selected_from_uninformative_card": "apple_tele2_altel_kz",
+      "candidate_count": 2
+    },
+    "41311": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 2
+    },
+    "42204": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 2
+    },
+    "54202": {
+      "selected_from_uninformative_card": "apple_digicel_fj",
+      "candidate_count": 2
+    },
+    "72418": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 3
+    },
+    "90101": {
+      "selected_from_uninformative_card": "apple_cmcc_cmi",
+      "candidate_count": 2
+    },
+    "90131": {
+      "selected_from_uninformative_card": "apple_affinityclick",
+      "candidate_count": 3
+    }
+  },
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "signed_io_and_dex_sha256": {
+    "assets/data/mcc_mnc.json": "c4ca2f694a4ba3579e580bb8cef9670b07cec56b56a53febc09b009af8f6fea7",
+    "assets/vowifi/carrier_presets.json": "7ecf0b88d2c1c469a31d42f8f025cf46a8b102d7cdc3383c23f8b511251a21b4",
+    "assets/vowifi/global_standard_catalogue.json": "faac5621f7106e04b7371d5061b5a9f63c1a3d25e07ed24850a0280de4913b44",
+    "classes.dex": "d901ad14b119b0d13816ca67b4f9fcc4772bb1ec12c570aa66c0ffd989662471"
+  },
+  "translated_jar_sha256": "c3c5908fdd2b31efa2cba25cb2c7cfc4514f7ff8b2a1ffa1633eadb04ac924a6",
+  "carrier_report_sha256": "43d2a390b172ab872adb9105b889a5ca23a7cbd4aae6c79953ff1991c82e1a38",
+  "manual_native_configurations": 3607,
+  "automatic_plmns": 3117,
+  "selector_rules_with_existing_target": 4133,
+  "rule_identity_cases_executed": 4133,
+  "unambiguous_rule_identity_cases": 4123,
+  "multiple_matching_profile_identity_cases": 10,
+  "identity_rule_disagreements": [],
+  "standard_fallback_count": 2263,
+  "global_directory_entries": 3043,
+  "catalogue_status_counts": {
+    "standard-template-unverified": 2263,
+    "existing-preset": 779,
+    "reference-package-preset": 1
+  },
+  "findings": [],
+  "base_auto_config": {
+    "id": "apple_base_be",
+    "label": "BASE be",
+    "plmn": "20620",
+    "epdg": [
+      "epdg.telco.telenet-ops.be",
+      "epdg.epc.mnc020.mcc206.pub.3gppnetwork.org"
+    ],
+    "ims": "ims.mnc020.mcc206.3gppnetwork.org"
+  },
+  "native_invites": 330,
+  "origins": [
+    "20404",
+    "20601",
+    "20610",
+    "20620",
+    "20801",
+    "22210",
+    "23410",
+    "23415",
+    "23430",
+    "23433",
+    "23487",
+    "26202",
+    "310030",
+    "310150",
+    "310170",
+    "310260",
+    "310280",
+    "310410",
+    "310560",
+    "310950",
+    "311180",
+    "312670",
+    "313100",
+    "44010",
+    "45403",
+    "50501",
+    "51566",
+    "53024",
+    "65501",
+    "72405"
+  ],
+  "call_matrix_gid1_inputs": {
+    "310280": "FFFF",
+    "310410": "FFFF",
+    "310560": "FFFF",
+    "310950": "FFFF",
+    "311180": "FFFF",
+    "310260": "54",
+    "23430": "C3"
+  },
+  "expected_conditioned_profiles": {
+    "310280": "apple_att_us",
+    "310410": "apple_att_us",
+    "310560": "apple_att_us",
+    "310950": "apple_att_us",
+    "311180": "apple_att_us",
+    "310260": "apple_tmobile_us",
+    "23430": "apple_bt_consumer_uk"
+  },
+  "destinations": [
+    "sip:+12025550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+3225550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+33199000123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+3906123456@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+441632960123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+493023125000@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+61491570006@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+81355550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:+861055550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:025550123@ims.mnc001.mcc206.3gppnetwork.org",
+    "sip:025550123@ims.mnc001.mcc208.3gppnetwork.org",
+    "sip:025550123@ims.mnc001.mcc505.3gppnetwork.org",
+    "sip:025550123@ims.mnc001.mcc655.3gppnetwork.org",
+    "sip:025550123@ims.mnc002.mcc262.3gppnetwork.org",
+    "sip:025550123@ims.mnc003.mcc454.3gppnetwork.org",
+    "sip:025550123@ims.mnc004.mcc204.3gppnetwork.org",
+    "sip:025550123@ims.mnc005.mcc724.3gppnetwork.org",
+    "sip:025550123@ims.mnc010.mcc206.3gppnetwork.org",
+    "sip:025550123@ims.mnc010.mcc222.3gppnetwork.org",
+    "sip:025550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "sip:025550123@ims.mnc010.mcc440.3gppnetwork.org",
+    "sip:025550123@ims.mnc015.mcc234.3gppnetwork.org",
+    "sip:025550123@ims.mnc020.mcc206.3gppnetwork.org",
+    "sip:025550123@ims.mnc030.mcc234.3gppnetwork.org",
+    "sip:025550123@ims.mnc066.mcc515.3gppnetwork.org",
+    "sip:025550123@ims.mnc087.mcc234.3gppnetwork.org",
+    "sip:025550123@ims.mnc100.mcc313.3gppnetwork.org",
+    "sip:025550123@ims.mnc260.mcc310.3gppnetwork.org",
+    "sip:025550123@ims.mnc670.mcc312.3gppnetwork.org",
+    "sip:025550123@one.att.net",
+    "tel:+12025550123",
+    "tel:+3225550123",
+    "tel:+33199000123",
+    "tel:+3906123456",
+    "tel:+441632960123",
+    "tel:+493023125000",
+    "tel:+61491570006",
+    "tel:+81355550123",
+    "tel:+861055550123",
+    "tel:025550123;phone-context=ims.mnc024.mcc530.3gppnetwork.org",
+    "tel:025550123;phone-context=ims.mnc033.mcc234.3gppnetwork.org"
+  ],
+  "wire_checks": 6900,
+  "fixture_ipsec_packets": 450,
+  "wire_observations": [
+    "DIAL-20620-E164 template=apple_base_be target=tel:+3225550123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+441632960123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+493023125000",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+861055550123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+12025550123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+33199000123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+3906123456",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+81355550123",
+    "DIAL-20620-E164 template=apple_base_be target=tel:+61491570006",
+    "DIAL-20620-LOCAL template=apple_base_be target=sip:025550123@ims.mnc020.mcc206.3gppnetwork.org",
+    "DIAL-20620-LOCAL template=apple_base_be target=tel:+493023125000",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+3225550123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+441632960123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+493023125000",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+861055550123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+12025550123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+33199000123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+3906123456",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+81355550123",
+    "DIAL-20601-E164 template=apple_proximus_be target=tel:+61491570006",
+    "DIAL-20601-LOCAL template=apple_proximus_be target=sip:025550123@ims.mnc001.mcc206.3gppnetwork.org",
+    "DIAL-20601-LOCAL template=apple_proximus_be target=tel:+493023125000",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+3225550123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+441632960123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+493023125000",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+861055550123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+12025550123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+33199000123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+3906123456",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+81355550123",
+    "DIAL-20610-E164 template=apple_mobistar_be target=tel:+61491570006",
+    "DIAL-20610-LOCAL template=apple_mobistar_be target=sip:025550123@ims.mnc010.mcc206.3gppnetwork.org",
+    "DIAL-20610-LOCAL template=apple_mobistar_be target=tel:+493023125000",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+3225550123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+441632960123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+493023125000",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+861055550123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+12025550123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+33199000123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+3906123456",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+81355550123",
+    "DIAL-23433-E164 template=apple_orange_uk target=tel:+61491570006",
+    "DIAL-23433-LOCAL template=apple_orange_uk target=tel:025550123;phone-context=ims.mnc033.mcc234.3gppnetwork.org",
+    "DIAL-23433-LOCAL template=apple_orange_uk target=tel:+493023125000",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+3225550123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+441632960123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+493023125000",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+861055550123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+12025550123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+33199000123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+3906123456",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+81355550123",
+    "DIAL-23415-E164 template=apple_vodafone_uk target=tel:+61491570006",
+    "DIAL-23415-LOCAL template=apple_vodafone_uk target=sip:025550123@ims.mnc015.mcc234.3gppnetwork.org",
+    "DIAL-23415-LOCAL template=apple_vodafone_uk target=tel:+493023125000",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+3225550123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+441632960123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+493023125000",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+861055550123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+12025550123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+33199000123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+3906123456",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+81355550123",
+    "DIAL-26202-E164 template=apple_vodafone_de target=tel:+61491570006",
+    "DIAL-26202-LOCAL template=apple_vodafone_de target=sip:025550123@ims.mnc002.mcc262.3gppnetwork.org",
+    "DIAL-26202-LOCAL template=apple_vodafone_de target=tel:+493023125000",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+3225550123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+441632960123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+493023125000",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+861055550123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+12025550123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+33199000123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+3906123456",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+81355550123",
+    "DIAL-20404-E164 template=apple_vodafone_nl target=tel:+61491570006",
+    "DIAL-20404-LOCAL template=apple_vodafone_nl target=sip:025550123@ims.mnc004.mcc204.3gppnetwork.org",
+    "DIAL-20404-LOCAL template=apple_vodafone_nl target=tel:+493023125000",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+3225550123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+441632960123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+493023125000",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+861055550123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+12025550123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+33199000123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+3906123456",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+81355550123",
+    "DIAL-45403-E164 template=apple_hutchison_hk target=tel:+61491570006",
+    "DIAL-45403-LOCAL template=apple_hutchison_hk target=sip:025550123@ims.mnc003.mcc454.3gppnetwork.org",
+    "DIAL-45403-LOCAL template=apple_hutchison_hk target=tel:+493023125000",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+3225550123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+441632960123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+493023125000",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+861055550123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+12025550123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+33199000123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+3906123456",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+81355550123",
+    "DIAL-51566-E164 template=apple_dito_ph target=tel:+61491570006",
+    "DIAL-51566-LOCAL template=apple_dito_ph target=sip:025550123@ims.mnc066.mcc515.3gppnetwork.org",
+    "DIAL-51566-LOCAL template=apple_dito_ph target=tel:+493023125000",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+3225550123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+441632960123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+493023125000",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+861055550123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+12025550123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+33199000123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+3906123456",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+81355550123",
+    "DIAL-22210-E164 template=apple_vodafone_it target=tel:+61491570006",
+    "DIAL-22210-LOCAL template=apple_vodafone_it target=sip:025550123@ims.mnc010.mcc222.3gppnetwork.org",
+    "DIAL-22210-LOCAL template=apple_vodafone_it target=tel:+493023125000",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+3225550123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+441632960123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+493023125000",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+861055550123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+12025550123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+33199000123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+3906123456",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+81355550123",
+    "DIAL-44010-E164 template=apple_docomo_jp target=tel:+61491570006",
+    "DIAL-44010-LOCAL template=apple_docomo_jp target=sip:025550123@ims.mnc010.mcc440.3gppnetwork.org",
+    "DIAL-44010-LOCAL template=apple_docomo_jp target=tel:+493023125000",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+3225550123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+441632960123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+493023125000",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+861055550123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+12025550123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+33199000123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+3906123456",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+81355550123",
+    "DIAL-50501-E164 template=apple_telstra_au target=tel:+61491570006",
+    "DIAL-50501-LOCAL template=apple_telstra_au target=sip:025550123@ims.mnc001.mcc505.3gppnetwork.org",
+    "DIAL-50501-LOCAL template=apple_telstra_au target=tel:+493023125000",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+3225550123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+441632960123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+493023125000",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+861055550123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+12025550123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+33199000123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+3906123456",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+81355550123",
+    "DIAL-72405-E164 template=apple_claro_br target=tel:+61491570006",
+    "DIAL-72405-LOCAL template=apple_claro_br target=sip:025550123@ims.mnc005.mcc724.3gppnetwork.org",
+    "DIAL-72405-LOCAL template=apple_claro_br target=tel:+493023125000",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+3225550123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+441632960123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+493023125000",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+861055550123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+12025550123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+33199000123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+3906123456",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+81355550123",
+    "DIAL-65501-E164 template=apple_vodafone_za target=tel:+61491570006",
+    "DIAL-65501-LOCAL template=apple_vodafone_za target=sip:025550123@ims.mnc001.mcc655.3gppnetwork.org",
+    "DIAL-65501-LOCAL template=apple_vodafone_za target=tel:+493023125000",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+3225550123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+441632960123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+493023125000",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+861055550123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+12025550123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+33199000123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+3906123456",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+81355550123",
+    "DIAL-20801-E164 template=apple_orange_france target=tel:+61491570006",
+    "DIAL-20801-LOCAL template=apple_orange_france target=sip:025550123@ims.mnc001.mcc208.3gppnetwork.org",
+    "DIAL-20801-LOCAL template=apple_orange_france target=tel:+493023125000",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+3225550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+441632960123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+493023125000@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+861055550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+12025550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+33199000123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+3906123456@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+81355550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-E164 template=apple_o2_uk target=sip:+61491570006@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-LOCAL template=apple_o2_uk target=sip:025550123@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23410-LOCAL template=apple_o2_uk target=sip:+493023125000@ims.mnc010.mcc234.3gppnetwork.org;user=phone",
+    "DIAL-23487-E164 template=null target=tel:+3225550123",
+    "DIAL-23487-E164 template=null target=tel:+441632960123",
+    "DIAL-23487-E164 template=null target=tel:+493023125000",
+    "DIAL-23487-E164 template=null target=tel:+861055550123",
+    "DIAL-23487-E164 template=null target=tel:+12025550123",
+    "DIAL-23487-E164 template=null target=tel:+33199000123",
+    "DIAL-23487-E164 template=null target=tel:+3906123456",
+    "DIAL-23487-E164 template=null target=tel:+81355550123",
+    "DIAL-23487-E164 template=null target=tel:+61491570006",
+    "DIAL-23487-LOCAL template=null target=sip:025550123@ims.mnc087.mcc234.3gppnetwork.org",
+    "DIAL-23487-LOCAL template=null target=tel:+493023125000",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+3225550123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+441632960123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+493023125000",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+861055550123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+12025550123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+33199000123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+3906123456",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+81355550123",
+    "DIAL-53024-E164 template=apple_2degrees_nz target=tel:+61491570006",
+    "DIAL-53024-LOCAL template=apple_2degrees_nz target=tel:025550123;phone-context=ims.mnc024.mcc530.3gppnetwork.org",
+    "DIAL-53024-LOCAL template=apple_2degrees_nz target=tel:+493023125000",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+3225550123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+441632960123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+493023125000",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+861055550123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+12025550123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+33199000123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+3906123456",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+81355550123",
+    "DIAL-23430-E164 template=apple_bt_consumer_uk target=tel:+61491570006",
+    "DIAL-23430-LOCAL template=apple_bt_consumer_uk target=sip:025550123@ims.mnc030.mcc234.3gppnetwork.org",
+    "DIAL-23430-LOCAL template=apple_bt_consumer_uk target=tel:+493023125000",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310410-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310410-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310410-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+3225550123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+441632960123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+493023125000",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+861055550123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+12025550123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+33199000123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+3906123456",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+81355550123",
+    "DIAL-312670-E164 template=apple_att_firstnet_us target=tel:+61491570006",
+    "DIAL-312670-LOCAL template=apple_att_firstnet_us target=sip:025550123@ims.mnc670.mcc312.3gppnetwork.org",
+    "DIAL-312670-LOCAL template=apple_att_firstnet_us target=tel:+493023125000",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+3225550123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+441632960123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+493023125000",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+861055550123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+12025550123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+33199000123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+3906123456",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+81355550123",
+    "DIAL-313100-E164 template=apple_att_firstnet_us target=tel:+61491570006",
+    "DIAL-313100-LOCAL template=apple_att_firstnet_us target=sip:025550123@ims.mnc100.mcc313.3gppnetwork.org",
+    "DIAL-313100-LOCAL template=apple_att_firstnet_us target=tel:+493023125000",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+3225550123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+441632960123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+493023125000",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+861055550123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+12025550123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+33199000123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+3906123456",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+81355550123",
+    "DIAL-310260-E164 template=apple_tmobile_us target=tel:+61491570006",
+    "DIAL-310260-LOCAL template=apple_tmobile_us target=sip:025550123@ims.mnc260.mcc310.3gppnetwork.org",
+    "DIAL-310260-LOCAL template=apple_tmobile_us target=tel:+493023125000",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310030-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310030-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310030-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+3225550123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+441632960123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+493023125000",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+861055550123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+12025550123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+33199000123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+3906123456",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+81355550123",
+    "DIAL-310150-E164 template=apple_att_aio_us target=tel:+61491570006",
+    "DIAL-310150-LOCAL template=apple_att_aio_us target=sip:025550123@one.att.net",
+    "DIAL-310150-LOCAL template=apple_att_aio_us target=tel:+493023125000",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310170-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310170-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310170-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310280-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310280-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310280-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310560-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310560-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310560-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-310950-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-310950-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-310950-LOCAL template=apple_att_us target=tel:+493023125000",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+3225550123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+441632960123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+493023125000",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+861055550123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+12025550123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+33199000123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+3906123456",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+81355550123",
+    "DIAL-311180-E164 template=apple_att_us target=tel:+61491570006",
+    "DIAL-311180-LOCAL template=apple_att_us target=sip:025550123@one.att.net",
+    "DIAL-311180-LOCAL template=apple_att_us target=tel:+493023125000"
+  ],
+  "reference_zip_sha256": "dfc4f3b8f258eb79abcf4a74b2d219d2790e9b91742c78767a6b356e34827835",
+  "reference_apk_sha256": "27b14b7bd73787380b955456bbc09d4fc3a9410363be1e2e1f8ac9f742e67615",
+  "reference_profiles": 1343,
+  "reference_profiles_changed_or_missing": [],
+  "reference_rules": 1869,
+  "reference_rules_missing": [],
+  "base_reference_profile_identical": true,
+  "official_invite_comparison": {
+    "comparisons": 330,
+    "mismatches_by_field": {
+      "contact_capabilities": 22,
+      "pani": 99
+    },
+    "routing_or_identity_or_early_media_differences": [],
+    "base_reference_example": {
+      "profile": "apple_base_be",
+      "uri": "tel:+3225550123",
+      "to": "<tel:+3225550123>",
+      "caller": "<tel:+447700900121>",
+      "preferred_identity": "<tel:+447700900121>",
+      "route": [
+        "<sip:proxy1.example.invalid;lr>",
+        "<sip:proxy2.example.invalid;lr>"
+      ],
+      "via_transport": "SIP/2.0/TCP",
+      "early_media": [],
+      "security_verify": [
+        "ipsec-3gpp;alg=hmac-sha-1-96;ealg=aes-cbc;spi-c=131073;spi-s=131074;port-c=50000;port-s=50001"
+      ],
+      "require": [
+        "sec-agree"
+      ],
+      "supported": [
+        "100rel, precondition, timer"
+      ],
+      "contact_capabilities": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio",
+      "contact_uri": "sip:206200000000001@[2001:db8::1]:40001",
+      "pani": [
+        "IEEE-802.11; i-wlan-node-id=020000000001",
+        "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+      ],
+      "session_expires": "1800",
+      "min_se": "90",
+      "media": [
+        "c=IN IP6 2001:db8::1",
+        "m=audio 45000 RTP/AVP 116 118 97 98 100 101",
+        "a=rtpmap:116 AMR-WB/16000/1",
+        "a=fmtp:116 octet-align=1;mode-change-capability=2;max-red=0",
+        "a=rtpmap:118 AMR-WB/16000/1",
+        "a=fmtp:118 mode-change-capability=2;max-red=0",
+        "a=rtpmap:97 AMR/8000/1",
+        "a=fmtp:97 octet-align=1;mode-change-capability=2;max-red=0",
+        "a=rtpmap:98 AMR/8000/1",
+        "a=fmtp:98 mode-change-capability=2;max-red=0",
+        "a=rtpmap:100 telephone-event/16000",
+        "a=fmtp:100 0-15",
+        "a=rtpmap:101 telephone-event/8000",
+        "a=fmtp:101 0-15",
+        "a=ptime:20",
+        "a=maxptime:240"
+      ],
+      "qos": [
+        "a=curr:qos local sendrecv",
+        "a=curr:qos remote none",
+        "a=des:qos mandatory local sendrecv",
+        "a=des:qos optional remote sendrecv"
+      ],
+      "direction": [
+        "a=sendrecv"
+      ],
+      "bandwidth": [
+        "b=AS:49"
+      ]
+    },
+    "base_candidate_example": {
+      "profile": "apple_base_be",
+      "uri": "tel:+3225550123",
+      "to": "<tel:+3225550123>",
+      "caller": "<tel:+447700900121>",
+      "preferred_identity": "<tel:+447700900121>",
+      "route": [
+        "<sip:proxy1.example.invalid;lr>",
+        "<sip:proxy2.example.invalid;lr>"
+      ],
+      "via_transport": "SIP/2.0/TCP",
+      "early_media": [],
+      "security_verify": [
+        "ipsec-3gpp;alg=hmac-sha-1-96;ealg=aes-cbc;spi-c=131073;spi-s=131074;port-c=50000;port-s=50001"
+      ],
+      "require": [
+        "sec-agree"
+      ],
+      "supported": [
+        "100rel, precondition, timer"
+      ],
+      "contact_capabilities": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio",
+      "contact_uri": "sip:206200000000001@[2001:db8::1]:40001",
+      "pani": [
+        "IEEE-802.11; i-wlan-node-id=020000000001",
+        "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+      ],
+      "session_expires": "1800",
+      "min_se": "90",
+      "media": [
+        "c=IN IP6 2001:db8::1",
+        "m=audio 45000 RTP/AVP 116 118 97 98 100 101",
+        "a=rtpmap:116 AMR-WB/16000/1",
+        "a=fmtp:116 octet-align=1;mode-change-capability=2;max-red=0",
+        "a=rtpmap:118 AMR-WB/16000/1",
+        "a=fmtp:118 mode-change-capability=2;max-red=0",
+        "a=rtpmap:97 AMR/8000/1",
+        "a=fmtp:97 octet-align=1;mode-change-capability=2;max-red=0",
+        "a=rtpmap:98 AMR/8000/1",
+        "a=fmtp:98 mode-change-capability=2;max-red=0",
+        "a=rtpmap:100 telephone-event/16000",
+        "a=fmtp:100 0-15",
+        "a=rtpmap:101 telephone-event/8000",
+        "a=fmtp:101 0-15",
+        "a=ptime:20",
+        "a=maxptime:240"
+      ],
+      "qos": [
+        "a=curr:qos local sendrecv",
+        "a=curr:qos remote none",
+        "a=des:qos mandatory local sendrecv",
+        "a=des:qos optional remote sendrecv"
+      ],
+      "direction": [
+        "a=sendrecv"
+      ],
+      "bandwidth": [
+        "b=AS:49"
+      ]
+    },
+    "by_origin_differences": {
+      "23433": {
+        "+3225550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+441632960123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+493023125000": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+861055550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+12025550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+33199000123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+3906123456": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+81355550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+61491570006": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "025550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "00493023125000": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        }
+      },
+      "51566": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11; i-wlan-node-id=020000000001",
+              "3GPP-E-UTRAN-FDD; utran-cell-id-3gpp=00000001"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "23430": {
+        "+3225550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+441632960123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+493023125000": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+861055550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+12025550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+33199000123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+3906123456": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+81355550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "+61491570006": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "025550123": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        },
+        "00493023125000": {
+          "contact_capabilities": {
+            "reference": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting",
+            "candidate": "+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel\";+sip.instance=\"<urn:uuid:comparison>\";audio"
+          }
+        }
+      },
+      "310410": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310030": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310150": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310170": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310280": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310560": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "310950": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      },
+      "311180": {
+        "+3225550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+441632960123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+861055550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+12025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+33199000123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+3906123456": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+81355550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "+61491570006": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "025550123": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        },
+        "00493023125000": {
+          "pani": {
+            "reference": [
+              "IEEE-802.11;i-wlan-node-id=000000000000"
+            ],
+            "candidate": [
+              "IEEE-802.11; i-wlan-node-id=020000000001"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "baseline": false,
+  "audit_sources_sha256": {
+    "cross-carrier-audit.py": "334881080c674599f024cf5752589dff188543ee982b0c0164e46af5dffccfdf",
+    "CrossCarrierAudit.java": "5bee1a03966b40207aa49606358d4991e75983e1539a510117c37e2bf99b34d0",
+    "UpstreamInvites.java": "1edd6dc206028077447a2449995ddccd1daf08dbd1b2879ac48f6faaa4755ab7",
+    "compare_reference_invites.py": "16103785c11a305222f177a3ccf90bed66b10805fe08efd8c7362dac0968e01d"
+  },
+  "candidate_session_fixture": "o82.E intercepts serialized TCP bytes; b72.r intercepts actual encrypted UDP/IPsec datagram, authenticated and decrypted with independent keys; 183 response synthetic, PRACK observed. Synthetic registered identities and two ordered Service-Route values supplied to both engines.",
+  "live_carrier_test": false,
+  "android_art_tested": false,
+  "scope": "Translated DEX with normalized R8 constructors. Every native auto config uses an independent synthetic IMSI with explicit 2/3 digit MNC and an uninformative ICCID. Manual config constructors tested for every template; one synthetic identity per automatic selector rule tests GID and ICCID prefix matching. Multiple matching candidates are reported separately. DNS names checked for syntax only. Official 23.52(1) R8 constructor adapters only; real r92.q starts at the successful APDU preflight resume branch; wire is serialized by oh4.b at dialog insertion; packet transport bypassed. Synthetic registered dialogs validated request-URI/To, From/PPI, contact policy, SDP AMR-WB, PRACK and native transport capture; no DNS queries, packets or actual calls on a carrier network."
+}

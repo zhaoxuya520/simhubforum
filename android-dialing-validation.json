@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "previous_apk_sha256": "34544ca9e4ade1136e438e31ab48055129d59fd355f787a70a7e43005efb625a",
+  "api": 30,
+  "android_art": true,
+  "same_signature_upgrade": true,
+  "launch_succeeded": true,
+  "preserved_install_time_and_uid": true,
+  "baseline_checks": 10,
+  "current_checks": 10,
+  "probe_sha256": "27d4c108b614a96c9cb6e79dceb8112237a1629dc82289815326ebad8f1deeba",
+  "live_carrier_test": false,
+  "scope": "Real Android emulator. Reflection invokes DialingSupport.normalize and smsDestination from the package-manager installed APK in ART. Synthetic Belgian, German, UK, Italian and Chinese numbers. No SIM, SIP transaction or network call."
+}

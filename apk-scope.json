@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "previous_apk_sha256": "34544ca9e4ade1136e438e31ab48055129d59fd355f787a70a7e43005efb625a",
+  "manifest_unchanged_except_version": true,
+  "same_archive_entry_names": true,
+  "archive_content_changes": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "unchanged_entries": 1709
+}

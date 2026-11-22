@@ -1,0 +1,53 @@
+{
+  "runner_sha256": "13ebb03ccd37fdea0baf60e20555917517bf88daa3632c5af357cf6f2a8bb4b5",
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "dex_sha256": {
+    "classes.dex": "d901ad14b119b0d13816ca67b4f9fcc4772bb1ec12c570aa66c0ffd989662471"
+  },
+  "apk_translated_jar_sha256": "c3c5908fdd2b31efa2cba25cb2c7cfc4514f7ff8b2a1ffa1633eadb04ac924a6",
+  "carrier_report_sha256": "43d2a390b172ab872adb9105b889a5ca23a7cbd4aae6c79953ff1991c82e1a38",
+  "mode": "fixed",
+  "checks": 1414,
+  "diagnostic_checks": 812,
+  "native_snapshot_checks": 468,
+  "shared_path_checks": 134,
+  "diagnostic_lines": 41,
+  "real_native_outgoing_C_and_incoming_h": true,
+  "real_prack_update_cancel_ack_and_failure_event": true,
+  "incoming_objects_and_outgoing_request_bytes_preserved": true,
+  "real_ctexcel_policy": "zi5.a[23433].d",
+  "baseline_logging_absent": false,
+  "baseline_ctexcel_only": false,
+  "diagnostic_plmns": [
+    "20620",
+    "26202",
+    "23433"
+  ],
+  "fixture_boundaries": [
+    "o82.E receives outgoing TCP payload before its TCP stack",
+    "b72.r final datagram boundary replaced but not exercised by this TCP-only probe",
+    "synthetic registered session and Gm security context",
+    "native parser receives synthetic clear SIP responses",
+    "Android log and event sinks",
+    "shared constructor builds one CTExcel-shaped INVITE with unset MCC/MNC; fixture sets each MCC/MNC and resubmits the same native request through C to isolate diagnostics from dialing policy"
+  ],
+  "network_calls_placed": false,
+  "real_carrier_tested": false,
+  "android_art_tested": false,
+  "dex_to_jvm_constructor_adapters": true,
+  "jvm_verification_disabled_for_translated_dex": true,
+  "diagnostic_observations": [
+    "REMOTE_487 actual_cancel_count=0 actual_ack_count=1 network_failure_count=1 diagnostic_lines=7",
+    "LOCAL_CANCEL actual_cancel_count=1 actual_ack_count=1 network_failure_count=0 diagnostic_lines=5",
+    "CARRIER_RESULT plmn=20620 final=487 diagnostic_lines=4",
+    "CARRIER_RESULT plmn=26202 final=486 diagnostic_lines=4"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-preconditions/PreconditionTransportAdapter.java": "7712a64f01cb42cf43a8a46935374a4b92f79144c6bda5da238aa56a7fb21f66",
+    "validation/native-preconditions/PreconditionProbe.java": "e3ddd71cb108f2bfdb15d562f43c8f3f50c491ef897ee91ba2a72f1964e9bed0",
+    "validation/native-call-diagnostics/CallDiagnosticsProbe.java": "ec1b19b126eb9d5c8d8dfc48040f283491d5c5be7a53aa2ab6a0a84dbdee3174"
+  }
+}

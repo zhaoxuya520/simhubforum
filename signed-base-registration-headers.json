@@ -1,0 +1,36 @@
+{
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "normalized_apk_jar_sha256": "c3c5908fdd2b31efa2cba25cb2c7cfc4514f7ff8b2a1ffa1633eadb04ac924a6",
+  "previous_24_9": false,
+  "checks": 73,
+  "registered_public_identities": {
+    "lowercase": [
+      "sip:alias@ims.example.test",
+      "tel:+3225550101",
+      "sip:other@ims.example.test"
+    ],
+    "quoted": [
+      "sip:alias@ims.example.test",
+      "tel:+3225550101",
+      "sip:other@ims.example.test"
+    ],
+    "canonical": [
+      "sip:alias@ims.example.test",
+      "tel:+3225550101",
+      "sip:other@ims.example.test"
+    ]
+  },
+  "uses_native_registration_parser_and_binding": true,
+  "uses_native_BASE_registration_identity_selection_and_INVITE": true,
+  "fields_checked": [
+    "From",
+    "P-Preferred-Identity",
+    "Service-Route"
+  ],
+  "physical_SIM_or_network_tested": false,
+  "boundaries": [
+    "synthetic REGISTER response delivered to native continuation",
+    "registered URI list carried to call fixture",
+    "native serialized INVITE captured at transport boundary"
+  ]
+}

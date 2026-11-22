@@ -1,0 +1,51 @@
+{
+  "apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "dex_sha256": {
+    "classes.dex": "d901ad14b119b0d13816ca67b4f9fcc4772bb1ec12c570aa66c0ffd989662471"
+  },
+  "apk_translated_jar_sha256": "c3c5908fdd2b31efa2cba25cb2c7cfc4514f7ff8b2a1ffa1633eadb04ac924a6",
+  "mode": "fixed",
+  "checks": 90,
+  "verified_gm_esp_packets": 25,
+  "messages_checked": [
+    "INVITE",
+    "PRACK",
+    "UPDATE",
+    "ACK"
+  ],
+  "observations": [
+    "BASE separate TCP ACK <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE combined TCP ACK <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE mixed TCP ACK \"Near, Edge\" <sip:near.example.invalid;lr>, <sip:mid.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE quoted TCP ACK \"Near, Edge\" <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE escaped-quote TCP ACK \"Near\\\"A, Edge\" <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE separate UDP ACK <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE combined UDP ACK <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE mixed UDP ACK \"Near, Edge\" <sip:near.example.invalid;lr>, <sip:mid.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE quoted UDP ACK \"Near, Edge\" <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>",
+    "BASE escaped-quote UDP ACK \"Near\\\"A, Edge\" <sip:near.example.invalid;lr>, <sip:far.example.invalid;lr>"
+  ],
+  "fixture_sources": {
+    "validation/native-fork/g11.java": "7adcbf947f2257a45c1338533ca4c178aa13604d85960af7ba33a478a5402991",
+    "validation/native-fork/SipForkProbe.java": "6e4f1ed8ba12b1bfca1ab37063bc21c9aabce8e22cb05a4f5fc4c42f4af37781",
+    "validation/native-invite-failure/t00.java": "2a6868d50232c1764c90d3aaa7ad944e667605fba26b87836e584ed42e167735",
+    "validation/native-ctexcel-call/CtExcelTransportAdapter.java": "e4989f082c9e813599fca2a2c2e7fdbd6a5d87148b9b2e4dfe103be151579d89",
+    "validation/native-preconditions/PreconditionProbe.java": "e3ddd71cb108f2bfdb15d562f43c8f3f50c491ef897ee91ba2a72f1964e9bed0",
+    "validation/native-carrier/AssetManager.java": "1e90710305c781fb348a3fb819beadc1ad6a0ff9e7dd5e128c98a58f60349455",
+    "validation/native-carrier/Context.java": "c0be75811ebb79982654fb95ad66658c75b826d9ef66d43b0e7addead59fe058",
+    "tests/android/content/SharedPreferences.java": "3e01dde0cf28533022ed299993a5f5f4e0aa669ba27e47623c8d3624704a2d75",
+    "tests/android/util/Log.java": "792098b511dea17e85ec701f48c70907cd7b4712b09cf5410c81e843b02122b4",
+    "validation/native-diagnostics/android/os/Looper.java": "b40fdb842e37640f8e738fec8b9620ddb4ce22a804250838b4efd0c52d66870c",
+    "validation/native-diagnostics/android/os/Handler.java": "6894f75dd3aedf7b35e6c2d845c66d6e1c6ff40e4c28d2df9b7108986c8f55ec",
+    "validation/native-ctexcel-call/CtExcelOriginationProbe.java": "00a87975427056749e286f1d1382a969faad8303f0a2af21b8076063089c0dca",
+    "validation/native-ctexcel-call/BaseDialogRouteProbe.java": "1af9a122adea8af09f0ade94504934d590ebb11da9234a8657124ee0de9196b0"
+  },
+  "fixture_boundaries": [
+    "o82.E receives outgoing TCP payload before its TCP stack",
+    "b72.r collects native IPv6 ESP and clear UDP datagrams",
+    "fixed synthetic session keys and registered-session state",
+    "native parser receives synthetic clear SIP responses",
+    "Android log and event sinks"
+  ],
+  "network_calls_placed": false
+}
