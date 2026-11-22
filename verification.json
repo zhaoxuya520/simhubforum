@@ -1,0 +1,20 @@
+{
+  "version_name": "25.4",
+  "version_code": 33,
+  "signer_sha1": "CAEAEE369CA8933EC6A80050ECAF22D87B155006",
+  "signer_sha256": "50fe8b357efb2f2397b1f822012a5d7e48a4fc1caf5a0f8a4f0239ffadab3c7e",
+  "signed_apk_sha256": "882eaf51dc4823707e187d99bbd1b236e89a9c89ada4a93c2c3129819972d448",
+  "signature_v2": true,
+  "signature_v3": true,
+  "self_check_trusts_actual_signer": true,
+  "signed_payload_unchanged": true,
+  "caption_assertions": 77,
+  "host_suites": 32,
+  "tls_test_rates": [
+    8000,
+    16000
+  ],
+  "provider": "loopback test double",
+  "real_sim_tested": false,
+  "oracle_deployed": false
+}
