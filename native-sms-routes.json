@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "apk_sha256": "d38fb97846ae8702ae7391348886fcb2bb7816d9a3e5f1fb27f89fddf8c535f4",
+  "native_method_sha256": {
+    "pk5.public static final j(Lem0;Lgl5;Ljava/lang/String;Ljava/lang/String;Lus1;Llu1;I)V": "835a72455a42ffa4333a8acbbd935e78cd7107f53ccb691a2ab7e055acec1551",
+    "j51.public final a()Ljava/lang/Object;": "68229828202fa21b44098efce6400ef6723054db5e41960dba8ac7df2e475097",
+    "mc0.public final d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": "7936a627933ef1c69490d1712db0a18dccefd3e8480b31333d53127a09fc4cc3",
+    "zz.public final a()Ljava/lang/Object;": "97fe3422825d5e10fc9648934ca9ab802e07b5fbb56ea0985bb2dbe852f73f03",
+    "o82.public final v(Ldt0;)Ljava/lang/Object;": "510b88ecfdd7545ec0c50aa66e27b1b151ce305af89de6169d426b6fa3d648af"
+  },
+  "dex_files_checked": [
+    "classes.dex"
+  ],
+  "rcs_manifest_entries_absent": true,
+  "rcs_helpers_absent": true,
+  "previous_apk_sha256": "6024ee5edc8a402e93734769d994a1012bab9a66c15c281347e09c292f502039",
+  "signed_disassembly_unchanged_from_25_0": {
+    "pk5.public static final j(Lem0;Lgl5;Ljava/lang/String;Ljava/lang/String;Lus1;Llu1;I)V": "835a72455a42ffa4333a8acbbd935e78cd7107f53ccb691a2ab7e055acec1551",
+    "j51.public final a()Ljava/lang/Object;": "68229828202fa21b44098efce6400ef6723054db5e41960dba8ac7df2e475097",
+    "mc0.public final d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;": "c4b7bfca825449afa962f6d922dfb074ebe36902706570c81de8f939f59565eb",
+    "zz.public final a()Ljava/lang/Object;": "97fe3422825d5e10fc9648934ca9ab802e07b5fbb56ea0985bb2dbe852f73f03",
+    "o82.public final v(Ldt0;)Ljava/lang/Object;": "32e2b2e2de3ca7f6caafdae3cbd4c05bff81bd21e3fc7312da0fe7d226e45799"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apk_sha256": "d38fb97846ae8702ae7391348886fcb2bb7816d9a3e5f1fb27f89fddf8c535f4",
+  "verified_canonical_source_files": 442,
+  "build_source_root": ".",
+  "android_test_source_root": "release-checks/25.1/android-guest",
+  "android_test_sources": {
+    "OfflineGemini.java": "f4d03a4725a9277b6bdb9302b7ee55c82320620136211d92569bba558669d52c",
+    "build.py": "d9303a07f8ddfece967a0f5eb3888d7763cf5e52352452746b0cc82d0cf5f975",
+    "AndroidManifest.xml": "b07d6bda196cc728ec987102ba7a7416f6cfca4e00da2b306b6a7e786087ed56",
+    "run.py": "8cbc2faed2552d1e946102a4c268fe2036498ca9690b8991e03675a35f145602",
+    "CaptionsArt.java": "2acc0aa1af36bce7367e9a9971749228729d6d085412085f9f73ff3480fd8010"
+  },
+  "independent_test_fixture": "validation/native-call-captions-art/OfflineGemini.java",
+  "canonical_fixture_sha256": "ea24b7ee39e32aa3864fb2b6ed17187dfe870ca8971c7cdbd7822ed409e5a555",
+  "device_test_fixture_sha256": "f4d03a4725a9277b6bdb9302b7ee55c82320620136211d92569bba558669d52c",
+  "difference": "The device test server reads the inline audio part by name, including on the second utterance when the request also has a previous translated subtitle. This fixture is compiled in the separate instrumentation APK."
+}

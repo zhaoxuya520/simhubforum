@@ -1,0 +1,32 @@
+{
+  "downlink_audio": {
+    "hooks": [
+      "t10.e",
+      "t10.b",
+      "t10.f"
+    ],
+    "previous_t10_sha256": "7501b6663366b0478079fd9a36f2aa78f196289840d87158a57b8d1510a8c025",
+    "input": "remote AMR decoder PCM after native playout enqueue",
+    "loss": "20 ms gap (null); native packet concealment remains audible only",
+    "sample_rates_hz": [
+      8000,
+      16000
+    ],
+    "session_key": "per-media-session playback object"
+  },
+  "controls_and_subtitles": {
+    "native_methods": [
+      "c00.f",
+      "rt.h",
+      "a20.f"
+    ],
+    "native_methods_exactly_reversible": true,
+    "inline_compose_android_view": true,
+    "factory_interface": "ws1.i",
+    "placements": [
+      "dialer before weighted spacer",
+      "settings between notifications and data management",
+      "call after peer details and before weighted spacer and native call controls"
+    ]
+  }
+}
