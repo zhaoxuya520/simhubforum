@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+  "previous_apk_sha256": "d5f3ec8085e682e1dc0a5f39e8d1120e14fbea45b3c437b219a14bb86d54edbf",
+  "manifest_unchanged_except_version": true,
+  "same_archive_entry_names": true,
+  "android_8_caption_ui_omits_api_28_fallback_line_spacing": true,
+  "archive_content_changes": [
+    "AndroidManifest.xml",
+    "classes.dex"
+  ],
+  "unchanged_entries": 1709,
+  "updated_classes": [
+    "cc/forserein/simhub/internal/CallCaptions$Stream.smali",
+    "cc/forserein/simhub/internal/CallCaptions.smali",
+    "cc/forserein/simhub/internal/CaptionUi$1.smali",
+    "cc/forserein/simhub/internal/CaptionUi$Mark.smali",
+    "cc/forserein/simhub/internal/CaptionUi$Panel$1.smali",
+    "cc/forserein/simhub/internal/CaptionUi$Panel.smali",
+    "cc/forserein/simhub/internal/CaptionUi$Placement.smali",
+    "cc/forserein/simhub/internal/CaptionUi.smali",
+    "r75.smali"
+  ],
+  "added_classes": [
+    "cc/forserein/simhub/internal/CallCaptions$Display.smali",
+    "cc/forserein/simhub/internal/CaptionUi$CaptionScroll.smali"
+  ],
+  "removed_classes": [
+    "cc/forserein/simhub/internal/CaptionUi$BoundedScroll.smali",
+    "cc/forserein/simhub/internal/CaptionUi$Panel$$ExternalSyntheticLambda7.smali"
+  ],
+  "untouched_classes": 6696
+}

@@ -1,0 +1,416 @@
+{
+  "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+  "paid_provider_inference_tested": false,
+  "live_carrier_call_tested": false,
+  "media": {
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "apk_translated_jar_sha256": "b86122a4c12571ebd118a8181e742acc497e52d5a61362fbcb02ab5a6fbb5b9d",
+    "checks": 51,
+    "previous": false,
+    "verified_call_controller": "t10.e/b/f",
+    "verified_rtp_receive": "m10.run",
+    "verified_uplink": "k7.run",
+    "assertions": [
+      "8 and 16 kHz",
+      "real microphone path omitted",
+      "telephone event omitted",
+      "decoded samples retain owner and content",
+      "packet loss represented as silence",
+      "old and new session identities stay distinct",
+      "repeated stop and stale tick",
+      "caption linkage failure cannot interrupt playback, startup or cleanup"
+    ],
+    "hardware_codec": "synthetic",
+    "recognizer": "recording listener",
+    "real_call_placed": false
+  },
+  "state": {
+    "production_state": true,
+    "test_key_store": true,
+    "test_translator": true,
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "dex_derived_core": true,
+    "translated_jar_sha256": "b86122a4c12571ebd118a8181e742acc497e52d5a61362fbcb02ab5a6fbb5b9d",
+    "checks": 26
+  },
+  "backend": {
+    "dex_sha256": {
+      "classes.dex": "7d54f178aab5172046fdd389b4f2979ddb4057a6a84fdce8f2080dfc58f3ab2d"
+    },
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "translated_jar_sha256": "b86122a4c12571ebd118a8181e742acc497e52d5a61362fbcb02ab5a6fbb5b9d",
+    "actual_apk_classes": true,
+    "checks": 94,
+    "passed": true,
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
+    "media": "synthetic signed PCM, 8 kHz and 16 kHz",
+    "transport": "loopback HTTP, class-internal connection fixture",
+    "tested": [
+      "no request on silence",
+      "copy before decoder buffer reuse",
+      "valid mono PCM WAV payload",
+      "target locale and tone instructions",
+      "one bounded preceding subtitle separated from the instruction",
+      "ordered output and silence filtering",
+      "HTTP key is not in URL or body",
+      "redirects refused",
+      "bounded 503 retry",
+      "prompt feedback, quota and auth errors",
+      "cancel a real in-flight HTTP read without waiting, discard queued audio and late output"
+    ],
+    "live_provider_tested": false,
+    "physical_call_tested": false,
+    "cloud_audio_sent": false,
+    "json_test_library_sha256": "dfb7bae2f404cfe0b72b4d23944698cb716b7665171812a0a4d0f5926c0fac79",
+    "fixture_sha256": "89740a951f7f6c59c2ce85d1ed2a545a4d8bd8508bc2df4cf4794e2cc0c629d5"
+  },
+  "art": {
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "probe_sha256": "13c1e34e033a75fec0b93ebe29b9d7a8e5718cd923acae334ce198909a9c3492",
+    "api": 30,
+    "baseline": false,
+    "live_call": false,
+    "live_cloud_translation": false,
+    "network_disabled": true,
+    "screens": {
+      "dialer": {
+        "checks": "19",
+        "evidence": "[visible 通话翻译, clicked 通话翻译, first-use setup, unconfigured switch remains off, field Gemini API 密钥, field input Gemini API 密钥, visible 保存, clicked 保存, enabled after user save, dialer target selector available, visible 字幕语言，, clicked 字幕语言，, field 搜索字幕语言, field input 搜索字幕语言, visible 英语, clicked 英语, language changed in dialer, dialer renders English selection, dialer screenshot available]",
+        "status": "passed"
+      },
+      "settings": {
+        "checks": "15",
+        "evidence": "[selection survives application restart, visible 通话翻译, clicked 通话翻译, native settings form, visible 字幕语言, clicked 字幕语言, field 搜索字幕语言, field input 搜索字幕语言, visible 简体中文, clicked 简体中文, settings renders selected Chinese target, settings screenshot available, visible 保存, clicked 保存, settings and dialer share target preference]",
+        "status": "passed"
+      },
+      "call": {
+        "checks": "14",
+        "evidence": "[settings target persists in call process, remote caption backend ready, native call shows subtitle controls, fixture response passes production parser, fixture response passes production parser, previous utterance retained, translated fixture text visible in call, two individually requested utterances, current owner PCM only, native mute control visible, subtitles clear native mute control, call screenshot available, stale hangup preserves current call, hangup clears subtitles, disabled captions disappear]",
+        "status": "passed"
+      }
+    },
+    "passed": true,
+    "test_scope": "Installed production Compose screens mounted inside SIMHub MainActivity. No actual carrier call or remote inference. Synthetic far-end PCM, test key and local network-disabled transport with two labelled example results. Real segmentation, WAV + request serialization, previous-utterance context, parser, dispatch and rendering run in the installed app.",
+    "locale": "zh-CN",
+    "check_count": 48,
+    "screenshots": {
+      "dialer": {
+        "file": "caption-dialer.png",
+        "sha256": "4c3595263ab7711cf8b2d090399766e995bc2d223008adde0910188b5dc9bc43",
+        "width": 540,
+        "height": 1200
+      },
+      "settings": {
+        "file": "caption-settings.png",
+        "sha256": "0744df2eb62b0e2b5fe6756198d288e576a4679660f947709e4e61f888b26f22",
+        "width": 540,
+        "height": 1200
+      },
+      "call": {
+        "file": "caption-call.png",
+        "sha256": "cb2179047e1cd202a8e72dc7ee1e6319e5d5aa1446ddb49ea60431cf6048ce71",
+        "width": 540,
+        "height": 1200
+      }
+    }
+  },
+  "model_contract": {
+    "checked_public_docs_on": "2026-11-22",
+    "model": "gemini-3.5-flash-lite",
+    "public_lifecycle": {
+      "release": "2026-07-21",
+      "classification": "Stable",
+      "shutdown": "No shutdown date announced"
+    },
+    "method": "POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
+    "key_request_header": "x-goog-api-key",
+    "official_key_management": "https://aistudio.google.com/apikey",
+    "audio_inline": {
+      "media_type": "audio/wav",
+      "encoding": "base64",
+      "max_request_as_documented": "20 MB"
+    },
+    "output_type": "text; structured JSON supported",
+    "request_and_response_fields_checked": {
+      "GenerateContentRequest": "contents generationConfig systemInstruction",
+      "GenerationConfig": "responseSchema thinkingConfig maxOutputTokens responseMimeType",
+      "ThinkingConfig": "thinkingLevel",
+      "Content": "role parts",
+      "Part": "thought inlineData text",
+      "Blob": "mimeType data",
+      "Schema": "required properties type",
+      "GenerateContentResponse": "promptFeedback candidates",
+      "Candidate": "finishReason content"
+    },
+    "schema_enums_checked": [
+      "thinkingLevel.MINIMAL",
+      "schema.type.OBJECT",
+      "schema.type.STRING"
+    ],
+    "source_documents": {
+      "35lite": {
+        "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+        "sha256": "3e1d93265689c3de5e8d3c09a5bedc6e148180a0bf59ea94e8c3b52add4093c9"
+      },
+      "modelsall": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "sha256": "4383dbcef15ffa7c1179acbc9d20a486854bc10e0ab073d84997e096450bc48c"
+      },
+      "schedule": {
+        "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+        "sha256": "4518e0d1fefb59579a3737135fe76ec7d337202df86a0fc73964977fa9a5c88d"
+      },
+      "keys": {
+        "url": "https://ai.google.dev/gemini-api/docs/api-key",
+        "sha256": "47b84d2746e8acc1986a7bf0a4230d0d229ae827ab5037a4c0353f7507191043"
+      },
+      "geminiaudio": {
+        "url": "https://ai.google.dev/gemini-api/docs/audio",
+        "sha256": "ca77a923e2d9ca860dd71de0550ebed53223873737207850234f96da90f5b49d"
+      },
+      "geminischema": {
+        "url": "https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta",
+        "sha256": "a5f91006fb7f127b2efed93b58e255646d436619aa633c1616d13b03a92ab27d"
+      },
+      "standardgen": {
+        "url": "https://ai.google.dev/api/generate-content",
+        "sha256": "829dabb8cb4b90bcbff71c53197ba8d834fc5dfb136294eaa9a1364a1b39a215"
+      },
+      "model_parameter_updates": {
+        "url": "https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6#api-changes-and-parameter-updates",
+        "sha256": "9dcbe3d6183b94dcd94950a05461a931c73e8da809ff3b5f6cdc5b9a1ddbae5a"
+      }
+    },
+    "authorization_or_inference_request_sent": false,
+    "physical_carrier_call_tested": false,
+    "model_specific_constraints": [
+      "Omit deprecated sampling parameters temperature, top_p, top_k",
+      "Final request turn must be user",
+      "Default thinkingLevel MINIMAL"
+    ]
+  },
+  "landscape": {
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "probe_sha256": "13c1e34e033a75fec0b93ebe29b9d7a8e5718cd923acae334ce198909a9c3492",
+    "api": 30,
+    "baseline": false,
+    "live_call": false,
+    "live_cloud_translation": false,
+    "network_disabled": true,
+    "screens": {
+      "landscape": {
+        "checks": "20",
+        "evidence": "[real landscape configuration, settings target persists in call process, remote caption backend ready, can scroll to 通话字幕, native call shows subtitle controls, fixture response passes production parser, fixture response passes production parser, previous utterance retained, can scroll to 示例字幕：您的预约已确认。请提前十分钟到达，并在前台出示预约编号。, translated fixture text visible in call, two individually requested utterances, current owner PCM only, call-landscape screenshot available, can scroll to 静音, native speaker and keypad reachable, native hangup is visible and hit-testable, landscape-controls screenshot available, caller details reachable again by scrolling back, stale hangup preserves current call, hangup clears subtitles, disabled captions disappear]",
+        "status": "passed"
+      }
+    },
+    "passed": true,
+    "test_scope": "Installed production Compose screens mounted inside SIMHub MainActivity. No actual carrier call or remote inference. Synthetic far-end PCM, test key and local network-disabled transport with two labelled example results. Real segmentation, WAV + request serialization, previous-utterance context, parser, dispatch and rendering run in the installed app.",
+    "locale": "zh-CN",
+    "width": 1200,
+    "height": 540,
+    "screenshots": [
+      {
+        "file": "caption-call-landscape.png",
+        "sha256": "25a2fa1e7f904eef424148b979f7794843d0d2b53924ab56179c4ec71860d5ea",
+        "width": 1200,
+        "height": 540
+      },
+      {
+        "file": "caption-landscape-controls.png",
+        "sha256": "56e0fcb7b1144d951f14b6a94be75717cf587fe54802a2701941eed82ad7f6d5",
+        "width": 1200,
+        "height": 540
+      }
+    ],
+    "bounds_after_scrolling": {
+      "hangup": "[475,387][581,478]",
+      "subtitle": "[69,332][987,369]"
+    }
+  },
+  "reading": {
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "probe_sha256": "13c1e34e033a75fec0b93ebe29b9d7a8e5718cd923acae334ce198909a9c3492",
+    "api": 30,
+    "baseline": false,
+    "live_call": false,
+    "live_cloud_translation": false,
+    "network_disabled": true,
+    "screens": {
+      "reading": {
+        "checks": "29",
+        "evidence": "[production service ready, idle status visible in rendered call, idle screenshot available, translated fixture visible in production UI, native mute control accessible in narrow portrait, translated fixture visible in production UI, translated fixture spans at least five actual rendered lines, previous translation retained behind long utterance, long mixed Chinese/English utterance begins at its complete first line, native mute control accessible in narrow portrait, native mute button remains still between short and long sentence, long-start screenshot available, first viewport ends at a rendered line boundary with three complete lines and no truncated glyphs, previous sentence appears beneath the current translation, previous sentence separated from current viewport, touch swipe inside long caption reaches complete final line, UI refresh preserves manual reading position, long-end screenshot available, settled final viewport starts on complete glyphs, reverse touch swipes return to complete first line, reader scrolled below first line before repeated utterance, identical consecutive utterance resets to its first line, switching target clears previous language, translated fixture visible in production UI, Arabic with Latin booking reference uses RTL paragraph layout, rtl screenshot available, 403 error shown alongside last available translation, last translated sentence remains available during provider error, error screenshot available]",
+        "status": "passed"
+      }
+    },
+    "passed": true,
+    "test_scope": "Installed production Compose screens mounted inside SIMHub MainActivity. No actual carrier call or remote inference. Synthetic far-end PCM, test key and local network-disabled transport with two labelled example results. Real segmentation, WAV + request serialization, previous-utterance context, parser, dispatch and rendering run in the installed app. Five scripted requests include a repeated full utterance, a change from Chinese to Arabic, and a representative HTTP 403 response.",
+    "locale": "zh-CN",
+    "viewport_dp": 320,
+    "geometry": {
+      "lines": 10,
+      "initial": 0,
+      "end": 326,
+      "mute_short": 926,
+      "mute_long": 926,
+      "rtl_direction": -1,
+      "first_visible_top": 0,
+      "first_visible_bottom": 138,
+      "first_complete_lines": 3,
+      "first_bottom_ink_clipped": false,
+      "end_visible_top": 326,
+      "end_visible_bottom": 464,
+      "end_complete_lines": 3,
+      "end_top_ink_clipped": false,
+      "finger_swipes": [
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 568,
+          "to_y": 446,
+          "before": 0,
+          "after": 95
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 568,
+          "to_y": 446,
+          "before": 95,
+          "after": 190
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 568,
+          "to_y": 446,
+          "before": 190,
+          "after": 285
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 568,
+          "to_y": 446,
+          "before": 285,
+          "after": 326
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 446,
+          "to_y": 568,
+          "before": 326,
+          "after": 232
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 446,
+          "to_y": 568,
+          "before": 232,
+          "after": 138
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 446,
+          "to_y": 568,
+          "before": 138,
+          "after": 44
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 446,
+          "to_y": 568,
+          "before": 44,
+          "after": 0
+        },
+        {
+          "visible": "[52,438][428,576]",
+          "x": 240,
+          "from_y": 568,
+          "to_y": 446,
+          "before": 0,
+          "after": 95
+        }
+      ]
+    },
+    "screenshots": {
+      "long-start": {
+        "file": "caption-long-start.png",
+        "sha256": "f5179d4bc080d3e3b886ee2599d056c4d64ebb0947bffeb221f140c6b12e3049",
+        "width": 480,
+        "height": 1280
+      },
+      "long-end": {
+        "file": "caption-long-end.png",
+        "sha256": "2ba66f810ff9c03baf9c0bc9ddb77e613f2d73d4851d21aab926e7264fe6c878",
+        "width": 480,
+        "height": 1280
+      },
+      "rtl": {
+        "file": "caption-rtl.png",
+        "sha256": "e0ac1dd5f7b6cb119fedfbd22495f82dc19545317737ab2647858ea158c1a3e6",
+        "width": 480,
+        "height": 1280
+      },
+      "error": {
+        "file": "caption-error.png",
+        "sha256": "c90a9f7f6f5233c5ae1bf182a887f489cb9ef2bca35fa10e0a590190a8b01356",
+        "width": 480,
+        "height": 1280
+      },
+      "idle": {
+        "file": "caption-idle.png",
+        "sha256": "f982e6468da11440837c97c11baeadea4c94bb4da5727cb850c69dfbf6d63fd4",
+        "width": 480,
+        "height": 1280
+      }
+    },
+    "old_apk_sha256": "d5f3ec8085e682e1dc0a5f39e8d1120e14fbea45b3c437b219a14bb86d54edbf",
+    "old_bug_reproduced": true
+  },
+  "approved_layout": {
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "approved_layout_preview_sha256": "26719b60b36b20f8c0c0d89ea79cabad84a8b5838e3b7c400d2eefbc336946a0",
+    "final_dex_sha256": "7d54f178aab5172046fdd389b4f2979ddb4057a6a84fdce8f2080dfc58f3ab2d",
+    "approved_preview_dex_sha256": "7d54f178aab5172046fdd389b4f2979ddb4057a6a84fdce8f2080dfc58f3ab2d",
+    "all_caption_view_classes_identical": 26,
+    "call_dialer_compose_and_state_identical": true,
+    "identical_dex": true
+  },
+  "backend_comparison": {
+    "previous_apk_sha256": "d5f3ec8085e682e1dc0a5f39e8d1120e14fbea45b3c437b219a14bb86d54edbf",
+    "apk_sha256": "a2773b1937651403d54c7768c8fcd399095ed40a672bd7f16ab1530bdd68d487",
+    "class_smali_sha256": {
+      "CaptionBackend$$ExternalSyntheticBackportWithForwarding0.smali": "ae8838fdbb9cf5883e7a35728ef524957e6e4f1817f59505c4b14bb6f6b02784",
+      "CaptionBackend$$ExternalSyntheticLambda1.smali": "d13e02e9bda2ceb637ac79647c2a0cab74ca18298c8f9dd82344adbc721ecd91",
+      "CaptionBackend$$ExternalSyntheticLambda2.smali": "005bd0cc621ef275b330ffcd491b4a57917435671543125a8bddc4141d416926",
+      "CaptionBackend$$ExternalSyntheticLambda3.smali": "4c8375318d280a168e670ca1fcd0d9a31ee8426179660d65679146fe002c6936",
+      "CaptionBackend$$ExternalSyntheticLambda4.smali": "739020e5272db91583f28f75a8d042f5c95117c7e2b40e9a0c0cab12a04076e5",
+      "CaptionBackend$Connections.smali": "bef9a0c4b94ddb81e1d6aedf36df6462a9ca7a141a729b7d6435e9708e05ea75",
+      "CaptionBackend$Failure.smali": "f7c947f7ad83d0fb6b4fdfcde0fc7f4593a0e1c5263c4173055ca2fb063f27bb",
+      "CaptionBackend$Listener.smali": "8df2b093409c799fafdd6048f9ae9715e7e1b7ed656f9cab2c8edca6fbc4f3b5",
+      "CaptionBackend$PhraseDetector.smali": "0f08581c2498a1c5d4ca39cd70ba592489e5cd49f4bb33724a315f58dc5e37bb",
+      "CaptionBackend$Unavailable.smali": "db3f61086840563eef10fb9076fbf014a41f2713073f0c42b09bfcb033213899",
+      "CaptionBackend.smali": "ff32a8e44eb7c2d56785e9af9a670e07626fdd49e806cb51c3fdfa8fe1b9da3f"
+    },
+    "compared_decoded_classes": 11,
+    "unchanged_all_backend_classes": true
+  },
+  "screenshots": {
+    "caption-call.png": "cb2179047e1cd202a8e72dc7ee1e6319e5d5aa1446ddb49ea60431cf6048ce71",
+    "caption-dialer.png": "4c3595263ab7711cf8b2d090399766e995bc2d223008adde0910188b5dc9bc43",
+    "caption-settings.png": "0744df2eb62b0e2b5fe6756198d288e576a4679660f947709e4e61f888b26f22",
+    "caption-call-landscape.png": "25a2fa1e7f904eef424148b979f7794843d0d2b53924ab56179c4ec71860d5ea",
+    "caption-landscape-controls.png": "56e0fcb7b1144d951f14b6a94be75717cf587fe54802a2701941eed82ad7f6d5",
+    "caption-long-start.png": "f5179d4bc080d3e3b886ee2599d056c4d64ebb0947bffeb221f140c6b12e3049",
+    "caption-long-end.png": "2ba66f810ff9c03baf9c0bc9ddb77e613f2d73d4851d21aab926e7264fe6c878",
+    "caption-rtl.png": "e0ac1dd5f7b6cb119fedfbd22495f82dc19545317737ab2647858ea158c1a3e6",
+    "caption-error.png": "c90a9f7f6f5233c5ae1bf182a887f489cb9ef2bca35fa10e0a590190a8b01356",
+    "caption-idle.png": "f982e6468da11440837c97c11baeadea4c94bb4da5727cb850c69dfbf6d63fd4"
+  },
+  "passed": true
+}
